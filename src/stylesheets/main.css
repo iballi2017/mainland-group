@@ -1,0 +1,28 @@
+.mode-toggler input[type=checkbox]:checked + .test::before {
+  background-image: url(../assets/icons/icon-moon.svg);
+}
+.mode-toggler input[type=checkbox]:checked + .test::after {
+  background-image: url(../assets/icons/icon-sun-alt.svg);
+}
+.mode-toggler .test::before {
+  background-image: url(../assets/icons/icon-moon-alt.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: rgb(47, 196, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mode-toggler .test::after {
+  background-image: url(../assets/icons/icon-sun.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: rgb(47, 196, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=main.css.map */
