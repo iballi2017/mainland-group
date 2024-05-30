@@ -1,39 +1,31 @@
-.mode-toggler {
+.mode-toggle-wrapper {
   //   background-color: red;
   input[type="checkbox"] {
     &:checked {
-      & + .test {
+      & + .cursor {
         &::before {
-          background-image: url(../assets/icons/icon-moon.svg);
+          content: url(../assets/icons/icon-moon.svg);
         }
         &::after {
-          background-image: url(../assets/icons/icon-sun-alt.svg);
+          content: url(../assets/icons/icon-sun-alt.svg);
         }
       }
     }
   }
-  .test {
-    &::before {
-      //   border: 2px solid white;
-      background-image: url(../assets/icons/icon-moon-alt.svg);
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: center;
-      color: rgb(47, 196, 255);
+  .cursor {
+    &::before,
+    &::after {
       display: flex;
       align-items: center;
       justify-content: center;
     }
+    &::before {
+      content: url(../assets/icons/icon-moon-alt.svg);
+      padding-top: 2px;
+    }
     &::after {
-      //   border: 2px solid white;
-      background-image: url(../assets/icons/icon-sun.svg);
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: center;
-      color: rgb(47, 196, 255);
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      content: url(../assets/icons/icon-sun.svg);
+      padding-top: 3px;
     }
   }
 }

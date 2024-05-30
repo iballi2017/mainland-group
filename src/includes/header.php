@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="light">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mainland Group</title>
+    <!-- feather-icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
     <!-- tailwindcss stylesheet -->
     <link rel="stylesheet" href="./stylesheets/tailwindcss/output.css">
     <!-- flowbit stylesheet -->

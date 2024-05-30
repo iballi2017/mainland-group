@@ -1,28 +1,196 @@
-.mode-toggler input[type=checkbox]:checked + .test::before {
-  background-image: url(../assets/icons/icon-moon.svg);
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  box-sizing: border-box;
 }
-.mode-toggler input[type=checkbox]:checked + .test::after {
-  background-image: url(../assets/icons/icon-sun-alt.svg);
+
+html,
+body {
+  font-size: 16px;
+  width: 100%;
+  color: var(--clr-secondary-500);
+  margin: 0;
+  padding: 0;
+  font: 100% var(--ff-body);
 }
-.mode-toggler .test::before {
-  background-image: url(../assets/icons/icon-moon-alt.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  color: rgb(47, 196, 255);
+html *:focus,
+body *:focus {
+  box-shadow: none;
+  outline: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* minimum media query */
+/* maximum media query */
+/* maximum and minimum query */
+/* tranform effects */
+/* transition effects */
+/* form control appearance */
+/* 'before' pseudo element style */
+/* 'after' pseudo element style */
+/* padding-block size */
+.mode-toggle-wrapper input[type=checkbox]:checked + .cursor::before {
+  content: url(../assets/icons/icon-moon.svg);
+}
+.mode-toggle-wrapper input[type=checkbox]:checked + .cursor::after {
+  content: url(../assets/icons/icon-sun-alt.svg);
+}
+.mode-toggle-wrapper .cursor::before, .mode-toggle-wrapper .cursor::after {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.mode-toggler .test::after {
-  background-image: url(../assets/icons/icon-sun.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  color: rgb(47, 196, 255);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.mode-toggle-wrapper .cursor::before {
+  content: url(../assets/icons/icon-moon-alt.svg);
+  padding-top: 2px;
+}
+.mode-toggle-wrapper .cursor::after {
+  content: url(../assets/icons/icon-sun.svg);
+  padding-top: 3px;
+}
+
+.mg-main-container {
+  --max-width: 1440px;
+  --padding: .5rem;
+  width: min(var(--max-width), 100% - var(--padding));
+  margin-inline: auto;
+}
+
+.feather-nav {
+  width: 16px;
+  height: 16px;
+}
+
+:root {
+  /* COLORS */
+}
+
+@layer base {
+  :root {
+    --clr_primary_50: 104deg 57% 51%;
+    --clr_primary_500: 106deg 47% 14%;
+    --clr_dark_200: 0deg 0% 35%;
+    --clr_neutral_50: 0deg 0% 96%;
+    --clr_white_0: 0deg 0% 100%;
+    --clr_black_0: 0deg 0% 0%;
+    --clr_dark_450: 0deg 0% 11%;
+    --clr_accent_500: 51deg 75% 59%;
+    --clr-primary-50: var(--clr_primary_50);
+    --clr-primary-500: var(--clr_primary_500);
+    --clr-accent-500: var(--clr_accent_500);
+    --clr-white-0: var(--clr_white_0);
+    --clr-neutral-50: var(--clr_neutral_50);
+    --clr-dark-200: var(--clr_dark_200);
+    --clr-dark-450: var(--clr_dark_450);
+    --clr-black-0: var(--clr_black_0);
+    /* #F4F4F4; */
+    /* ... */
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --clr-neutral-50: var(--clr_dark_450);
+      --clr-dark-200: 0deg 0% 35%;
+      /* #1D1D1D; */
+      --clr-white-0: var(--clr_dark_200);
+      /* ... */
+    }
+  }
+  :root[data-theme=dark] {
+    --clr-neutral-50: var(--clr_dark_450);
+    --clr-dark-200: 0deg 0% 93%;
+    /* #1D1D1D; */
+    --clr-white-0: var(--clr_dark_200);
+    --clr-black-0: 0 0% 100%;
+    /* ... */
+  }
+}
+:root {
+  /* TYPOGRAPHY */
+  --ff-primary: "Poppins", sans-serif;
+  --ff-secondary: "Poppins", sans-serif;
+  --ff-body: var(--ff-primary);
+  --ff-heading: var(--ff-secondary);
+  /* FONT SIZES */
+  --fs-50: 0.81rem; /*13px*/
+  --fs-100: 0.88rem; /*14px*/
+  --fs-150: 0.94rem; /*15px*/
+  --fs-200: 1rem; /*16px*/
+  --fs-300: 1.38rem; /*22px*/
+  --fs-400: 1.56rem; /*25px*/
+  --fs-500: 2.5rem; /*40px*/
+  --fs-600: 4.38rem; /*70px*/
+  --fs-nav: var(--fs-150);
+  --fs-body: var(--fs-200);
+  --fs-hero-title: var(--fs-600);
+  --fs-section-headline: var(--fs-500);
+  --fs-section-title: var(--fs-300);
+  --fs-card-body: var(--fs-50);
+  --fs-footer-body: var(--fs-50);
+  --fs-button: var(--fs-150);
+  /* SIZES */
+  --size-200: 0.2rem;
+  --size-250: 0.313rem; /* 5px */
+  --size-300: 0.5rem;
+  --size-400: 1rem;
+  --size-500: 1.5rem;
+  --size-600: 2rem;
+  /* FONT WEIGHT */
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-semi-bold: 600;
+  --fw-bold: 700;
+}
+
+@media (max-width: 50em) {
+  :root {
+    --fs-hero-title: var(--fs-500);
+    --fs-section-headline: var(--fs-300);
+    --fs-section-title: var(--fs-100);
+    --size-400: 0.6rem;
+    --size-500: 1.1rem;
+    --size-600: 1.7rem;
+    --fs-300: 1.18rem;
+    --fs-400: 1.3rem;
+    --fs-500: 2.1rem;
+    --fs-600: 2.7rem;
+    --fs-button: var(--fs-100);
+  }
+}
+.ff-title {
+  font-family: var(--ff-secondary);
+}
+
+.ff-body {
+  font-family: var(--ff-body) !important;
+}
+
+.fs-hero-title {
+  font-size: var(--fs-hero-title);
+  line-height: 1;
+}
+
+.fs-400 {
+  font-size: var(--fs-400);
+}
+
+.fs-section-headline {
+  font-size: var(--fs-section-headline);
+  line-height: 1.2;
+}
+
+.fs-section-title {
+  font-size: var(--fs-section-title);
+}
+
+/* Line Heights */
+.line-height-300 {
+  line-height: var(--fs-300);
+}
+
+.line-height-400 {
+  line-height: var(--fs-400);
 }
 
 /*# sourceMappingURL=main.css.map */
