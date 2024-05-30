@@ -157,7 +157,7 @@
 
 
 <!-- <div class="page-search | fixed top-0 left-0 bottom-0 right-0 flex flex-col items-center justify-center bg-primary/75 z-40"> -->
-<div class="page-search | absolute left-4 right-4 md:left-32 md:right-32 bg-red-500 md:translate-y-40 z-50">
+<div class="page-search | absolute left-4 right-4 md:left-60 md:right-60 bg-red-500 md:translate-y-40 z-50">
   <form class="w-full mx-auto">
     <div class="relative rounded-lg overflow-hidden">
       <button class="absolute z-10 inset-y-0 end-0 flex items-center ps-3.5 pe-3.5 bg-primary focus:ring-accent-50 focus:border-accent-50">
