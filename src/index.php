@@ -17,7 +17,7 @@
                         <img src="./assets/images/hero-slider-1-image.png" class="absolute x-z-1 block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                         <div class="absolute z-2 block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
                             <div class="text-center text-white max-w-xl mx-auto">
-                                <p class="text-5xl font-bold">Ignite Innovations</p>
+                                <p class="text-4xl font-bold">Ignite Innovations</p>
                                 <p class="text-2xl font-semibold">Transforming Visions into Reality: Your Partner in Cutting-Edge Solutions</p>
                             </div>
                         </div>
