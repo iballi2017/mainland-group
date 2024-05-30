@@ -21,7 +21,7 @@
         </a>
       </div>
       <div class="col-span-12 sm:col-span-10">
-        <div class="top-bar | bg-dark-50 text-dark-200 py-2 md:px-8">
+        <div class="top-bar | bg-theme-light text-on-theme-light py-2 md:px-8">
           <div class="flex items-center justify-between gap-2 flex-wrap">
             <ul class="sm:flex items-center gap-4 text-sm">
               <li class="flex items-center gap-2">
@@ -49,14 +49,14 @@
                   <!-- bg-primary-50 -->
                   <!-- <div class="cursor relative w-14 h-6 bg-primary-50 peer-focus:outline-none dark:peer-focus:ring-blue-800 rounded-full peer after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-white after:border after:rounded-full after:w-5 after:h-5 after:transition-all peer-checked:after:border-black peer-checked:after:bg-transparent before:absolute before:top-[2px] before:end-[2px] before:bg-transparent before:border-black before:border before:rounded-full before:w-5 before:h-5 before:transition-all peer-checked:before:border-white peer-checked:before:bg-white"></div> -->
                   <div
-                    class="cursor relative w-14 h-6 bg-primary-50 peer-focus:outline-none rounded-full peer after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-white after:border after:rounded-full after:w-5 after:h-5 after:transition-all peer-checked:after:border-black peer-checked:after:bg-transparent before:absolute before:top-[2px] before:end-[2px] before:bg-transparent before:border-black before:border before:rounded-full before:w-5 before:h-5 before:transition-all peer-checked:before:border-white peer-checked:before:bg-white"
+                    class="cursor relative w-14 h-6 bg-accent-50 peer-focus:outline-none rounded-full peer after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-white after:border after:rounded-full after:w-5 after:h-5 after:transition-all peer-checked:after:border-black peer-checked:after:bg-transparent before:absolute before:top-[2px] before:end-[2px] before:bg-transparent before:border-black before:border before:rounded-full before:w-5 before:h-5 before:transition-all peer-checked:before:border-white peer-checked:before:bg-white"
                   ></div>
                 </label>
               </li>
             </ul>
           </div>
         </div>
-        <div class="bg-white-inverse | md:flex items-center py-4 md:px-8">
+        <div class="bg-theme-white | md:flex items-center py-4 md:px-8">
           <div
             class="w-full md:w-auto order-1 md:order-2 flex justify-between md:justify-end md:before:content-[''] md:before:bg-primary-500 md:before:w-[1px] md:before:mr-8"
           >
@@ -95,7 +95,7 @@
             <li>
               <a
                 href="#"
-                class="block py-2 px-3 text-primary-500 bg-accent-500 rounded md:py-0 md:dark:text-blue-500"
+                class="block py-2 px-3 text-on-theme-white rounded md:py-0"
                 aria-current="page"
               >
                 Home
@@ -104,7 +104,7 @@
             <li>
               <a
                 href="#"
-                class="block py-2 px-3 text-primary-500 rounded md:p-0"
+                class="block py-2 px-3 text-on-theme-white rounded md:p-0"
               >
                 About
               </a>
@@ -112,7 +112,7 @@
             <li>
               <a
                 href="#"
-                class="block py-2 px-3 text-primary-500 rounded md:p-0"
+                class="block py-2 px-3 text-on-theme-white rounded md:p-0"
               >
                 Sub-Company
               </a>
@@ -120,7 +120,7 @@
             <li>
               <a
                 href="#"
-                class="block py-2 px-3 text-primary-500 rounded md:p-0"
+                class="block py-2 px-3 text-on-theme-white rounded md:p-0"
               >
                 Portfolio
               </a>
@@ -128,7 +128,7 @@
             <li>
               <a
                 href="#"
-                class="block py-2 px-3 text-primary-500 rounded md:p-0"
+                class="block py-2 px-3 text-on-theme-white rounded md:p-0"
               >
                 Blog
               </a>
@@ -136,7 +136,7 @@
             <li>
               <a
                 href="#"
-                class="block py-2 px-3 text-primary-500 rounded md:p-0"
+                class="block py-2 px-3 text-on-theme-white rounded md:p-0"
               >
                 Career
               </a>
@@ -144,7 +144,7 @@
             <li>
               <a
                 href="#"
-                class="block py-2 px-3 text-primary-500 rounded md:p-0"
+                class="block py-2 px-3 text-on-theme-white rounded md:p-0"
               >
                 Contact Us
               </a>

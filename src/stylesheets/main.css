@@ -69,27 +69,33 @@ html {
 
 @layer base {
   :root {
-    --clr_primary_50: 104deg 57% 51%;
-    --clr_primary_500: 106deg 47% 14%;
-    --clr_dark_200: 0deg 0% 35%;
-    --clr_neutral_50: 0deg 0% 96%;
-    --clr_white_0: 0deg 0% 100%;
-    --clr_black_0: 0deg 0% 0%;
-    --clr_dark_450: 0deg 0% 11%;
-    --clr_accent_500: 51deg 75% 59%;
-    --clr-primary-50: var(--clr_primary_50);
-    --clr-primary-500: var(--clr_primary_500);
-    --clr-accent-500: var(--clr_accent_500);
-    --clr-white-inverse: var(--clr_white_0);
-    --clr-neutral-50: var(--clr_neutral_50);
-    --clr-dark-200: var(--clr_dark_200);
-    --clr-dark-450: var(--clr_dark_450);
-    --clr-black-0: var(--clr_black_0);
-    /* #F4F4F4; */
+    /* PRIMARY COLOR */
+    --clr-primary: hsl(51, 75%, 59%);
+    --clr-secondary: hsl(105, 38%, 10%);
+    --clr-secondary-alt: hsl(105, 49%, 14%);
+    --clr-accent: hsl(104, 57%, 51%);
+    --clr-base-text: hsl(106, 47%, 14%);
+    --clr-gray-200: #f4f4f4;
+    --clr-gray-300: #d4d4d4;
+    --clr-gray-400: #bdbdbd;
+    --clr-gray-500: 0deg 0% 35%;
+    /**/
+    /* THEMING */
+    --theme-clr-primary: 51deg 75% 59%;
+    --theme-clr-secondary: 105deg 75% 14%;
+    --theme-clr-secondary-alt: 105deg 38% 10%;
+    --theme-clr-accent: 104deg 57% 51%;
+    --clr-base-text: 106deg 47% 14%;
+    --theme-white: 0deg 0% 100%;
+    --on-theme-white: 106deg 47% 14%;
+    --theme-light: 0 0% 96%;
+    --on-theme-light: var(--clr-gray-500);
+    /**/
     /* ... */
   }
   @media (prefers-color-scheme: dark) {
     :root {
+      --clr-primary: hsl(50, 70%, 55%);
       --clr-neutral-50: var(--clr_dark_450);
       --clr-dark-200: 0deg 0% 35%;
       /* #1D1D1D; */
@@ -98,12 +104,20 @@ html {
     }
   }
   :root[data-theme=dark] {
-    --clr-neutral-50: var(--clr_dark_450);
-    --clr-dark-200: 0deg 0% 93%;
-    /* #1D1D1D; */
-    --clr-white-inverse: var(--clr_dark_200);
-    --clr-black-0: 0 0% 100%;
-    /* ... */
+    /* PRIMARY COLOR DARK MODE*/
+    --clr-primary: hsl(50, 70%, 55%);
+    --clr-secondary: hsl(105, 38%, 10%);
+    --clr-accent: hsl(104, 57%, 51%);
+    /**/
+    /* THEMING */
+    --theme-clr-primary: 50deg 70% 55%;
+    --theme-clr-secondary: 105deg 38% 10%;
+    --theme-clr-accent: 104deg 57% 51%;
+    --theme-white: 0deg 0% 35%;
+    --on-theme-white: 0deg 0% 93%;
+    --theme-light: 0deg 0% 11%;
+    --on-theme-light: var(--on-theme-white);
+    /**/
   }
 }
 :root {

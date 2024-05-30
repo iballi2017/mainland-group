@@ -7,23 +7,29 @@ module.exports = {
   theme: {
     extend: {},
     colors: {
-      "primary": {
-        "50": "hsl(104, 57%, 51%)",//#5FC93A;
-        "500": "hsl(106, 47%, 14%)",//#1B3513;
-      },
-      'accent': {
-        '500': 'hsl(51, 75%, 59%)',//#E5CC46;
-      },
+      "transparent": "rgba(0, 0, 0, 0.0)",
       "white": "#FFFFFF",
-      "white-inverse": 'hsl(var(--clr-white-inverse) / <alpha-value>)',
       "black": "#000000",
-      "dark": {
-        50: 'hsl(var(--clr-neutral-50) / <alpha-value>)',
-        200: 'hsl(var(--clr-dark-200) / <alpha-value>)',
-        500: '#000000',
-      },
 
-      'transparent': "rgba(0, 0, 0, 0.0)"
+
+
+      "primary": "hsl(var(--clr-primary))",
+      "secondary": "hsl(var(--clr-secondary))",
+      "accent": "hsl(var(--clr-accent))",
+
+
+      "theme-white": 'hsl(var(--theme-white) / <alpha-value>)',
+      "on-theme-white": 'hsl(var(--on-theme-white) / <alpha-value>)',
+
+      "theme-light": 'hsl(var(--theme-light) / <alpha-value>)',
+      "on-theme-light": 'hsl(var(--on-theme-light) / <alpha-value>)',
+
+      "theme-clr-secondary": 'hsl(var(--theme-clr-secondary) / <alpha-value>)',
+      "theme-clr-secondary": 'hsl(var(--theme-clr-secondary) / <alpha-value>)',
+
+      "accent": {
+        "50": "hsl(var( --theme-clr-accent) / <alpha-value>)",
+      },
     }
   },
   plugins: [
