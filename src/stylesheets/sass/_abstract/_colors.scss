@@ -62,7 +62,7 @@
     --clr-primary-500: var(--clr_primary_500); //#1B3513;
     --clr-accent-500: var(--clr_accent_500); //#E5CC46;
 
-    --clr-white-0: var(--clr_white_0);
+    --clr-white-inverse: var(--clr_white_0);
 
     --clr-neutral-50: var(--clr_neutral_50);
 
@@ -80,7 +80,7 @@
       --clr-neutral-50: var(--clr_dark_450);
       --clr-dark-200: 0deg 0% 35%; // #5a5a5a;
       /* #1D1D1D; */
-      --clr-white-0: var(--clr_dark_200);
+      --clr-white-inverse: var(--clr_dark_200);
       /* ... */
     }
   }
@@ -89,8 +89,8 @@
     --clr-neutral-50: var(--clr_dark_450);
     --clr-dark-200: 0deg 0% 93%;
     /* #1D1D1D; */
-    --clr-white-0: var(--clr_dark_200);
-    // --clr-white-0: 0deg 0% 35%;
+    --clr-white-inverse: var(--clr_dark_200);
+    // --clr-white-inverse: 0deg 0% 35%;
     --clr-black-0: 0 0% 100%; // #000000;
     /* ... */
   }

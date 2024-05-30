@@ -14,13 +14,10 @@ module.exports = {
       'accent': {
         '500': 'hsl(51, 75%, 59%)',//#E5CC46;
       },
-      // "white": "#FFFFFF",
-      'white': {
-        "0":  'hsl(var(--clr-white-0) / <alpha-value>)',
-        // '500': '#ffffff',
-      },
+      "white": "#FFFFFF",
+      "white-inverse": 'hsl(var(--clr-white-inverse) / <alpha-value>)',
       "black": "#000000",
-      dark: {
+      "dark": {
         50: 'hsl(var(--clr-neutral-50) / <alpha-value>)',
         200: 'hsl(var(--clr-dark-200) / <alpha-value>)',
         500: '#000000',
