@@ -58,6 +58,16 @@
         </div>
     </section>
 
+
+
+    <section class="bg-white-inverse">
+        <div class="mg-main-container flex flex-wrap items-center justify-between mx-auto md:px-4">
+
+Section
+
+        </div>
+
+    </section>
 </main>
 
 <!-- footer opens -->
