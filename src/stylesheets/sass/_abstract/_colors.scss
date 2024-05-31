@@ -28,10 +28,10 @@
     --theme-clr-accent: 104deg 57% 51%;
     --clr-base-text: 105deg 46% 14%;
     --theme-clr-gray-400: 0 0% 74%; // #BDBDBD;
-    --theme-white: 0deg 0% 100%;
-    --on-theme-white: 106deg 47% 14%;
+    --theme-clr-white: 0deg 0% 100%;
+    --on-theme-clr-white: 106deg 47% 14%;
     --theme-light: 0deg 0% 96%; // #F4F4F4;
-    --on-theme-light: var(--clr-gray-500); // #5A5A5A;
+    --on-theme-clr-light: var(--clr-gray-500); // #5A5A5A;
     --theme-clr-call-to-action: var(--theme-clr-primary);
     --on-theme-clr-call-to-action: var(--clr-base-text);
     /**/
@@ -54,10 +54,10 @@
       --theme-clr-secondary: 0deg 0% 18%; // #2F2F2F;
 
       --theme-clr-accent: 104deg 57% 51%;
-      --theme-white: 0deg 0% 11%; // #1D1D1D;
-      --on-theme-white: 0deg 0% 93%;
+      --theme-clr-white: 0deg 0% 11%; // #1D1D1D;
+      --on-theme-clr-white: 0deg 0% 93%;
       --theme-light: 0deg 0% 35%;
-      --on-theme-light: var(--on-theme-white); // #ECECEC;
+      --on-theme-clr-light: var(--on-theme-clr-white); // #ECECEC;
       --theme-clr-call-to-action: var(--theme-clr-gray-400);
       /**/
     }
@@ -73,10 +73,10 @@
     --theme-clr-secondary: 0deg 0% 18%; // #2F2F2F;
 
     --theme-clr-accent: 104deg 57% 51%;
-    --theme-white: 0deg 0% 11%; // #1D1D1D;
-    --on-theme-white: 0deg 0% 93%;
+    --theme-clr-white: 0deg 0% 11%; // #1D1D1D;
+    --on-theme-clr-white: 0deg 0% 93%;
     --theme-light: 0deg 0% 35%;
-    --on-theme-light: var(--on-theme-white); // #ECECEC;
+    --on-theme-clr-light: var(--on-theme-clr-white); // #ECECEC;
     --theme-clr-call-to-action: var(--theme-clr-gray-400);
 
     /**/

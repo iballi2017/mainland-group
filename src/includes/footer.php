@@ -6,9 +6,9 @@
   <form>
     <div class="relative rounded-lg overflow-hidden">
       <button class="absolute z-10 inset-y-0 end-0 flex items-center ps-3.5 pe-3.5 bg-primary focus:ring-accent-50 focus:border-accent-50">
-        <i data-feather="search" class="text-on-theme-white"></i>
+        <i data-feather="search" class="text-on-theme-clr-white"></i>
       </button>
-      <input type="text" id="email-address-icon" class="relative z-0 focus:bg-theme-white bg-theme-white border border-gray-300 text-on-theme-white text-sm rounded-lg focus:ring-accent-50 focus:border-accent-50 block w-full pe-10 p-2.5" placeholder="Search">
+      <input type="text" id="email-address-icon" class="relative z-0 focus:bg-theme-clr-white bg-theme-clr-white border border-gray-300 text-on-theme-clr-white text-sm rounded-lg focus:ring-accent-50 focus:border-accent-50 block w-full pe-10 p-2.5" placeholder="Search">
     </div>
   </form>
 </div>

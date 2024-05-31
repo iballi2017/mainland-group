@@ -22,11 +22,11 @@ module.exports = {
       "accent": "hsl(var(--theme-clr-accent))",
 
 
-      "theme-white": 'hsl(var(--theme-white) / <alpha-value>)',
-      "on-theme-white": 'hsl(var(--on-theme-white) / <alpha-value>)',
+      "theme-clr-white": 'hsl(var(--theme-clr-white) / <alpha-value>)',
+      "on-theme-clr-white": 'hsl(var(--on-theme-clr-white) / <alpha-value>)',
 
       "theme-light": 'hsl(var(--theme-light) / <alpha-value>)',
-      "on-theme-light": 'hsl(var(--on-theme-light) / <alpha-value>)',
+      "on-theme-light": 'hsl(var(--on-theme-clr-light) / <alpha-value>)',
 
       "theme-clr-secondary": 'hsl(var(--theme-clr-secondary) / <alpha-value>)',
       "on-theme-clr-secondary": 'hsl(var(--on-theme-clr-secondary) / <alpha-value>)',

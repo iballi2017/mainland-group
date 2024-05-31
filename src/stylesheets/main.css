@@ -122,10 +122,10 @@ html {
     --theme-clr-accent: 104deg 57% 51%;
     --clr-base-text: 105deg 46% 14%;
     --theme-clr-gray-400: 0 0% 74%;
-    --theme-white: 0deg 0% 100%;
-    --on-theme-white: 106deg 47% 14%;
+    --theme-clr-white: 0deg 0% 100%;
+    --on-theme-clr-white: 106deg 47% 14%;
     --theme-light: 0deg 0% 96%;
-    --on-theme-light: var(--clr-gray-500);
+    --on-theme-clr-light: var(--clr-gray-500);
     --theme-clr-call-to-action: var(--theme-clr-primary);
     --on-theme-clr-call-to-action: var(--clr-base-text);
     /**/
@@ -140,10 +140,10 @@ html {
       --theme-clr-primary: 50deg 70% 55%;
       --theme-clr-secondary: 0deg 0% 18%;
       --theme-clr-accent: 104deg 57% 51%;
-      --theme-white: 0deg 0% 11%;
-      --on-theme-white: 0deg 0% 93%;
+      --theme-clr-white: 0deg 0% 11%;
+      --on-theme-clr-white: 0deg 0% 93%;
       --theme-light: 0deg 0% 35%;
-      --on-theme-light: var(--on-theme-white);
+      --on-theme-clr-light: var(--on-theme-clr-white);
       --theme-clr-call-to-action: var(--theme-clr-gray-400);
       /**/
     }
@@ -155,10 +155,10 @@ html {
     --theme-clr-primary: 50deg 70% 55%;
     --theme-clr-secondary: 0deg 0% 18%;
     --theme-clr-accent: 104deg 57% 51%;
-    --theme-white: 0deg 0% 11%;
-    --on-theme-white: 0deg 0% 93%;
+    --theme-clr-white: 0deg 0% 11%;
+    --on-theme-clr-white: 0deg 0% 93%;
     --theme-light: 0deg 0% 35%;
-    --on-theme-light: var(--on-theme-white);
+    --on-theme-clr-light: var(--on-theme-clr-white);
     --theme-clr-call-to-action: var(--theme-clr-gray-400);
     /**/
   }
