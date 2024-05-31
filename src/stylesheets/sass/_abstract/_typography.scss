@@ -96,3 +96,10 @@ $fontStack: var(--ff-body);
 .line-height-400 {
   line-height: var(--fs-400);
 }
+
+.lg-font {
+  font-size: 105%;
+  .mg-main-container {
+    --max-width: 1680px;
+  }
+}
