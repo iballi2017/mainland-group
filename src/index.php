@@ -7,7 +7,7 @@
 <!-- main-toolbar closes -->
 
 <main>
-    <section>
+    <section class="bg-theme-white">
         <div class="mg-main-container flex flex-wrap items-center justify-between mx-auto md:px-4">
             <div id="default-carousel" class="relative w-full" data-carousel="slide">
                 <!-- Carousel wrapper -->
@@ -64,7 +64,7 @@
         <div class="mg-main-container flex flex-wrap items-center justify-between mx-auto md:px-4">
 
             <div class="grid grid-cols-12 gap-4 lg:gap-8 items-center max-w-[1200px] mx-auto">
-                <div class="col-span-12 md:col-span-6">
+                <div class="col-span-12 md:col-span-6 hidden md:block">
                     <div>
                         <img src="./assets/images/featured-image-1.png" alt="KNOW ABOUT MAINLAND EDGE BUSINESS" class="w-full">
                     </div>
@@ -75,21 +75,24 @@
                     <div class="h-2 md:h-4"></div>
                     <p>We are a dynamic conglomerate committed to innovation, excellence, and community service. Our mission is to deliver top-quality services and products that enhance the lives of our customers and contribute to sustainable development. </p>
                     <div class="h-2 md:h-4"></div>
-                    <a href="#" class="call-to-action | inline-flex bg-primary hover:bg-secondary hover:text-white font-semibold shadow-md rounded-s-full rounded-e-full py-2 px-6">READ MORE</a>
+                    <?php
+                    $label = "Read more";
+                    $url = "#";
+                    include(__DIR__ . "./shared/widgets/call-to-action.php"); ?>
                 </div>
             </div>
         </div>
     </section>
 
 
-    <section class="bg-theme-light text-on-theme-light py-8 lg:py-16">
+    <section class="bg-theme-light dark:text-on-theme-light py-8 lg:py-16">
         <div class="mg-main-container flex flex-col flex-wrap items-center justify-between mx-auto md:px-4">
             <h2 class="font-semibold md:text-lg text-center">OUR SUB - COMPANY</h2>
             <p class="font-bold text-2xl lg:text-3xl text-center max-w-[850px] mx-auto">We proudly oversees a diverse portfolio of businesses, each excelling in its field and contributing uniquely to the market</p>
 
-            <div class="h-12"></div>
+            <div class="h-8 md:h-12"></div>
 
-            <div class="grid grid-cols-12 gap-8 w-full max-w-[1000px] mx-auto">
+            <div class="grid grid-cols-12 gap-2 md:gap-8 w-full max-w-[1000px] mx-auto">
                 <div class="col-span-6 md:col-span-3">
                     <div class="rounded-lg shadow-md bg-theme-white px-8 py-12 h-full flex items-center justify-center">
                         <img src="./assets/images/our-sub-company-logos/lagoscart-brand-logo.svg" alt="Lagoscart" class="">
@@ -110,11 +113,90 @@
                         <img src="./assets/images/our-sub-company-logos/studiomainland-brand-logo.svg" alt="studiomainland" class="">
                     </div>
                 </div>
-                <!-- <div class="col-span-6 md:col-span-3">B</div>
-                <div class="col-span-6 md:col-span-3">C</div>
-                <div class="col-span-6 md:col-span-3">D</div> -->
             </div>
 
+        </div>
+
+    </section>
+
+
+
+    <section class="bg-theme-white dark:text-on-theme-light py-8 lg:py-16">
+        <div class="mg-main-container flex flex-col flex-wrap items-center justify-between mx-auto md:px-4">
+            <h2 class="font-semibold md:text-lg text-center">CHECK OUR GALLERY</h2>
+            <p class="font-bold text-2xl lg:text-3xl text-center max-w-[850px] mx-auto">
+                Let's check our Project we have done
+            </p>
+
+            <div class="h-8 md:h-12"></div>
+
+            <div class="grid grid-cols-12 gap-2 md:gap-8 w-full">
+                <div class="col-span-12 md:col-span-4 lg:pb-12">
+                    <div class="relative shadow-md bg-theme-white h-full flex flex-col items-center justify-center">
+                        <img loading="lazy" src="./assets/images/mainlandsolar-gallery-feature-image.png" alt="Mainlandsolar" class="w-full">
+                        <div class="absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-8 rounded-lg bg-theme-white text-on-theme-white shadow-md lg:-bottom-12">
+                            <h5 class="font-semibold">Mainland Solar</h5>
+                            <p class="font-bold text-xl">Fixing Solar panel of a client</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-12 md:col-span-4 lg:pb-12">
+                    <div class="relative shadow-md bg-theme-white h-full flex flex-col items-center justify-center">
+                        <img loading="lazy" src="./assets/images/vanlagos-gallery-feature-image.png" alt="Mainlandsolar" class="w-full">
+                        <div class="absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-8 rounded-lg bg-theme-white text-on-theme-white shadow-md lg:-bottom-12">
+                            <h5 class="font-semibold">Van lagos</h5>
+                            <p class="font-bold text-xl">Moving our Clent to their various desination</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-12 md:col-span-4 lg:pb-12">
+                    <div class="relative shadow-md bg-theme-white h-full flex flex-col items-center justify-center">
+                        <img loading="lazy" src="./assets/images/studiomainland-gallery-feature-image.png" alt="Mainlandsolar" class="w-full">
+                        <div class="absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-8 rounded-lg bg-theme-white text-on-theme-white shadow-md lg:-bottom-12">
+                            <h5 class="font-semibold">Studio Mainland</h5>
+                            <p class="font-bold text-xl">Working on an Adidas Marketing Project</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-12 md:col-span-4 lg:pb-12">
+                    <div class="relative shadow-md bg-theme-white h-full flex flex-col items-center justify-center">
+                        <img loading="lazy" src="./assets/images/lagoscart-gallery-feature-image.png" alt="Mainlandsolar" class="w-full">
+                        <div class="absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-8 rounded-lg bg-theme-white text-on-theme-white shadow-md lg:-bottom-12">
+                            <h5 class="font-semibold">Lagos Cart</h5>
+                            <p class="font-bold text-xl">Fixing Solar panel of a client</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="h-2 md:h-4"></div>
+            <div class="h-2 md:h-4"></div>
+            <?php
+            $label = "View all";
+            $url = "#";
+            include(__DIR__ . "./shared/widgets/call-to-action.php"); ?>
+
+        </div>
+
+    </section>
+
+
+
+    <section class="bg-theme-clr-secondary text-on-theme-clr-secondary py-8 lg:py-16">
+        <h2 class="font-semibold md:text-lg text-center">OUR TESTIMONIALS</h2>
+        <p class="font-bold text-2xl lg:text-3xl text-center max-w-[850px] mx-auto">
+            What our clients say about us
+        </p>
+
+
+        <!-- Set up your HTML -->
+        <div class="owl-carousel | testimonial-sliders">
+            <div> Your Content </div>
+            <div> Your Content </div>
+            <div> Your Content </div>
+            <div> Your Content </div>
+            <div> Your Content </div>
+            <div> Your Content </div>
+            <div> Your Content </div>
         </div>
 
     </section>

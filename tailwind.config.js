@@ -14,8 +14,11 @@ module.exports = {
 
 
       "primary": "hsl(var(--theme-clr-primary))",
+      "primary-alt": "hsl(var(--theme-clr-primary-alt))",
+
       "secondary": "hsl(var(--theme-clr-secondary))",
-      "secondary-alt": "hsl(var(--theme-clr-secondary-alt))",
+      // "secondary-alt": "hsl(var(--theme-clr-secondary-alt))",
+
       "accent": "hsl(var(--theme-clr-accent))",
 
 
@@ -26,10 +29,14 @@ module.exports = {
       "on-theme-light": 'hsl(var(--on-theme-light) / <alpha-value>)',
 
       "theme-clr-secondary": 'hsl(var(--theme-clr-secondary) / <alpha-value>)',
-      "theme-clr-secondary": 'hsl(var(--theme-clr-secondary) / <alpha-value>)',
+      "on-theme-clr-secondary": 'hsl(var(--on-theme-clr-secondary) / <alpha-value>)',
+
+
+      "theme-clr-call-to-action": 'hsl(var(--theme-clr-call-to-action) / <alpha-value>)',
+      "on-theme-clr-call-to-action": 'hsl(var(on-theme-clr-call-to-action) / <alpha-value>)',
 
       "accent": {
-        "50": "hsl(var( --theme-clr-accent) / <alpha-value>)",
+        "50": "hsl(var(--theme-clr-accent) / <alpha-value>)",
       },
     }
   },
