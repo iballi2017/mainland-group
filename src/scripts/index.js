@@ -36,6 +36,6 @@ var searchIcon = document.querySelector(".search-icon");
 // toggleItem.toggle();
 
 searchIcon.addEventListener("click", () => {
-    pageSearch.classList.remove("hidden")
-    pageSearch.classList.add("flex")
+    pageSearch.classList.remove("hidden");
+    pageSearch.classList.add("flex");
 })
