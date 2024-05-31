@@ -1,44 +1,3 @@
-:root {
-  /* COLORS */
-  // --clr-primary-50: hsl(104, 57%, 51%); //#5FC93A;
-  // --clr-primary-400: hsl(152, 100%, 33%); //#00A759;
-  // --clr-primary-500: hsl(106, 47%, 14%); //#1B3513;
-  // --clr-primary-600: hsl(97, 58%, 24%); //#345F19;
-  // --clr-primary-700: hsl(0, 0%, 36%); //#5b5b5b;
-
-  // --clr-accent-50: #c3c3c3; //#C3C3C3;
-  // --clr-accent-300: hsl(214, 37%, 96%); //#F2F5F9;
-  // --clr-accent-400: hsl(0, 0%, 95%); //#F3F3F3;
-  // --clr-accent-500: hsl(51, 75%, 59%); //#E5CC46;
-  // --clr-accent-600: hsl(0, 0%, 85%); //#D9D9D9;
-  // --clr-accent-700: #c4c4c4; //#C4C4C4;
-  // --clr-accent-730: #ababab; //#ababab;
-  // --clr-accent-750: #828282; //#828282;
-
-  // --clr-neutral-500: #ffffff;
-
-  // --clr-neutral-50: hsl(0, 0%, 96%); //#F4F4F4;
-  // --clr-dark-450: hsl(0, 0%, 11%); // #1D1D1D;
-
-  // --clr-dark-500: #000000;
-
-  // --clr-secondary-500: hsl(114, 28%, 14%); //#1b2c19;
-
-  // --clr-alt-100: hsl(277, 93%, 29%); //#59058D;
-  // --clr-alt-200: hsl(223, 70%, 63%); //#5F84E3;
-  // --clr-alt-300: #1D9BF0; //#1D9BF0;
-  // --clr-alt-400: #FF9AAD; //#FF9AAD;
-  // --clr-alt-450: #FFF0F1; //#FFF0F1;
-  // --clr-alt-500: #F5FFF4; //#F5FFF4;
-  // --clr-alt-600: #F2CB56; //#F2CB56;
-  // --clr-alt-700: #EBF1C5; //#EBF1C5;
-
-  // --base-text-color-100: var(--clr-accent-700);
-  // --base-text-color-200: var(--clr-accent-600);
-  // --base-text-color-500: var(--clr-primary-700);
-  // --base-text-color: var(--clr-secondary-500);
-}
-
 @layer base {
   :root {
     // INITIALIZE
@@ -79,13 +38,23 @@
 
   @media (prefers-color-scheme: dark) {
     :root {
+      /* PRIMARY COLOR DARK MODE*/
       --clr-primary: hsl(50, 70%, 55%); //#DDC33B;
-
-      --clr-neutral-50: var(--clr_dark_450);
-      --clr-dark-200: 0deg 0% 35%; // #5a5a5a;
-      /* #1D1D1D; */
-      --clr-white-inverse: var(--clr_dark_200);
-      /* ... */
+      --clr-secondary: hsl(105, 38%, 10%); //#152410;
+      --clr-accent: hsl(104, 57%, 51%); //#58C731;
+  
+      /**/
+  
+      /* THEMING */
+      --theme-clr-primary: 50deg 70% 55%;
+      --theme-clr-secondary: 105deg 38% 10%;
+      --theme-clr-accent: 104deg 57% 51%;
+      --theme-white: 0deg 0% 11%; // #1D1D1D;
+      --on-theme-white: 0deg 0% 93%;
+      --theme-light: 0deg 0% 35%;
+      --on-theme-light: var(--on-theme-white); // #ECECEC;
+  
+      /**/
     }
   }
 
@@ -101,9 +70,9 @@
     --theme-clr-primary: 50deg 70% 55%;
     --theme-clr-secondary: 105deg 38% 10%;
     --theme-clr-accent: 104deg 57% 51%;
-    --theme-white: 0deg 0% 35%;
+    --theme-white: 0deg 0% 11%; // #1D1D1D;
     --on-theme-white: 0deg 0% 93%;
-    --theme-light: 0deg 0% 11%; // #1D1D1D;
+    --theme-light: 0deg 0% 35%;
     --on-theme-light: var(--on-theme-white); // #ECECEC;
 
     /**/

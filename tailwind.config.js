@@ -15,6 +15,7 @@ module.exports = {
 
       "primary": "hsl(var(--theme-clr-primary))",
       "secondary": "hsl(var(--theme-clr-secondary))",
+      "secondary-alt": "hsl(var(--theme-clr-secondary-alt))",
       "accent": "hsl(var(--theme-clr-accent))",
 
 
