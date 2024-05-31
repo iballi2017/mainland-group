@@ -1022,6 +1022,11 @@ video {
   border-bottom-width: 1px;
 }
 
+.border-on-theme-light {
+  --tw-border-opacity: 1;
+  border-color: hsl(var(--on-theme-light) / var(--tw-border-opacity));
+}
+
 .bg-\[\#1B3512\] {
   --tw-bg-opacity: 1;
   background-color: rgb(27 53 18 / var(--tw-bg-opacity));
@@ -1307,9 +1312,29 @@ video {
   inset-inline-end: 2px;
 }
 
+.before\:left-0::before {
+  content: var(--tw-content);
+  left: 0px;
+}
+
+.before\:right-1\/2::before {
+  content: var(--tw-content);
+  right: 50%;
+}
+
+.before\:top-0::before {
+  content: var(--tw-content);
+  top: 0px;
+}
+
 .before\:top-\[2px\]::before {
   content: var(--tw-content);
   top: 2px;
+}
+
+.before\:-z-10::before {
+  content: var(--tw-content);
+  z-index: -10;
 }
 
 .before\:mr-8::before {
@@ -1317,9 +1342,24 @@ video {
   margin-right: 2rem;
 }
 
+.before\:block::before {
+  content: var(--tw-content);
+  display: block;
+}
+
 .before\:h-5::before {
   content: var(--tw-content);
   height: 1.25rem;
+}
+
+.before\:h-full::before {
+  content: var(--tw-content);
+  height: 100%;
+}
+
+.before\:w-1\/2::before {
+  content: var(--tw-content);
+  width: 50%;
 }
 
 .before\:w-5::before {
@@ -1359,6 +1399,12 @@ video {
   background-color: rgba(0, 0, 0, 0.0);
 }
 
+.before\:text-white::before {
+  content: var(--tw-content);
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .before\:transition-all::before {
   content: var(--tw-content);
   transition-property: all;
@@ -1376,9 +1422,29 @@ video {
   position: absolute;
 }
 
+.after\:bottom-0::after {
+  content: var(--tw-content);
+  bottom: 0px;
+}
+
+.after\:left-1\/2::after {
+  content: var(--tw-content);
+  left: 50%;
+}
+
+.after\:right-0::after {
+  content: var(--tw-content);
+  right: 0px;
+}
+
 .after\:start-\[2px\]::after {
   content: var(--tw-content);
   inset-inline-start: 2px;
+}
+
+.after\:top-0::after {
+  content: var(--tw-content);
+  top: 0px;
 }
 
 .after\:top-\[2px\]::after {
@@ -1386,9 +1452,29 @@ video {
   top: 2px;
 }
 
+.after\:-z-10::after {
+  content: var(--tw-content);
+  z-index: -10;
+}
+
+.after\:block::after {
+  content: var(--tw-content);
+  display: block;
+}
+
 .after\:h-5::after {
   content: var(--tw-content);
   height: 1.25rem;
+}
+
+.after\:h-full::after {
+  content: var(--tw-content);
+  height: 100%;
+}
+
+.after\:w-1\/2::after {
+  content: var(--tw-content);
+  width: 50%;
 }
 
 .after\:w-5::after {
@@ -1416,6 +1502,18 @@ video {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.after\:bg-accent-50::after {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--theme-clr-accent) / var(--tw-bg-opacity));
+}
+
+.after\:text-white::after {
+  content: var(--tw-content);
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .after\:transition-all::after {
@@ -1491,10 +1589,28 @@ video {
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
+.peer:checked ~ .peer-checked\:before\:border-accent-50::before {
+  content: var(--tw-content);
+  --tw-border-opacity: 1;
+  border-color: hsl(var(--theme-clr-accent) / var(--tw-border-opacity));
+}
+
 .peer:checked ~ .peer-checked\:before\:bg-white::before {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.peer:checked ~ .peer-checked\:before\:bg-accent-50::before {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--theme-clr-accent) / var(--tw-bg-opacity));
+}
+
+.peer:checked ~ .peer-checked\:before\:text-white::before {
+  content: var(--tw-content);
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .peer:checked ~ .peer-checked\:after\:border-black::after {
@@ -1716,6 +1832,11 @@ video {
     gap: 2rem;
   }
 
+  .lg\:bg-theme-white {
+    --tw-bg-opacity: 1;
+    background-color: hsl(var(--theme-white) / var(--tw-bg-opacity));
+  }
+
   .lg\:py-16 {
     padding-top: 4rem;
     padding-bottom: 4rem;
@@ -1746,6 +1867,11 @@ video {
   .lg\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .lg\:before\:bg-secondary::before {
+    content: var(--tw-content);
+    background-color: hsl(var(--theme-clr-secondary));
   }
 }
 

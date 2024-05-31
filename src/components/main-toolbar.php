@@ -1,6 +1,11 @@
 <!-- <h1>Main toolbar</h1> -->
 
-<div class="bg-theme-light">
+<div class="lg:bg-theme-white border-b border-on-theme-light relative z-10 
+lg:before:content[''] lg:before:bg-secondary before:h-full before:block before:absolute before:top-0 before:-z-10 
+before:left-0 before:right-1/2 before:w-1/2
+lg:after:content[''] lg:after:bg-theme-clr-white after:h-full after:block after:absolute after:top-0 after:bottom-0 after:-z-10  
+after:right-0 after:left-1/2 after:w-1/2
+">
   <div class="mg-main-container flex flex-wrap items-center justify-between mx-auto md:px-4">
     <div class="grid grid-cols-12 w-full">
       <div class="col-span-12 sm:col-span-2 bg-[#1B3512] text-white flex items-center justify-center">
@@ -19,16 +24,32 @@
                 <i data-feather="mail" class="feather-nav"></i><span>Info.mainlandgroup@gmail.com</span>
               </li>
             </ul>
-            <ul class="flex items-center gap-4 text-xs">
-              <li>
-                <label class="mode-toggle-wrapper | inline-flex items-center cursor-pointer">
-                  <span class="me-3 text-sm text-gray-900 dark:text-gray-300">Mode:
-                  </span>
-                  <input type="checkbox" value="" class="ui-mode-toggler | sr-only peer" />
-                  <div class="cursor relative w-14 h-6 bg-accent-50 peer-focus:outline-none rounded-full peer after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-white after:border after:rounded-full after:w-5 after:h-5 after:transition-all peer-checked:after:border-black peer-checked:after:bg-transparent before:absolute before:top-[2px] before:end-[2px] before:bg-transparent before:border-black before:border before:rounded-full before:w-5 before:h-5 before:transition-all peer-checked:before:border-white peer-checked:before:bg-white"></div>
-                </label>
-              </li>
-            </ul>
+
+            <div class="flex items-center gap-4">
+              <ul class="flex items-center gap-4 text-xs">
+                <li>
+                  <label class="theme-font-toggle-wrapper | inline-flex items-center cursor-pointer">
+                    <span class="me-3 text-sm text-gray-900 dark:text-gray-300">Font size:
+                    </span>
+                    <input type="checkbox" value="" class="ui-mode-toggler | sr-only peer" />
+                    <div class="cursor relative w-14 h-6 bg-theme-clr-secondary peer-focus:outline-none rounded-full peer after:absolute after:top-[2px] after:start-[2px] after:bg-accent-50 after:text-white after:border-white after:border after:rounded-full after:w-5 after:h-5 after:transition-all peer-checked:after:border-black peer-checked:after:bg-transparent before:absolute before:top-[2px] before:end-[2px] before:bg-transparent before:text-white before:border-black before:border before:rounded-full before:w-5 before:h-5 before:transition-all peer-checked:before:border-accent-50 peer-checked:before:bg-accent-50"></div>
+                  </label>
+                </li>
+              </ul>
+
+              <!--  -->
+
+              <ul class="flex items-center gap-4 text-xs">
+                <li>
+                  <label class="theme-mode-toggle-wrapper | inline-flex items-center cursor-pointer">
+                    <span class="me-3 text-sm text-gray-900 dark:text-gray-300">Mode:
+                    </span>
+                    <input type="checkbox" value="" class="ui-mode-toggler | sr-only peer" />
+                    <div class="cursor relative w-14 h-6 bg-accent-50 peer-focus:outline-none rounded-full peer after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-white after:border after:rounded-full after:w-5 after:h-5 after:transition-all peer-checked:after:border-black peer-checked:after:bg-transparent before:absolute before:top-[2px] before:end-[2px] before:bg-transparent before:border-black before:border before:rounded-full before:w-5 before:h-5 before:transition-all peer-checked:before:border-white peer-checked:before:bg-white"></div>
+                  </label>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
         <div class="bg-theme-white | md:flex items-center py-4 md:px-8">
@@ -83,5 +104,3 @@
     </div>
   </div>
 </div>
-
-
