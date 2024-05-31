@@ -1,4 +1,4 @@
-.mode-toggle-wrapper {
+.theme-mode-toggle-wrapper {
   //   background-color: red;
   input[type="checkbox"] {
     &:checked {
@@ -25,6 +25,44 @@
     }
     &::after {
       content: url(../assets/icons/icon-sun.svg);
+      padding-top: 3px;
+    }
+  }
+}
+
+
+.theme-font-toggle-wrapper {
+  //   background-color: red;
+  input[type="checkbox"] {
+    &:checked {
+      & + .cursor {
+        &::before {
+          // content: url(../assets/icons/icon-moon.svg);
+          content: "A";
+          font-size: 1.2rem;
+        }
+        &::after {
+          // content: url(../assets/icons/icon-sun-alt.svg);
+          content: "A";
+        }
+      }
+    }
+  }
+  .cursor {
+    &::before,
+    &::after {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    &::before {
+      // content: url(../assets/icons/icon-moon-alt.svg);
+      content: "B";
+      padding-top: 2px;
+    }
+    &::after {
+      // content: url(../assets/icons/icon-sun.svg);
+      content: "A";
       padding-top: 3px;
     }
   }
