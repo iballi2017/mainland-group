@@ -1498,16 +1498,22 @@ video {
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
-.after\:bg-white::after {
+.after\:border-accent-50::after {
   content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  --tw-border-opacity: 1;
+  border-color: hsl(var(--theme-clr-accent) / var(--tw-border-opacity));
 }
 
 .after\:bg-accent-50::after {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
   background-color: hsl(var(--theme-clr-accent) / var(--tw-bg-opacity));
+}
+
+.after\:bg-white::after {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .after\:text-white::after {
@@ -1583,22 +1589,16 @@ video {
   --tw-ring-color: rgb(255 255 255 / var(--tw-ring-opacity));
 }
 
-.peer:checked ~ .peer-checked\:before\:border-white::before {
-  content: var(--tw-content);
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
-}
-
 .peer:checked ~ .peer-checked\:before\:border-accent-50::before {
   content: var(--tw-content);
   --tw-border-opacity: 1;
   border-color: hsl(var(--theme-clr-accent) / var(--tw-border-opacity));
 }
 
-.peer:checked ~ .peer-checked\:before\:bg-white::before {
+.peer:checked ~ .peer-checked\:before\:border-white::before {
   content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 .peer:checked ~ .peer-checked\:before\:bg-accent-50::before {
@@ -1607,10 +1607,10 @@ video {
   background-color: hsl(var(--theme-clr-accent) / var(--tw-bg-opacity));
 }
 
-.peer:checked ~ .peer-checked\:before\:text-white::before {
+.peer:checked ~ .peer-checked\:before\:bg-white::before {
   content: var(--tw-content);
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .peer:checked ~ .peer-checked\:after\:border-black::after {

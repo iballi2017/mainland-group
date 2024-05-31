@@ -1,3 +1,4 @@
+import ConfigureUiDisplayFontSizes from "./ConfigureUiDisplayFontSizes.js";
 import ConfigureUiDisplayModes from "./ConfigureUiDisplayModes.js";
 import Overlay from "./overlay.js";
 
@@ -12,6 +13,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const Init = () => {
         const configureUiDisplayModes = new ConfigureUiDisplayModes();
         configureUiDisplayModes.handle_switch_theme();
+
+        const configureUiDisplayFontSizes = new ConfigureUiDisplayFontSizes();
+        configureUiDisplayFontSizes.handle_switch_fontSize();
+
         handlePageSearch();
         hideOverlay();
     };

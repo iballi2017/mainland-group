@@ -31,8 +31,8 @@ after:right-0 after:left-1/2 after:w-1/2
                   <label class="theme-font-toggle-wrapper | inline-flex items-center cursor-pointer">
                     <span class="me-3 text-sm text-gray-900 dark:text-gray-300">Font size:
                     </span>
-                    <input type="checkbox" value="" class="ui-mode-toggler | sr-only peer" />
-                    <div class="cursor relative w-14 h-6 bg-theme-clr-secondary peer-focus:outline-none rounded-full peer after:absolute after:top-[2px] after:start-[2px] after:bg-accent-50 after:text-white after:border-white after:border after:rounded-full after:w-5 after:h-5 after:transition-all peer-checked:after:border-black peer-checked:after:bg-transparent before:absolute before:top-[2px] before:end-[2px] before:bg-transparent before:text-white before:border-black before:border before:rounded-full before:w-5 before:h-5 before:transition-all peer-checked:before:border-accent-50 peer-checked:before:bg-accent-50"></div>
+                    <input type="checkbox" value="" class="ui-font-sizes-toggler | sr-only peer" />
+                    <div class="cursor relative w-14 h-6 bg-theme-clr-secondary peer-focus:outline-none rounded-full peer after:absolute after:top-[2px] after:start-[2px] after:bg-accent-50 after:text-white after:border-accent-50 after:border after:rounded-full after:w-5 after:h-5 after:transition-all peer-checked:after:border-black peer-checked:after:bg-transparent before:absolute before:top-[2px] before:end-[2px] before:bg-transparent before:text-white before:border-black before:border before:rounded-full before:w-5 before:h-5 before:transition-all peer-checked:before:border-accent-50 peer-checked:before:bg-accent-50"></div>
                   </label>
                 </li>
               </ul>
