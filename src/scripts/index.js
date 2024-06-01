@@ -1,5 +1,6 @@
 import ConfigureUiDisplayFontSizes from "./ConfigureUiDisplayFontSizes.js";
 import ConfigureUiDisplayModes from "./ConfigureUiDisplayModes.js";
+import CreateHtmlElement from "./CreateHtmlElement.js";
 import Overlay from "./overlay.js";
 
 
@@ -19,6 +20,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
         handlePageSearch();
         hideOverlay();
+
+
+        let greet = new CreateHtmlElement("div", "How are you my love?", document.body);
+        greet.create();
+        greet.addAttribute("class", "text-primary");
+        let response = new CreateHtmlElement("div", "I'm fine sweetheart", document.body);
+        response.create();
+        // let sliderPlayBtnWrapper = new CreateHtmlElement("div", "", document.body);
+        // sliderPlayBtnWrapper.create();
+
     };
 
 

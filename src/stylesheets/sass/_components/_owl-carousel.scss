@@ -1,0 +1,25 @@
+.owl-theme {
+    .owl-nav {
+        &.disabled {
+            & + .owl-dots {
+                margin-top: 2em;
+            }
+        }
+    }
+    .owl-dots {
+        margin-top: 2em;
+        border: 1px solid var(--clr-gray-400);
+        display: inline-flex;
+        border-radius: 5rem;
+        .owl-dot {
+            &.active,
+            &:hover {
+                span {
+                    background: var(--clr-primary);
+                }
+            }
+        }
+    }
+}
+
+// .owl-theme .owl-nav.disabled+.owl-dots

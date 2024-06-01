@@ -100,6 +100,19 @@ html {
   display: block;
 }
 
+.owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 2em;
+}
+.owl-theme .owl-dots {
+  margin-top: 2em;
+  border: 1px solid var(--clr-gray-400);
+  display: inline-flex;
+  border-radius: 5rem;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: var(--clr-primary);
+}
+
 @layer base {
   :root {
     /* PRIMARY COLOR */

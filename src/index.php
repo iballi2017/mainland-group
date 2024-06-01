@@ -191,7 +191,7 @@
             <div class="h-8 md:h-12"></div>
 
             <!-- Set up your HTML -->
-            <div class="w-full max-w-[1050px] mx-auto">
+            <div class="w-full max-w-[1050px] mx-auto text-center">
                 <div class="owl-carousel owl-theme | testimonial-sliders">
                     <blockquote class="text-sm grid grid-cols-3 items-center gap-y-4 md:gap-y-0 bg-theme-clr-white text-on-theme-clr-white rounded-md p-4 md:px-4 md:py-8">
                         <div class="col-span-3 md:col-span-1 text-center md:ps-4 md:pe-4">
