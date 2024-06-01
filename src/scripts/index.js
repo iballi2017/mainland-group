@@ -27,6 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
         greet.addAttribute("class", "text-primary");
         let response = new CreateHtmlElement("div", "I'm fine sweetheart", document.body);
         response.create();
+        response.addAttribute("class", "font-bold text-2xl");
         // let sliderPlayBtnWrapper = new CreateHtmlElement("div", "", document.body);
         // sliderPlayBtnWrapper.create();
 
