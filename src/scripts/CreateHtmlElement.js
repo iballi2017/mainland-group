@@ -16,6 +16,16 @@ class CreateHtmlElement {
         this.tag_element.setAttribute(attribute, value);
     }
 
+    addAttributes(array) {
+        if (array.length) {
+            for (let i = 0; i < array.length; i++) {
+                const x = array[i];
+                this.addAttribute(x.attr, x.val);
+            }
+        }
+
+    }
+
 }
 
 

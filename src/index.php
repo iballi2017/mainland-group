@@ -253,7 +253,7 @@
         </div>
     </section>
 </main>
-
+<div class="hidden h-[20px] w-[20px] mt-[2px] right-[-2rem]"></div>
 <!-- footer opens -->
 <?php include_once(__DIR__ . "./includes/footer.php"); ?>
 <!-- footer closes -->

@@ -21,4 +21,8 @@ $(function () {
             }
         }
     });
+
+    $(".play-slider-btn").on("click", function(){
+        alert("hello!")
+    })
 });

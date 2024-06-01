@@ -1,25 +1,32 @@
 .owl-theme {
-    .owl-nav {
-        &.disabled {
-            & + .owl-dots {
-                margin-top: 2em;
-            }
-        }
-    }
-    .owl-dots {
+  .owl-nav {
+    &.disabled {
+      & + .owl-dots {
         margin-top: 2em;
-        border: 1px solid var(--clr-gray-400);
-        display: inline-flex;
-        border-radius: 5rem;
-        .owl-dot {
-            &.active,
-            &:hover {
-                span {
-                    background: var(--clr-primary);
-                }
-            }
-        }
+      }
     }
+  }
+  .owl-dots {
+    margin-top: 2em;
+    border: 1px solid var(--clr-gray-400);
+    display: inline-flex;
+    border-radius: 5rem;
+    .owl-dot {
+      &.active,
+      &:hover {
+        span {
+          background: var(--clr-primary);
+        }
+      }
+    }
+    position: relative;
+    // &:after {
+    //   content: "hhhh";
+    //   color: red;
+    //   position: absolute;
+    //   right: -50%;
+    // }
+  }
 }
 
 // .owl-theme .owl-nav.disabled+.owl-dots
