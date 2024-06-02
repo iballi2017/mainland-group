@@ -22,63 +22,9 @@ document.addEventListener("DOMContentLoaded", () => {
         hideOverlay();
 
 
-        let greet = new CreateHtmlElement("div", "How are you my love?", document.body);
-        greet.create();
-        greet.addAttribute("class", "text-primary");
-        let response = new CreateHtmlElement("div", "I'm fine sweetheart", document.body);
-        response.create();
-        // response.addAttribute("class", "font-bold text-2xl");
-        response.addAttributes([
-            {
-                attr: "class",
-                val: "text-red-500 font-semibold"
-            },
-            {
-                attr: "data-score",
-                val: 4
-            }
-        ]);
-
-
-        // let owlDots = document.querySelectorAll(".owl-theme .owl-dots");
-        let owThemeList = document.querySelectorAll(".owl-theme");
-        // let owlDots = document.querySelectorAll(".owl-theme .owl-dots");
-        for (let i = 0; i < owThemeList.length; i++) {
-            const owlTheme = owThemeList[i];
-            console.log("owlTheme: ", owlTheme);
-            console.log("owlTheme children: ", owlTheme.children);
-            setTimeout(() => {
-                let owlDots = owlTheme.querySelector(".owl-dots");
-                console.log("owlDots: ", owlDots);
-                let circle = new CreateHtmlElement("div", "", owlDots);
-                circle.create();
-                circle.addAttributes([
-                    {
-                        attr: "class",
-                        val: "play-slider-btn | h-[20px] w-[20px] rounded-full border-2 border-red-500 absolute right-[-2rem] cursor-pointer"
-                    },
-                ]);
-            }, 0);
-        }
-
-
-        let circle = new CreateHtmlElement("div", "", document.body);
-        circle.create();
-        circle.addAttributes([
-            {
-                attr: "class",
-                val: "play-slider-btn | h-8 w-8 rounded-full border-2 border-red-500"
-            },
-            {
-                attr: "data-score",
-                val: 4
-            }
-        ]);
-
-        // let sliderPlayBtnWrapper = new CreateHtmlElement("div", "", document.body);
-        // sliderPlayBtnWrapper.create();
-
     };
+
+    /** */
 
 
     function toggleOverlay() {
@@ -94,8 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
             OverlayObj.show();
             toggleOverlay();
             pageSearch.classList.add("show")
-        })
-
+        });
     }
 
 

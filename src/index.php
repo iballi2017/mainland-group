@@ -60,7 +60,7 @@
 
 
 
-    <section class="bg-theme-clr-white pt-8 pb-4 lg:pt-32 lg:pb-16">
+    <section class="bg-theme-clr-white py-12 lg:py-20">
         <div class="mg-main-container flex flex-wrap items-center justify-between mx-auto md:px-4">
 
             <div class="grid grid-cols-12 gap-4 lg:gap-8 items-center max-w-[1200px] mx-auto">
@@ -70,8 +70,8 @@
                     </div>
                 </div>
                 <div class="col-span-12 md:col-span-6 text-on-theme-clr-white">
-                    <h2 class="font-semibold md:text-lg">KNOW ABOUT MAINLAND EDGE BUSINESS</h2>
-                    <p class="font-bold text-2xl lg:text-3xl">Welcome to Mainland Group!</p>
+                    <h2 class="font-semibold text-sm lg:text-lg">KNOW ABOUT MAINLAND EDGE BUSINESS</h2>
+                    <p class="font-bold text-xl lg:text-3xl">Welcome to Mainland Group!</p>
                     <div class="h-2 md:h-4"></div>
                     <p>We are a dynamic conglomerate committed to innovation, excellence, and community service. Our mission is to deliver top-quality services and products that enhance the lives of our customers and contribute to sustainable development. </p>
                     <div class="h-2 md:h-4"></div>
@@ -85,10 +85,10 @@
     </section>
 
 
-    <section class="bg-theme-light dark:text-on-theme-light py-8 lg:py-16">
+    <section class="bg-theme-light dark:text-on-theme-light py-12 lg:py-20">
         <div class="mg-main-container flex flex-col flex-wrap items-center justify-between mx-auto md:px-4">
-            <h2 class="font-semibold md:text-lg text-center">OUR SUB - COMPANY</h2>
-            <p class="font-bold text-2xl lg:text-3xl text-center max-w-[850px] mx-auto">We proudly oversees a diverse portfolio of businesses, each excelling in its field and contributing uniquely to the market</p>
+            <h2 class="font-semibold text-sm lg:text-lg text-center">OUR SUB - COMPANY</h2>
+            <p class="font-bold text-xl lg:text-3xl text-center max-w-[850px] mx-auto">We proudly oversees a diverse portfolio of businesses, each excelling in its field and contributing uniquely to the market</p>
 
             <div class="h-8 md:h-12"></div>
 
@@ -116,15 +116,14 @@
             </div>
 
         </div>
-
     </section>
 
 
 
-    <section class="bg-theme-clr-white dark:text-on-theme-light py-8 lg:py-16">
+    <section class="bg-theme-clr-white dark:text-on-theme-light py-12 lg:py-20">
         <div class="mg-main-container flex flex-col flex-wrap items-center justify-between mx-auto md:px-4">
-            <h2 class="font-semibold md:text-lg text-center">CHECK OUR GALLERY</h2>
-            <p class="font-bold text-2xl lg:text-3xl text-center max-w-[850px] mx-auto">
+            <h2 class="font-semibold text-sm lg:text-lg text-center">CHECK OUR GALLERY</h2>
+            <p class="font-bold text-xl lg:text-3xl text-center max-w-[850px] mx-auto">
                 Let's check our Project we have done
             </p>
 
@@ -134,42 +133,42 @@
                 <div class="col-span-12 md:col-span-4 lg:pb-12">
                     <div class="relative shadow-md bg-theme-clr-white h-full flex flex-col items-center justify-center">
                         <img loading="lazy" src="./assets/images/mainlandsolar-gallery-feature-image.png" alt="Mainlandsolar" class="w-full">
-                        <div class="absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-8 rounded-lg bg-theme-clr-white text-on-theme-clr-white shadow-md lg:-bottom-12">
-                            <h5 class="font-semibold">Mainland Solar</h5>
-                            <p class="font-bold text-xl">Fixing Solar panel of a client</p>
+                        <div class="absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-white text-on-theme-clr-white shadow-md lg:-bottom-12">
+                            <h5 class="lg:font-semibold">Mainland Solar</h5>
+                            <p class="font-semibold lg:font-bold text-xl">Fixing Solar panel of a client</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-span-12 md:col-span-4 lg:pb-12">
                     <div class="relative shadow-md bg-theme-clr-white h-full flex flex-col items-center justify-center">
                         <img loading="lazy" src="./assets/images/vanlagos-gallery-feature-image.png" alt="Mainlandsolar" class="w-full">
-                        <div class="absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-8 rounded-lg bg-theme-clr-white text-on-theme-clr-white shadow-md lg:-bottom-12">
-                            <h5 class="font-semibold">Van lagos</h5>
-                            <p class="font-bold text-xl">Moving our Clent to their various desination</p>
+                        <div class="absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-white text-on-theme-clr-white shadow-md lg:-bottom-12">
+                            <h5 class="lg:font-semibold">Van lagos</h5>
+                            <p class="font-semibold lg:font-bold text-xl">Moving our Clent to their various desination</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-span-12 md:col-span-4 lg:pb-12">
                     <div class="relative shadow-md bg-theme-clr-white h-full flex flex-col items-center justify-center">
                         <img loading="lazy" src="./assets/images/studiomainland-gallery-feature-image.png" alt="Mainlandsolar" class="w-full">
-                        <div class="absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-8 rounded-lg bg-theme-clr-white text-on-theme-clr-white shadow-md lg:-bottom-12">
-                            <h5 class="font-semibold">Studio Mainland</h5>
-                            <p class="font-bold text-xl">Working on an Adidas Marketing Project</p>
+                        <div class="absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-white text-on-theme-clr-white shadow-md lg:-bottom-12">
+                            <h5 class="lg:font-semibold">Studio Mainland</h5>
+                            <p class="font-semibold lg:font-bold text-xl">Working on an Adidas Marketing Project</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-span-12 md:col-span-4 lg:pb-12">
                     <div class="relative shadow-md bg-theme-clr-white h-full flex flex-col items-center justify-center">
                         <img loading="lazy" src="./assets/images/lagoscart-gallery-feature-image.png" alt="Mainlandsolar" class="w-full">
-                        <div class="absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-8 rounded-lg bg-theme-clr-white text-on-theme-clr-white shadow-md lg:-bottom-12">
-                            <h5 class="font-semibold">Lagos Cart</h5>
-                            <p class="font-bold text-xl">Fixing Solar panel of a client</p>
+                        <div class="absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-white text-on-theme-clr-white shadow-md lg:-bottom-12">
+                            <h5 class="lg:font-semibold">Lagos Cart</h5>
+                            <p class="font-semibold lg:font-bold text-xl">Fixing Solar panel of a client</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="h-2 md:h-4"></div>
-            <div class="h-2 md:h-4"></div>
+            <div class="h-4"></div>
+            <div class="h-4"></div>
             <?php
             $label = "View all";
             $url = "#";
@@ -181,19 +180,19 @@
 
 
 
-    <section class="bg-theme-clr-secondary text-on-theme-clr-secondary py-8 lg:py-20">
+    <section class="bg-theme-clr-secondary text-on-theme-clr-secondary py-12 lg:py-20">
         <div class="mg-main-container flex flex-col flex-wrap items-center justify-between mx-auto md:px-4">
-            <h2 class="font-semibold md:text-lg text-center">OUR TESTIMONIALS</h2>
-            <p class="font-bold text-2xl lg:text-3xl text-center max-w-[850px] mx-auto">
+            <h2 class="font-semibold text-sm lg:text-lg text-center">OUR TESTIMONIALS</h2>
+            <p class="font-bold text-xl lg:text-3xl text-center max-w-[850px] mx-auto">
                 What our clients say about us
             </p>
 
             <div class="h-8 md:h-12"></div>
 
             <!-- Set up your HTML -->
-            <div class="w-full max-w-[1050px] mx-auto text-center">
-                <div class="owl-carousel owl-theme | testimonial-sliders">
-                    <blockquote class="text-sm grid grid-cols-3 items-center gap-y-4 md:gap-y-0 bg-theme-clr-white text-on-theme-clr-white rounded-md p-4 md:px-4 md:py-8">
+            <div class="w-full max-w-[1050px] mx-auto">
+                <div class="owl-carousel owl-theme | testimonial-sliders" id="testimonial-sliders">
+                    <blockquote class="text-sm grid grid-cols-3 gap-y-4 md:gap-y-0 bg-theme-clr-white text-on-theme-clr-white rounded-md p-4 md:px-4 md:py-8">
                         <div class="col-span-3 md:col-span-1 text-center md:ps-4 md:pe-4">
                             <div class="h-16 w-16 rounded-full overflow-hidden bg-gray-200 mx-auto mb-4">
                                 <img src="./assets/images/user-black-avatar.svg" alt="Paul Davids">
@@ -201,11 +200,11 @@
                             <h5>Founder of Olasco</h5>
                             <p class="font-semibold">Paul Davids</p>
                         </div>
-                        <div class="col-span-3 md:col-span-2 md:border-s md:border-on-theme-clr-white md:ps-4 md:pe-4">
+                        <div class="col-span-3 md:col-span-2 md:border-s md:border-on-theme-clr-white md:ps-4 md:pe-4 text-center md:text-left">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. consectetur adipiscing elit, Quis ipsum suspendisse </p>
                         </div>
                     </blockquote>
-                    <blockquote class="text-sm grid grid-cols-3 items-center gap-y-4 md:gap-y-0 bg-theme-clr-white text-on-theme-clr-white rounded-md p-4 md:px-4 md:py-8">
+                    <blockquote class="text-sm grid grid-cols-3 gap-y-4 md:gap-y-0 bg-theme-clr-white text-on-theme-clr-white rounded-md p-4 md:px-4 md:py-8">
                         <div class="col-span-3 md:col-span-1 text-center md:ps-4 md:pe-4">
                             <div class="h-16 w-16 rounded-full overflow-hidden bg-gray-200 mx-auto mb-4">
                                 <img src="./assets/images/user-black-avatar.svg" alt="Paul Davids">
@@ -213,13 +212,13 @@
                             <h5>Software Tester</h5>
                             <p class="font-semibold">John Doe</p>
                         </div>
-                        <div class="col-span-3 md:col-span-2 md:border-s md:border-on-theme-clr-white md:ps-4 md:pe-4">
+                        <div class="col-span-3 md:col-span-2 md:border-s md:border-on-theme-clr-white md:ps-4 md:pe-4 text-center md:text-left">
                             <p>
                                 Commodi sapiente sequi voluptas ex quasi, quia mollitia dolorum distinctio at facilis similique aliquid omnis eos aspernatur fuga doloribus minima voluptates nostrum assumenda asperiores veritatis.
                             </p>
                         </div>
                     </blockquote>
-                    <blockquote class="text-sm grid grid-cols-3 items-center gap-y-4 md:gap-y-0 bg-theme-clr-white text-on-theme-clr-white rounded-md p-4 md:px-4 md:py-8">
+                    <blockquote class="text-sm grid grid-cols-3 gap-y-4 md:gap-y-0 bg-theme-clr-white text-on-theme-clr-white rounded-md p-4 md:px-4 md:py-8">
                         <div class="col-span-3 md:col-span-1 text-center md:ps-4 md:pe-4">
                             <div class="h-16 w-16 rounded-full overflow-hidden bg-gray-200 mx-auto mb-4">
                                 <img src="./assets/images/user-black-avatar.svg" alt="Paul Davids">
@@ -227,13 +226,13 @@
                             <h5>Digital Marketer</h5>
                             <p class="font-semibold">Benjamin Noah</p>
                         </div>
-                        <div class="col-span-3 md:col-span-2 md:border-s md:border-on-theme-clr-white md:ps-4 md:pe-4">
+                        <div class="col-span-3 md:col-span-2 md:border-s md:border-on-theme-clr-white md:ps-4 md:pe-4 text-center md:text-left">
                             <p>
                                 Eaque hic nam voluptate. Voluptatem tempora ab officia et laudantium unde laboriosam corrupti inventore? Iusto expedita molestiae inventore.
                             </p>
                         </div>
                     </blockquote>
-                    <blockquote class="text-sm grid grid-cols-3 items-center gap-y-4 md:gap-y-0 bg-theme-clr-white text-on-theme-clr-white rounded-md p-4 md:px-4 md:py-8">
+                    <blockquote class="text-sm grid grid-cols-3 gap-y-4 md:gap-y-0 bg-theme-clr-white text-on-theme-clr-white rounded-md p-4 md:px-4 md:py-8">
                         <div class="col-span-3 md:col-span-1 text-center md:ps-4 md:pe-4">
                             <div class="h-16 w-16 rounded-full overflow-hidden bg-gray-200 mx-auto mb-4">
                                 <img src="./assets/images/user-black-avatar.svg" alt="Paul Davids">
@@ -241,14 +240,27 @@
                             <h5>Sport Critic</h5>
                             <p class="font-semibold">Lucas Muora</p>
                         </div>
-                        <div class="col-span-3 md:col-span-2 md:border-s md:border-on-theme-clr-white md:ps-4 md:pe-4">
+                        <div class="col-span-3 md:col-span-2 md:border-s md:border-on-theme-clr-white md:ps-4 md:pe-4 text-center md:text-left">
                             <p>
-                            Sit officiis pariatur natus temporibus cum iure? Reprehenderit culpa, nobis necessitatibus dolor totam nesciunt minus nihil placeat saepe molestias vitae facilis maxime!
+                                Sit officiis pariatur natus temporibus cum iure? Reprehenderit culpa, nobis necessitatibus dolor totam nesciunt minus nihil placeat saepe molestias vitae facilis maxime!
                             </p>
                         </div>
                     </blockquote>
                 </div>
 
+
+                <!-- Custom dots -->
+                <div class="text-center">
+                    <div class="dots-wrapper relative inline-flex items-center gap-4 mt-8">
+                        <div id="customDots" class="owl-dots relative">
+                            <!-- Custom dots will be appended here -->
+                        </div>
+                        <div>
+                            <button class="play-slider-btn | h-[20px] w-[20px] rounded-full border-2 border-[hsl(0, 0%, 74%)] cursor-pointer" aria-label="play"></button>
+                            <button class="pause-slider-btn | h-[20px] w-[20px] rounded-full border-2 border-[hsl(0, 0%, 74%)] cursor-pointer" aria-label="pause"></button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

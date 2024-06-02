@@ -1,32 +1,89 @@
-.owl-theme {
-  .owl-nav {
-    &.disabled {
-      & + .owl-dots {
-        margin-top: 2em;
-      }
-    }
+@use "../_partials/mixins";
+
+// .owl-theme {
+//   .owl-nav {
+//     &.disabled {
+//       & + .owl-dots {
+//         margin-top: 2em;
+//       }
+//     }
+//   }
+
+//   .owl-dots {
+//     margin-top: 2em;
+//     border: 1px solid var(--clr-gray-400);
+//     display: inline-flex;
+//     border-radius: 5rem;
+//     .owl-dot {
+//       background-color: var(--clr-gray-400);
+//       &.active,
+//       &:hover {
+//         span {
+//           background: var(--clr-primary);
+//         }
+//       }
+//     }
+//     position: relative;
+//   }
+// }
+
+.dots-wrapper {
+  .play-slider-btn {
+    display: flex;
   }
-  .owl-dots {
-    margin-top: 2em;
-    border: 1px solid var(--clr-gray-400);
-    display: inline-flex;
-    border-radius: 5rem;
-    .owl-dot {
-      &.active,
-      &:hover {
-        span {
-          background: var(--clr-primary);
-        }
-      }
+
+  .pause-slider-btn {
+    display: none;
+  }
+  &.playing {
+    .play-slider-btn {
+      display: none;
     }
-    position: relative;
-    // &:after {
-    //   content: "hhhh";
-    //   color: red;
-    //   position: absolute;
-    //   right: -50%;
-    // }
+
+    .pause-slider-btn {
+      display: flex;
+    }
   }
 }
 
-// .owl-theme .owl-nav.disabled+.owl-dots
+.play-slider-btn,
+.pause-slider-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.play-slider-btn {
+  &::before {
+    @include mixins.before("\f04b", inherit);
+    font-size: 0.5rem;
+    margin-left: 2px;
+  }
+}
+.pause-slider-btn {
+  &::before {
+    @include mixins.before("\f04c", inherit);
+    font-size: 0.5rem;
+  }
+}
+
+.owl-dots {
+  text-align: center;
+  border: 1px solid var(--clr-gray-400);
+  display: inline-flex;
+  border-radius: 5rem;
+}
+
+.owl-dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: var(--clr-gray-400);
+  &.active,
+  &:hover {
+    background: var(--clr-primary);
+  }
+}

@@ -4,6 +4,6 @@
   --max-width: 1440px;
   --padding: .5rem;
 
-  width: min(var(--max-width), 100% - var(--padding));
+  width: min(var(--max-width), 100% - (var(--padding) * 2));
   margin-inline: auto;
 }

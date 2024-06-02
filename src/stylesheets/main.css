@@ -84,7 +84,7 @@ html {
 .mg-main-container {
   --max-width: 1440px;
   --padding: .5rem;
-  width: min(var(--max-width), 100% - var(--padding));
+  width: min(var(--max-width), 100% - var(--padding) * 2);
   margin-inline: auto;
 }
 
@@ -100,17 +100,60 @@ html {
   display: block;
 }
 
-.owl-theme .owl-nav.disabled + .owl-dots {
-  margin-top: 2em;
+.dots-wrapper .play-slider-btn {
+  display: flex;
 }
-.owl-theme .owl-dots {
-  margin-top: 2em;
+.dots-wrapper .pause-slider-btn {
+  display: none;
+}
+.dots-wrapper.playing .play-slider-btn {
+  display: none;
+}
+.dots-wrapper.playing .pause-slider-btn {
+  display: flex;
+}
+
+.play-slider-btn,
+.pause-slider-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.play-slider-btn::before {
+  content: "\f04b";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: inherit;
+  font-size: 0.5rem;
+  margin-left: 2px;
+}
+
+.pause-slider-btn::before {
+  content: "\f04c";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: inherit;
+  font-size: 0.5rem;
+}
+
+.owl-dots {
+  text-align: center;
   border: 1px solid var(--clr-gray-400);
   display: inline-flex;
   border-radius: 5rem;
-  position: relative;
 }
-.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+
+.owl-dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: var(--clr-gray-400);
+}
+.owl-dot.active, .owl-dot:hover {
   background: var(--clr-primary);
 }
 
