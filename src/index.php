@@ -190,7 +190,8 @@
             <div class="h-8 md:h-12"></div>
 
             <!-- Testimonials Sliders -->
-            <div class="w-full max-w-[1050px] mx-auto">
+            <div class="w-full max-w-[1050px] mx-auto text-center">
+
                 <div class="owl-carousel owl-theme | testimonial-carousel" id="testimonial-carousel">
                     <blockquote class="text-sm grid grid-cols-3 gap-y-4 md:gap-y-0 bg-theme-clr-white text-on-theme-clr-white rounded-md p-4 md:px-4 md:py-8">
                         <div class="col-span-3 md:col-span-1 text-center md:ps-4 md:pe-4">
@@ -250,15 +251,13 @@
 
 
                 <!-- Custom dots -->
-                <div class="text-center">
-                    <div class="dots-wrapper relative inline-flex items-center gap-4 mt-8">
-                        <div id="customDots" class="owl-dots relative">
-                            <!-- Custom dots will be appended here -->
-                        </div>
-                        <div>
-                            <button class="play-slider-btn | h-[20px] w-[20px] rounded-full border-2 border-[hsl(0, 0%, 74%)] cursor-pointer" aria-label="play"></button>
-                            <button class="pause-slider-btn | h-[20px] w-[20px] rounded-full border-2 border-[hsl(0, 0%, 74%)] cursor-pointer" aria-label="pause"></button>
-                        </div>
+                <div class="dots-wrapper relative inline-flex items-center gap-4 mt-8">
+                    <div id="custom-dots" class="owl-dots relative">
+                        <!-- Custom dots will be appended here -->
+                    </div>
+                    <div>
+                        <button class="play-slider-btn | h-[20px] w-[20px] rounded-full border-2 border-[hsl(0, 0%, 74%)] cursor-pointer" aria-label="play"></button>
+                        <button class="pause-slider-btn | h-[20px] w-[20px] rounded-full border-2 border-[hsl(0, 0%, 74%)] cursor-pointer" aria-label="pause"></button>
                     </div>
                 </div>
             </div>
@@ -289,7 +288,7 @@
 
 
             <!-- Blogpost Sliders -->
-            <div class="w-full">
+            <div class="w-full text-center">
                 <div class="owl-carousel owl-theme | blogpost-carousel" id="blogpost-carousel">
 
                     <div> Your Content </div>
@@ -303,15 +302,13 @@
 
 
                 <!-- Custom dots -->
-                <div class="text-center">
-                    <div class="dots-wrapper relative inline-flex items-center gap-4 mt-8">
-                        <div id="customDots" class="owl-dots relative">
-                            <!-- Custom dots will be appended here -->
-                        </div>
-                        <div>
-                            <button class="play-slider-btn | h-[20px] w-[20px] rounded-full border-2 border-[hsl(0, 0%, 74%)] cursor-pointer" aria-label="play"></button>
-                            <button class="pause-slider-btn | h-[20px] w-[20px] rounded-full border-2 border-[hsl(0, 0%, 74%)] cursor-pointer" aria-label="pause"></button>
-                        </div>
+                <div class="dots-wrapper relative inline-flex items-center gap-4 mt-8">
+                    <div id="blogpost-carousel-dots" class="owl-dots relative">
+                        <!-- Custom dots will be appended here -->
+                    </div>
+                    <div>
+                        <button class="play-slider-btn | h-[20px] w-[20px] rounded-full border-2 border-[hsl(0, 0%, 74%)] cursor-pointer" aria-label="play"></button>
+                        <button class="pause-slider-btn | h-[20px] w-[20px] rounded-full border-2 border-[hsl(0, 0%, 74%)] cursor-pointer" aria-label="pause"></button>
                     </div>
                 </div>
             </div>
