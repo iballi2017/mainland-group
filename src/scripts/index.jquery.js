@@ -44,4 +44,32 @@ $(function () {
         $(".testimonial-sliders").trigger('stop.owl.autoplay')
         $('.dots-wrapper').removeClass("playing");
     });
+
+
+
+    
+
+    $(".blogpost-sliders").owlCarousel({
+        margin: 20,
+        loop: true,
+        nav: false,
+        dots: true,
+        autoplay: false,
+        slideTransition: 'linear',
+        // autoplayTimeout: 1000,
+        autoplaySpeed: 2000,
+        autoplayHoverPause: true,
+        dotsContainer: '#customDots',
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 2
+            },
+            900: {
+                items: 3
+            }
+        }
+    });
 });

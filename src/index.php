@@ -8,7 +8,7 @@
 
 <main>
     <section class="bg-theme-clr-white">
-        <div class="mg-main-container flex flex-wrap items-center justify-between mx-auto md:px-4">
+        <div class="mg-main-wrapper flex flex-wrap items-center justify-between mx-auto md:px-4">
             <div id="default-carousel" class="relative w-full" data-carousel="slide">
                 <!-- Carousel wrapper -->
                 <div class="relative overflow-hidden h-56 md:h-[567px]">
@@ -189,7 +189,7 @@
 
             <div class="h-8 md:h-12"></div>
 
-            <!-- Set up your HTML -->
+            <!-- Testimonials Sliders -->
             <div class="w-full max-w-[1050px] mx-auto">
                 <div class="owl-carousel owl-theme | testimonial-sliders" id="testimonial-sliders">
                     <blockquote class="text-sm grid grid-cols-3 gap-y-4 md:gap-y-0 bg-theme-clr-white text-on-theme-clr-white rounded-md p-4 md:px-4 md:py-8">
@@ -264,8 +264,70 @@
             </div>
         </div>
     </section>
+
+
+    <section class="bg-theme-clr-white dark:text-on-theme-light py-12 lg:py-20">
+        <div class="mg-main-container flex flex-col flex-wrap mx-auto md:px-4">
+
+            <div class="flex items-center justify-between gap-8">
+
+                <div class="flex items-center gap-6">
+                    <div class="h-24 w-[18px] bg-gradient-to-b from-[#AACE48] via-[#12AD58] to-[#1B3512] rounded-t-full rounded-b-full"></div>
+                    <div>
+                        <h2 class="font-semibold text-sm lg:text-lg">Our Blog</h2>
+                        <p class="font-bold text-xl lg:text-3xl max-w-[850px]">
+                            News and Updates
+                        </p>
+                    </div>
+                </div>
+
+
+                <a href="#" class="block uppercase border border-on-theme-clr-white py-2 px-4 rounded-lg">View all</a>
+            </div>
+
+            <div class="h-8 md:h-12"></div>
+
+
+            <!-- Blogpost Sliders -->
+            <div class="w-full">
+                <div class="owl-carousel owl-theme | blogpost-sliders" id="blogpost-sliders">
+
+                    <div> Your Content </div>
+                    <div> Your Content </div>
+                    <div> Your Content </div>
+                    <div> Your Content </div>
+                    <div> Your Content </div>
+                    <div> Your Content </div>
+                    <div> Your Content </div>
+                </div>
+
+
+                <!-- Custom dots -->
+                <div class="text-center">
+                    <div class="dots-wrapper relative inline-flex items-center gap-4 mt-8">
+                        <div id="customDots" class="owl-dots relative">
+                            <!-- Custom dots will be appended here -->
+                        </div>
+                        <div>
+                            <button class="play-slider-btn | h-[20px] w-[20px] rounded-full border-2 border-[hsl(0, 0%, 74%)] cursor-pointer" aria-label="play"></button>
+                            <button class="pause-slider-btn | h-[20px] w-[20px] rounded-full border-2 border-[hsl(0, 0%, 74%)] cursor-pointer" aria-label="pause"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="h-8 md:h-12"></div>
+
+        <div class="h-4"></div>
+        <div class="h-4"></div>
+
+        </div>
+
+    </section>
 </main>
-<div class="hidden h-[20px] w-[20px] mt-[2px] right-[-2rem]"></div>
+
 <!-- footer opens -->
 <?php include_once(__DIR__ . "./includes/footer.php"); ?>
 <!-- footer closes -->
