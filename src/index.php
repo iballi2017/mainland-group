@@ -191,7 +191,7 @@
 
             <!-- Testimonials Sliders -->
             <div class="w-full max-w-[1050px] mx-auto">
-                <div class="owl-carousel owl-theme | testimonial-sliders" id="testimonial-sliders">
+                <div class="owl-carousel owl-theme | testimonial-carousel" id="testimonial-carousel">
                     <blockquote class="text-sm grid grid-cols-3 gap-y-4 md:gap-y-0 bg-theme-clr-white text-on-theme-clr-white rounded-md p-4 md:px-4 md:py-8">
                         <div class="col-span-3 md:col-span-1 text-center md:ps-4 md:pe-4">
                             <div class="h-16 w-16 rounded-full overflow-hidden bg-gray-200 mx-auto mb-4">
@@ -290,7 +290,7 @@
 
             <!-- Blogpost Sliders -->
             <div class="w-full">
-                <div class="owl-carousel owl-theme | blogpost-sliders" id="blogpost-sliders">
+                <div class="owl-carousel owl-theme | blogpost-carousel" id="blogpost-carousel">
 
                     <div> Your Content </div>
                     <div> Your Content </div>
