@@ -85,7 +85,7 @@
     </section>
 
 
-    <section class="bg-theme-light dark:text-on-theme-light py-12 lg:py-20">
+    <section class="bg-theme-clr-light dark:text-on-theme-clr-light py-12 lg:py-20">
         <div class="mg-main-container flex flex-col flex-wrap items-center justify-between mx-auto md:px-4">
             <h2 class="font-semibold text-sm lg:text-lg text-center">OUR SUB - COMPANY</h2>
             <p class="font-bold text-xl lg:text-3xl text-center max-w-[850px] mx-auto">We proudly oversees a diverse portfolio of businesses, each excelling in its field and contributing uniquely to the market</p>
@@ -120,7 +120,7 @@
 
 
 
-    <section class="bg-theme-clr-white dark:text-on-theme-light py-12 lg:py-20">
+    <section class="bg-theme-clr-white dark:text-on-theme-clr-light py-12 lg:py-20">
         <div class="mg-main-container flex flex-col flex-wrap items-center justify-between mx-auto md:px-4">
             <h2 class="font-semibold text-sm lg:text-lg text-center">CHECK OUR GALLERY</h2>
             <p class="font-bold text-xl lg:text-3xl text-center max-w-[850px] mx-auto">
@@ -133,7 +133,7 @@
                 <div class="col-span-12 md:col-span-4 lg:pb-12">
                     <div class="relative shadow-md bg-theme-clr-white h-full flex flex-col items-center justify-center">
                         <img loading="lazy" src="./assets/images/mainlandsolar-gallery-feature-image.png" alt="Mainlandsolar" class="w-full">
-                        <div class="absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-white text-on-theme-clr-white shadow-md lg:-bottom-12">
+                        <div class="absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-light text-on-theme-clr-light shadow-md lg:-bottom-12">
                             <h5 class="lg:font-semibold">Mainland Solar</h5>
                             <p class="font-semibold lg:font-bold text-xl">Fixing Solar panel of a client</p>
                         </div>
@@ -142,7 +142,7 @@
                 <div class="col-span-12 md:col-span-4 lg:pb-12">
                     <div class="relative shadow-md bg-theme-clr-white h-full flex flex-col items-center justify-center">
                         <img loading="lazy" src="./assets/images/vanlagos-gallery-feature-image.png" alt="Mainlandsolar" class="w-full">
-                        <div class="absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-white text-on-theme-clr-white shadow-md lg:-bottom-12">
+                        <div class="absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-light text-on-theme-clr-light shadow-md lg:-bottom-12">
                             <h5 class="lg:font-semibold">Van lagos</h5>
                             <p class="font-semibold lg:font-bold text-xl">Moving our Clent to their various desination</p>
                         </div>
@@ -151,7 +151,7 @@
                 <div class="col-span-12 md:col-span-4 lg:pb-12">
                     <div class="relative shadow-md bg-theme-clr-white h-full flex flex-col items-center justify-center">
                         <img loading="lazy" src="./assets/images/studiomainland-gallery-feature-image.png" alt="Mainlandsolar" class="w-full">
-                        <div class="absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-white text-on-theme-clr-white shadow-md lg:-bottom-12">
+                        <div class="absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-light text-on-theme-clr-light shadow-md lg:-bottom-12">
                             <h5 class="lg:font-semibold">Studio Mainland</h5>
                             <p class="font-semibold lg:font-bold text-xl">Working on an Adidas Marketing Project</p>
                         </div>
@@ -160,7 +160,7 @@
                 <div class="col-span-12 md:col-span-4 lg:pb-12">
                     <div class="relative shadow-md bg-theme-clr-white h-full flex flex-col items-center justify-center">
                         <img loading="lazy" src="./assets/images/lagoscart-gallery-feature-image.png" alt="Mainlandsolar" class="w-full">
-                        <div class="absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-white text-on-theme-clr-white shadow-md lg:-bottom-12">
+                        <div class="absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-light text-on-theme-clr-light shadow-md lg:-bottom-12">
                             <h5 class="lg:font-semibold">Lagos Cart</h5>
                             <p class="font-semibold lg:font-bold text-xl">Fixing Solar panel of a client</p>
                         </div>
@@ -265,7 +265,7 @@
     </section>
 
 
-    <section class="bg-theme-clr-white dark:text-on-theme-light py-12 lg:py-20">
+    <section class="bg-theme-clr-white dark:text-on-theme-clr-light py-12 lg:py-20">
         <div class="mg-main-container flex flex-col flex-wrap mx-auto md:px-4">
 
             <div class="flex items-center justify-between gap-8">

@@ -24,7 +24,7 @@ after:right-0 after:left-1/2 after:w-1/2
           </a>
         </div>
         <div class="col-span-12 sm:col-span-10">
-          <div class="top-bar | bg-theme-light text-on-theme-light py-2 px-2 sm:px-4 md:px-8">
+          <div class="top-bar | bg-theme-clr-light text-on-theme-clr-light py-2 px-2 sm:px-4 md:px-8">
             <div class="flex items-center justify-between gap-2 flex-wrap">
               <ul class="sm:flex items-center gap-4 text-sm">
                 <li class="flex items-center gap-2">
