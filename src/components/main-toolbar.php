@@ -16,7 +16,7 @@ before:left-0 before:right-1/2 before:w-1/2
 after:content[''] after:bg-theme-clr-white after:h-full after:block after:absolute after:top-0 after:bottom-0 after:-z-10  
 after:right-0 after:left-1/2 after:w-1/2
 ">
-    <div class="mg-main-wrapper flex flex-wrap items-center justify-between mx-auto md:px-4">
+    <div class="mg-main-wrapper">
       <div class="grid grid-cols-12 w-full">
         <div class="col-span-12 sm:col-span-2 bg-[#1B3512] text-white flex items-center justify-center py-4">
           <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">

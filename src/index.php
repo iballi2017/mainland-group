@@ -8,7 +8,7 @@
 
 <main>
     <section class="bg-theme-clr-white">
-        <div class="mg-main-wrapper flex flex-wrap items-center justify-between mx-auto md:px-4">
+        <div class="mg-main-wrapper">
             <div id="default-carousel" class="relative w-full" data-carousel="slide">
                 <!-- Carousel wrapper -->
                 <div class="relative overflow-hidden h-56 md:h-[567px]">
@@ -61,7 +61,7 @@
 
 
     <section class="bg-theme-clr-white py-12 lg:py-20">
-        <div class="mg-main-container flex flex-wrap items-center justify-between mx-auto md:px-4">
+        <div class="mg-main-container">
 
             <div class="grid grid-cols-12 gap-4 lg:gap-8 items-center max-w-[1200px] mx-auto">
                 <div class="col-span-12 md:col-span-6 hidden md:block">

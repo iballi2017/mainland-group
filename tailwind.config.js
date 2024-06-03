@@ -30,6 +30,8 @@ module.exports = {
 
       "theme-clr-secondary": 'hsl(var(--theme-clr-secondary) / <alpha-value>)',
       "on-theme-clr-secondary": 'hsl(var(--on-theme-clr-secondary) / <alpha-value>)',
+      
+      "theme-clr-secondary-alt": 'hsl(var(--theme-clr-secondary-alt) / <alpha-value>)',
 
 
       "theme-clr-call-to-action": 'hsl(var(--theme-clr-call-to-action) / <alpha-value>)',
