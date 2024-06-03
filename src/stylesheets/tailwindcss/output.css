@@ -608,6 +608,10 @@ video {
   visibility: visible;
 }
 
+.invisible {
+  visibility: hidden;
+}
+
 .collapse {
   visibility: collapse;
 }
@@ -768,6 +772,10 @@ video {
 
 .me-3 {
   margin-inline-end: 0.75rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
 }
 
 .mt-3 {
@@ -1138,6 +1146,10 @@ video {
   background-color: rgb(0 0 0 / 0.75);
 }
 
+.bg-black\/80 {
+  background-color: rgb(0 0 0 / 0.8);
+}
+
 .bg-primary {
   background-color: hsl(var(--theme-clr-primary));
 }
@@ -1157,6 +1169,11 @@ video {
   background-color: hsl(var(--theme-clr-secondary) / var(--tw-bg-opacity));
 }
 
+.bg-theme-clr-secondary-alt {
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--theme-clr-secondary-alt) / var(--tw-bg-opacity));
+}
+
 .bg-theme-clr-white {
   --tw-bg-opacity: 1;
   background-color: hsl(var(--theme-clr-white) / var(--tw-bg-opacity));
@@ -1169,11 +1186,6 @@ video {
 
 .bg-white\/30 {
   background-color: rgb(255 255 255 / 0.3);
-}
-
-.bg-theme-clr-secondary-alt {
-  --tw-bg-opacity: 1;
-  background-color: hsl(var(--theme-clr-secondary-alt) / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-b {
@@ -1703,6 +1715,18 @@ video {
   --tw-ring-color: hsl(var(--theme-clr-accent) / var(--tw-ring-opacity));
 }
 
+.group:hover .group-hover\:visible {
+  visibility: visible;
+}
+
+.group:hover .group-hover\:flex {
+  display: flex;
+}
+
+.group:hover .group-hover\:hidden {
+  display: none;
+}
+
 .group:hover .group-hover\:bg-white\/50 {
   background-color: rgb(255 255 255 / 0.5);
 }
@@ -2204,5 +2228,29 @@ video {
   .md\:dark\:hover\:bg-transparent:hover:where(.dark, .dark *) {
     background-color: rgba(0, 0, 0, 0.0);
   }
+}
+
+.\[\&\>\:firs-child\]\:invisible>:firs-child {
+  visibility: hidden;
+}
+
+.\[\&\>\:first-child\]\:invisible>:first-child {
+  visibility: hidden;
+}
+
+.hover\:\[\&\>\:first-child\]\:visible>:first-child:hover {
+  visibility: visible;
+}
+
+.\[\&\>\:last-child\]\:invisible>:last-child {
+  visibility: hidden;
+}
+
+.hover\:\[\&\>\:last-child\]\:visible>:last-child:hover {
+  visibility: visible;
+}
+
+.hover\:\[\&\>\:last-child\]\:invisible>:last-child:hover {
+  visibility: hidden;
 }
 

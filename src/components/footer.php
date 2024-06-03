@@ -107,10 +107,14 @@
 
     <div class="bg-theme-clr-secondary-alt dark:bg-black text-white text-xs py-4">
         <div class="mg-main-container">
-            <div class="flex items-center justify-between">
-                <p>MAINLAND EDGE BUSINESS</p>
+            <div class="flex items-center justify-between flex-wrap gap-y-4">
+                <p>
+                    <a href="#">MAINLAND EDGE BUSINESS</a>
+                </p>
                 <p>Copyright &nbsp; 2024 All Rights Reserved</p>
-                <p>Piracy & Policy</p>
+                <p>
+                    <a href="#">Piracy & Policy</a>
+                </p>
             </div>
         </div>
     </div>

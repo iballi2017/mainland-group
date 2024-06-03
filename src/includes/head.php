@@ -16,6 +16,8 @@
     <!-- owlCarousel css -->
     <link rel="stylesheet" href="./libs/OwlCarousel2-2.3.4/owl.carousel.min.css">
     <link rel="stylesheet" href="./libs/OwlCarousel2-2.3.4/owl.theme.default.min.css">
+    <!-- Animate.CSS 4.1.1 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <!-- custom stylesheet -->
     <link rel="stylesheet" href="./stylesheets/main.css">
 </head>

@@ -2,7 +2,7 @@
 
 
 <!-- page-search -->
-<div class="page-search overlay-ctrl | absolute left-4 right-4 sm:left-32 sm:right-32  lg:left-80 lg:right-80 top-40 md:top-64 z-50">
+<div class="page-search overlay-ctrl | fixed left-4 right-4 sm:left-32 sm:right-32  lg:left-80 lg:right-80 top-40 md:top-64 z-50">
   <form>
     <div class="relative rounded-lg overflow-hidden">
       <button class="absolute z-10 inset-y-0 end-0 flex items-center ps-3.5 pe-3.5 bg-primary focus:ring-accent-50 focus:border-accent-50">
@@ -20,7 +20,10 @@
   </button>
 </div>
 
+
+
 <!-- jquery-3.7.1.js -->
+<script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="./libs/jquery-3.7.1.js"></script>
 <!-- flowbite js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>

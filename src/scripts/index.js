@@ -1,6 +1,7 @@
 import ConfigureUiDisplayFontSizes from "./ConfigureUiDisplayFontSizes.js";
 import ConfigureUiDisplayModes from "./ConfigureUiDisplayModes.js";
 import CreateHtmlElement from "./CreateHtmlElement.js";
+import History from "./History.js";
 import Overlay from "./overlay.js";
 
 
@@ -20,6 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         handlePageSearch();
         hideOverlay();
+        handleHistory();
 
 
     };
@@ -49,6 +51,23 @@ document.addEventListener("DOMContentLoaded", () => {
             OverlayObj.hide();
             toggleOverlay();
         })
+    }
+
+
+    function handleHistory() {
+
+        // /**Go back with button clicked */
+        const goBackWithButtonClicked = () => {
+            const triggers = document.querySelectorAll(".back-history-btn");
+            for (let i = 0; i < triggers.length; i++) {
+                const button = triggers[i];
+                button.addEventListener("click", () => {
+                    const history = new History();
+                    history.goBack();
+                });
+            }
+        }
+        goBackWithButtonClicked();
     }
 
 
