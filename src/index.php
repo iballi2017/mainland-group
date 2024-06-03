@@ -86,7 +86,7 @@
 
 
     <section class="bg-theme-clr-light dark:text-on-theme-clr-light py-12 lg:py-20">
-        <div class="mg-main-container flex flex-col flex-wrap items-center justify-between mx-auto md:px-4">
+        <div class="mg-main-container">
             <h2 class="font-semibold text-sm lg:text-lg text-center">OUR SUB - COMPANY</h2>
             <p class="font-bold text-xl lg:text-3xl text-center max-w-[850px] mx-auto">We proudly oversees a diverse portfolio of businesses, each excelling in its field and contributing uniquely to the market</p>
 
@@ -121,7 +121,7 @@
 
 
     <section class="bg-theme-clr-white dark:text-on-theme-clr-light py-12 lg:py-20">
-        <div class="mg-main-container flex flex-col flex-wrap items-center justify-between mx-auto md:px-4">
+        <div class="mg-main-container items-center">
             <h2 class="font-semibold text-sm lg:text-lg text-center">CHECK OUR GALLERY</h2>
             <p class="font-bold text-xl lg:text-3xl text-center max-w-[850px] mx-auto">
                 Let's check our Project we have done
@@ -169,10 +169,12 @@
             </div>
             <div class="h-4"></div>
             <div class="h-4"></div>
-            <?php
-            $label = "View all";
-            $url = "#";
-            include(__DIR__ . "./shared/widgets/call-to-action.php"); ?>
+            <div class="text-center">
+                <?php
+                $label = "View all";
+                $url = "#";
+                include(__DIR__ . "./shared/widgets/call-to-action.php"); ?>
+            </div>
 
         </div>
 
