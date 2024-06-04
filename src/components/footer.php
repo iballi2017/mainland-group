@@ -3,7 +3,7 @@
         <div class="mg-main-container flex flex-col flex-wrap items-center justify-between mx-auto md:px-4">
             <div class="grid grid-cols-12 gap-4 w-full text-sm">
                 <div class="col-span-6 md:col-span-3">
-                    <h6 class="text-lg font-semibold mb-4">Quick links</h6>
+                    <h3 class="text-lg font-semibold mb-4">Quick links</h3>
                     <ul>
                         <li class="mb-2 md:mb-4"><a href="#">About</a></li>
                         <li class="mb-2 md:mb-4"><a href="#">Gallery</a></li>
@@ -13,7 +13,7 @@
                     </ul>
                 </div>
                 <div class="col-span-6 md:col-span-3">
-                    <h6 class="text-lg font-semibold mb-4">Sub-company</h6>
+                    <h3 class="text-lg font-semibold mb-4">Sub-company</h3>
                     <ul>
                         <li class="mb-2 md:mb-4"><a href="#">Lagos cart</a></li>
                         <li class="mb-2 md:mb-4"><a href="#">Van Lagos</a></li>
@@ -22,7 +22,7 @@
                     </ul>
                 </div>
                 <div class="col-span-12 md:col-span-3">
-                    <h6 class="text-lg font-semibold mb-4">Contact</h6>
+                    <h3 class="text-lg font-semibold mb-4">Contact</h3>
                     <ul>
                         <li class="flex items-start gap-2 mb-2 md:mb-4">
                             <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -61,7 +61,7 @@
                     </ul>
                 </div>
                 <div class="col-span-12 md:col-span-3">
-                    <h6 class="text-lg font-semibold mb-4">Recent Updates</h6>
+                    <h3 class="text-lg font-semibold mb-4">Recent Updates</h3>
                     <ul>
                         <li class="mb-4">
                             <a href="#">

@@ -11,24 +11,41 @@
         <div class="mg-main-wrapper">
             <div id="default-carousel" class="relative w-full" data-carousel="slide">
                 <!-- Carousel wrapper -->
-                <div class="relative overflow-hidden h-56 md:h-[567px]">
+                <!-- <div class="relative overflow-hidden h-56 md:h-[567px]"> -->
+                <div class="relative overflow-hidden h-56 md:h-[80vh]">
                     <!-- Slide 1 -->
                     <div class="hidden duration-700 ease-in-out" data-carousel-item>
                         <img loading="lazy" src="./assets/images/hero-slider-1-image.jpg" class="absolute x-z-1 block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Ignite Innovation">
                         <div class="absolute z-2 block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
                             <div class="text-center text-white max-w-2xl mx-auto">
-                                <h1 class="text-2xl lg:text-4xl font-bold">Ignite Innovations</h1>
-                                <p class="text-lg lg:text-2xl font-semibold">Transforming Visions into Reality: Your Partner in Cutting-Edge Solutions</p>
+                                <h1 class="text-2xl lg:text-5xl font-bold">Corrupti amet nobis repellendus</h1>
+                                <p class="text-lg lg:text-2xl font-semibold">
+                                    Autem vero suscipit eum iste vel atque architecto, animi quod sint rem natus
+                                </p>
                             </div>
                         </div>
                     </div>
                     <!-- Slide 2 -->
                     <div class="hidden duration-700 ease-in-out" data-carousel-item>
                         <img loading="lazy" src="./assets/images/hero-slider-2-image.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                        <div class="absolute z-2 block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
+                            <div class="text-center text-white max-w-2xl mx-auto">
+                                <h1 class="text-2xl lg:text-5xl font-bold">Ignite Innovations</h1>
+                                <p class="text-lg lg:text-2xl font-semibold">Transforming Visions into Reality: Your Partner in Cutting-Edge Solutions</p>
+                            </div>
+                        </div>
                     </div>
                     <!-- Slide 3 -->
                     <div class="hidden duration-700 ease-in-out" data-carousel-item>
                         <img loading="lazy" src="./assets/images/hero-slider-3-image.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                        <div class="absolute z-2 block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
+                            <div class="text-center text-white max-w-2xl mx-auto">
+                                <h1 class="text-2xl lg:text-5xl font-bold">Nulla quis quasi quia sit,</h1>
+                                <p class="text-lg lg:text-2xl font-semibold">
+                                    Sunt, aut. Maiores labore doloremque debitis! Nulla voluptatem, culpa quod sint
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <!-- Slider indicators -->
@@ -168,7 +185,7 @@
                     <div class="relative shadow-md bg-theme-clr-white h-full flex flex-col items-center justify-center">
                         <img loading="lazy" src="./assets/images/mainlandsolar-gallery-feature-image.png" alt="Mainlandsolar" class="w-full">
                         <div class="absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-light text-on-theme-clr-light shadow-md lg:-bottom-12">
-                            <h5 class="lg:font-semibold">Mainland Solar</h5>
+                            <h4 class="lg:font-semibold">Mainland Solar</h4>
                             <p class="font-semibold lg:font-bold text-xl">Fixing Solar panel of a client</p>
                         </div>
                     </div>
@@ -177,7 +194,7 @@
                     <div class="relative shadow-md bg-theme-clr-white h-full flex flex-col items-center justify-center">
                         <img loading="lazy" src="./assets/images/vanlagos-gallery-feature-image.png" alt="Mainlandsolar" class="w-full">
                         <div class="absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-light text-on-theme-clr-light shadow-md lg:-bottom-12">
-                            <h5 class="lg:font-semibold">Van lagos</h5>
+                            <h4 class="lg:font-semibold">Van lagos</h4>
                             <p class="font-semibold lg:font-bold text-xl">Moving our Clent to their various desination</p>
                         </div>
                     </div>
@@ -186,7 +203,7 @@
                     <div class="relative shadow-md bg-theme-clr-white h-full flex flex-col items-center justify-center">
                         <img loading="lazy" src="./assets/images/studiomainland-gallery-feature-image.png" alt="Mainlandsolar" class="w-full">
                         <div class="absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-light text-on-theme-clr-light shadow-md lg:-bottom-12">
-                            <h5 class="lg:font-semibold">Studio Mainland</h5>
+                            <h4 class="lg:font-semibold">Studio Mainland</h4>
                             <p class="font-semibold lg:font-bold text-xl">Working on an Adidas Marketing Project</p>
                         </div>
                     </div>
@@ -195,7 +212,7 @@
                     <div class="relative shadow-md bg-theme-clr-white h-full flex flex-col items-center justify-center">
                         <img loading="lazy" src="./assets/images/lagoscart-gallery-feature-image.png" alt="Mainlandsolar" class="w-full">
                         <div class="absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-light text-on-theme-clr-light shadow-md lg:-bottom-12">
-                            <h5 class="lg:font-semibold">Lagos Cart</h5>
+                            <h4 class="lg:font-semibold">Lagos Cart</h4>
                             <p class="font-semibold lg:font-bold text-xl">Fixing Solar panel of a client</p>
                         </div>
                     </div>
@@ -227,9 +244,8 @@
 
             <!-- Testimonials Sliders -->
             <div class="w-full max-w-[1050px] mx-auto text-center">
-
                 <div class="owl-carousel owl-theme | testimonial-carousel" id="testimonial-carousel">
-                    <blockquote class="text-sm grid grid-cols-3 gap-y-4 md:gap-y-0 bg-theme-clr-white text-on-theme-clr-white rounded-md p-4 md:px-4 md:py-8">
+                    <blockquote class="md:h-56 text-sm grid grid-cols-3 items-center gap-y-4 md:gap-y-0 bg-theme-clr-white text-on-theme-clr-white rounded-md p-4 md:px-4 md:py-8">
                         <div class="col-span-3 md:col-span-1 text-center md:ps-4 md:pe-4">
                             <div class="h-16 w-16 rounded-full overflow-hidden bg-gray-200 mx-auto mb-4">
                                 <img src="./assets/images/user-black-avatar.svg" alt="Paul Davids">
@@ -237,11 +253,11 @@
                             <h5>Founder of Olasco</h5>
                             <p class="font-semibold">Paul Davids</p>
                         </div>
-                        <div class="col-span-3 md:col-span-2 md:border-s md:border-on-theme-clr-white md:ps-4 md:pe-4 text-center md:text-left">
+                        <div class="col-span-3 md:col-span-2 h-full flex items-center overflow-hidden md:border-s md:border-on-theme-clr-white md:ps-4 md:pe-4 text-center md:text-left">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. consectetur adipiscing elit, Quis ipsum suspendisse </p>
                         </div>
                     </blockquote>
-                    <blockquote class="text-sm grid grid-cols-3 gap-y-4 md:gap-y-0 bg-theme-clr-white text-on-theme-clr-white rounded-md p-4 md:px-4 md:py-8">
+                    <blockquote class="md:h-56 text-sm grid grid-cols-3 items-center gap-y-4 md:gap-y-0 bg-theme-clr-white text-on-theme-clr-white rounded-md p-4 md:px-4 md:py-8">
                         <div class="col-span-3 md:col-span-1 text-center md:ps-4 md:pe-4">
                             <div class="h-16 w-16 rounded-full overflow-hidden bg-gray-200 mx-auto mb-4">
                                 <img src="./assets/images/user-black-avatar.svg" alt="Paul Davids">
@@ -249,13 +265,13 @@
                             <h5>Software Tester</h5>
                             <p class="font-semibold">John Doe</p>
                         </div>
-                        <div class="col-span-3 md:col-span-2 md:border-s md:border-on-theme-clr-white md:ps-4 md:pe-4 text-center md:text-left">
+                        <div class="col-span-3 md:col-span-2 h-full flex items-center overflow-hidden md:border-s md:border-on-theme-clr-white md:ps-4 md:pe-4 text-center md:text-left">
                             <p>
                                 Commodi sapiente sequi voluptas ex quasi, quia mollitia dolorum distinctio at facilis similique aliquid omnis eos aspernatur fuga doloribus minima voluptates nostrum assumenda asperiores veritatis.
                             </p>
                         </div>
                     </blockquote>
-                    <blockquote class="text-sm grid grid-cols-3 gap-y-4 md:gap-y-0 bg-theme-clr-white text-on-theme-clr-white rounded-md p-4 md:px-4 md:py-8">
+                    <blockquote class="md:h-56 text-sm grid grid-cols-3 items-center gap-y-4 md:gap-y-0 bg-theme-clr-white text-on-theme-clr-white rounded-md p-4 md:px-4 md:py-8">
                         <div class="col-span-3 md:col-span-1 text-center md:ps-4 md:pe-4">
                             <div class="h-16 w-16 rounded-full overflow-hidden bg-gray-200 mx-auto mb-4">
                                 <img src="./assets/images/user-black-avatar.svg" alt="Paul Davids">
@@ -263,13 +279,13 @@
                             <h5>Digital Marketer</h5>
                             <p class="font-semibold">Benjamin Noah</p>
                         </div>
-                        <div class="col-span-3 md:col-span-2 md:border-s md:border-on-theme-clr-white md:ps-4 md:pe-4 text-center md:text-left">
+                        <div class="col-span-3 md:col-span-2 h-full flex items-center overflow-hidden md:border-s md:border-on-theme-clr-white md:ps-4 md:pe-4 text-center md:text-left">
                             <p>
                                 Eaque hic nam voluptate. Voluptatem tempora ab officia et laudantium unde laboriosam corrupti inventore? Iusto expedita molestiae inventore.
                             </p>
                         </div>
                     </blockquote>
-                    <blockquote class="text-sm grid grid-cols-3 gap-y-4 md:gap-y-0 bg-theme-clr-white text-on-theme-clr-white rounded-md p-4 md:px-4 md:py-8">
+                    <blockquote class="md:h-56 text-sm grid grid-cols-3 items-center gap-y-4 md:gap-y-0 bg-theme-clr-white text-on-theme-clr-white rounded-md p-4 md:px-4 md:py-8">
                         <div class="col-span-3 md:col-span-1 text-center md:ps-4 md:pe-4">
                             <div class="h-16 w-16 rounded-full overflow-hidden bg-gray-200 mx-auto mb-4">
                                 <img src="./assets/images/user-black-avatar.svg" alt="Paul Davids">
@@ -277,7 +293,7 @@
                             <h5>Sport Critic</h5>
                             <p class="font-semibold">Lucas Muora</p>
                         </div>
-                        <div class="col-span-3 md:col-span-2 md:border-s md:border-on-theme-clr-white md:ps-4 md:pe-4 text-center md:text-left">
+                        <div class="col-span-3 md:col-span-2 h-full flex items-center overflow-hidden md:border-s md:border-on-theme-clr-white md:ps-4 md:pe-4 text-center md:text-left">
                             <p>
                                 Sit officiis pariatur natus temporibus cum iure? Reprehenderit culpa, nobis necessitatibus dolor totam nesciunt minus nihil placeat saepe molestias vitae facilis maxime!
                             </p>
@@ -333,16 +349,25 @@
                             <img class="rounded-t-lg" src="./assets/images/power-outage-looms-round-the-nation-after-power-grid-collapse.png" alt="Noteworthy technology acquisitions 2021" />
                         </a>
                         <div class="p-5 text-left">
-                            <a href="#">
-                                <h5 class="mb-2 text-xl md:text-2xl font-bold tracking-tight">
-                                    Power outage looms round the nation after power grid collapse
-                                </h5>
+                            <a href="#" class="hover:text-primary">
+                                <h4 class="mb-2 text-xl md:text-2xl font-bold tracking-tight h-[100px] overflow-hidden"
+                                title="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui natus amet quam deleniti ipsum praesentium possimus quis vitae eveniet veniam assumenda fugiat, soluta ab minima doloribus veritatis quo eaque? Commodi saepe, inventore sequi optio praesentium iste nemo hic molestiae accusamus!">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui natus amet quam deleniti ipsum praesentium possimus quis vitae eveniet veniam assumenda fugiat, soluta ab minima doloribus veritatis quo eaque? Commodi saepe, inventore sequi optio praesentium iste nemo hic molestiae accusamus!
+                                </h4>
                             </a>
-                            <p class="mb-3 font-normal">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                            <?php
-                            $label = "Read more";
-                            $url = "#";
-                            include(__DIR__ . "./shared/widgets/call-to-action.php"); ?>
+                        </div>
+                    </div>
+
+                    <div class="bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        <a href="#" class="block h-56 md:h-72 overflow-hidden">
+                            <img class="rounded-t-lg" src="./assets/images/power-outage-looms-round-the-nation-after-power-grid-collapse.png" alt="Noteworthy technology acquisitions 2021" />
+                        </a>
+                        <div class="p-5 text-left">
+                            <a href="#" class="hover:text-primary">
+                                <h4 class="mb-2 text-xl md:text-2xl font-bold tracking-tight h-[100px] overflow-hidden">
+                                    Power outage looms round the nation after power grid collapse
+                                </h4>
+                            </a>
                         </div>
                     </div>
 
@@ -351,16 +376,11 @@
                             <img class="rounded-t-lg" src="./assets/images/fuel-scarcity-and-hike-in-price-may-cause-slow-productivity.png" alt="Fuel Scarcity and hike in price may cause slow productivity." />
                         </a>
                         <div class="p-5 text-left">
-                            <a href="#">
-                                <h5 class="mb-2 text-xl md:text-2xl font-bold tracking-tight">
+                            <a href="#" class="hover:text-primary">
+                                <h4 class="mb-2 text-xl md:text-2xl font-bold tracking-tight h-[100px] overflow-hidden">
                                     Fuel Scarcity and hike in price may cause slow productivity.
-                                </h5>
+                                </h4>
                             </a>
-                            <p class="mb-3 font-normal">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                            <?php
-                            $label = "Read more";
-                            $url = "#";
-                            include(__DIR__ . "./shared/widgets/call-to-action.php"); ?>
                         </div>
                     </div>
 
@@ -369,16 +389,11 @@
                             <img class="rounded-t-lg" src="./assets/images/food-price-increases-by-200-percent-progression-say-it-may-increase.png" alt="food price increases by 200%, progression say it may increase" />
                         </a>
                         <div class="p-5 text-left">
-                            <a href="#">
-                                <h5 class="mb-2 text-xl md:text-2xl font-bold tracking-tight">
+                            <a href="#" class="hover:text-primary">
+                                <h4 class="mb-2 text-xl md:text-2xl font-bold tracking-tight h-[100px] overflow-hidden">
                                     Food price increases by 200%, progression say it may increase.
-                                </h5>
+                                </h4>
                             </a>
-                            <p class="mb-3 font-normal">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                            <?php
-                            $label = "Read more";
-                            $url = "#";
-                            include(__DIR__ . "./shared/widgets/call-to-action.php"); ?>
                         </div>
                     </div>
 
@@ -398,13 +413,6 @@
             </div>
 
         </div>
-
-        <!-- <div class="h-8 md:h-12"></div>
-
-        <div class="h-4"></div>
-        <div class="h-4"></div>
-
-        </div> -->
 
     </section>
 </main>
