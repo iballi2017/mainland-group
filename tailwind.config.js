@@ -19,9 +19,6 @@ module.exports = {
       "secondary": "hsl(var(--theme-clr-secondary))",
       // "secondary-alt": "hsl(var(--theme-clr-secondary-alt))",
 
-      "accent": "hsl(var(--theme-clr-accent))",
-
-
       "theme-clr-white": 'hsl(var(--theme-clr-white) / <alpha-value>)',
       "on-theme-clr-white": 'hsl(var(--on-theme-clr-white) / <alpha-value>)',
 
@@ -30,7 +27,7 @@ module.exports = {
 
       "theme-clr-secondary": 'hsl(var(--theme-clr-secondary) / <alpha-value>)',
       "on-theme-clr-secondary": 'hsl(var(--on-theme-clr-secondary) / <alpha-value>)',
-      
+
       "theme-clr-secondary-alt": 'hsl(var(--theme-clr-secondary-alt) / <alpha-value>)',
 
 

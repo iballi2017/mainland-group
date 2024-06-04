@@ -86,4 +86,10 @@
   &:hover {
     background: var(--clr-primary);
   }
+
+  &:focus{
+    outline: none;
+    // border: 1px solid var(--clr-accent);
+    box-shadow: 0 0 0 1px var(--clr-accent);
+  }
 }

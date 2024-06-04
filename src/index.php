@@ -11,8 +11,7 @@
         <div class="mg-main-wrapper">
             <div id="default-carousel" class="relative w-full" data-carousel="slide">
                 <!-- Carousel wrapper -->
-                <!-- <div class="relative overflow-hidden h-56 md:h-[567px]"> -->
-                <div class="relative overflow-hidden h-56 md:h-[80vh]">
+                <div class="relative overflow-hidden h-56 md:h-[570px]">
                     <!-- Slide 1 -->
                     <div class="hidden duration-700 ease-in-out" data-carousel-item>
                         <img loading="lazy" src="./assets/images/hero-slider-1-image.jpg" class="absolute x-z-1 block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Ignite Innovation">
@@ -109,23 +108,24 @@
 
             <div class="grid grid-cols-12 gap-2 md:gap-8 w-full max-w-[1000px] mx-auto">
                 <div class="col-span-6 md:col-span-3">
-                    <div class="group relative rounded-lg overflow-hidden shadow-md bg-theme-clr-white px-8 py-12 h-full flex items-center justify-center">
+                    <div tabindex="0" class="focus:border group relative rounded-lg overflow-hidden shadow-md bg-theme-clr-white px-8 py-12 h-full flex items-center justify-center">
                         <img src="./assets/images/our-sub-company-logos/lagoscart-brand-logo.svg" alt="Lagoscart" class="">
-                        <p class="invisible group-hover:visible bg-black/80 text-white text-sm p-4 absolute top-0 bottom-0 left-0 right-0 flex flex-col items-center justify-center text-center">
+                        <p class="invisible group-hover:visible group-focus:visible bg-black/80 text-white text-sm p-4 absolute top-0 bottom-0 left-0 right-0 flex flex-col items-center justify-center text-center">
                             Your one-stop online marketplace for a wide range of products from groceries to electronics.
                             <span class="text-xs mt-2">
                                 <?php
                                 $label = "Visit page";
                                 $url = "#";
+                                $tabIndex="0";
                                 include("./shared/widgets/call-to-action.php"); ?>
                             </span>
                         </p>
                     </div>
                 </div>
                 <div class="col-span-6 md:col-span-3">
-                    <div class="group relative rounded-lg overflow-hidden shadow-md bg-theme-clr-white px-8 py-12 h-full flex items-center justify-center">
+                    <div tabindex="0" class="focus:border group relative rounded-lg overflow-hidden shadow-md bg-theme-clr-white px-8 py-12 h-full flex items-center justify-center">
                         <img src="./assets/images/our-sub-company-logos/vanlagos-brand-logo.svg" alt="Vanlagos" class="">
-                        <p class="invisible group-hover:visible bg-black/80 text-white text-sm p-4 absolute top-0 bottom-0 left-0 right-0 flex flex-col items-center justify-center text-center">
+                        <p class="invisible group-hover:visible group-focus:visible bg-black/80 text-white text-sm p-4 absolute top-0 bottom-0 left-0 right-0 flex flex-col items-center justify-center text-center">
                             Offering reliable and efficient van rental services tailored to meet your transportation needs.
                             <span class="text-xs mt-2">
                                 <?php
@@ -137,9 +137,9 @@
                     </div>
                 </div>
                 <div class="col-span-6 md:col-span-3">
-                    <div class="group relative rounded-lg overflow-hidden shadow-md bg-theme-clr-white px-8 py-12 h-full flex items-center justify-center">
+                    <div tabindex="0" class="focus:border group relative rounded-lg overflow-hidden shadow-md bg-theme-clr-white px-8 py-12 h-full flex items-center justify-center">
                         <img src="./assets/images/our-sub-company-logos/mainlandsolar-brand-logo.svg" alt="mainlandsolar" class="">
-                        <p class="invisible group-hover:visible bg-black/80 text-white text-sm p-4 absolute top-0 bottom-0 left-0 right-0 flex flex-col items-center justify-center text-center">
+                        <p class="invisible group-hover:visible group-focus:visible bg-black/80 text-white text-sm p-4 absolute top-0 bottom-0 left-0 right-0 flex flex-col items-center justify-center text-center">
                             Leading the way in renewable energy solutions, providing solar power installations and services.
                             <span class="text-xs mt-2">
                                 <?php
@@ -151,9 +151,9 @@
                     </div>
                 </div>
                 <div class="col-span-6 md:col-span-3">
-                    <div class="group relative rounded-lg overflow-hidden shadow-md bg-theme-clr-white px-8 py-12 h-full flex items-center justify-center">
+                    <div tabindex="0" class="focus:border group relative rounded-lg overflow-hidden shadow-md bg-theme-clr-white px-8 py-12 h-full flex items-center justify-center">
                         <img src="./assets/images/our-sub-company-logos/studiomainland-brand-logo.svg" alt="studiomainland" class="">
-                        <p class="invisible group-hover:visible bg-black/80 text-white text-sm p-4 absolute top-0 bottom-0 left-0 right-0 flex flex-col items-center justify-center text-center">
+                        <p class="invisible group-hover:visible group-focus:visible bg-black/80 text-white text-sm p-4 absolute top-0 bottom-0 left-0 right-0 flex flex-col items-center justify-center text-center">
                             A premier destination for creative professionals, offering state-of-the-art studio spaces and equipment.
                             <span class="text-xs mt-2">
                                 <?php
@@ -184,7 +184,7 @@
                 <div class="col-span-12 md:col-span-4 lg:pb-12">
                     <div class="relative shadow-md bg-theme-clr-white h-full flex flex-col items-center justify-center">
                         <img loading="lazy" src="./assets/images/mainlandsolar-gallery-feature-image.png" alt="Mainlandsolar" class="w-full">
-                        <a href="#" class="block absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-light hover:bg-theme-clr-white text-on-theme-clr-light shadow-md lg:-bottom-12">
+                        <a href="#" class="focus:outline-none focus:ring focus:ring-accent-50 block absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-light hover:bg-theme-clr-white text-on-theme-clr-light shadow-md lg:-bottom-12">
                             <div class="">
                                 <h4 class="lg:font-semibold">Mainland Solar</h4>
                                 <p class="font-semibold lg:font-bold text-xl">Fixing Solar panel of a client</p>
@@ -195,7 +195,7 @@
                 <div class="col-span-12 md:col-span-4 lg:pb-12">
                     <div class="relative shadow-md bg-theme-clr-white h-full flex flex-col items-center justify-center">
                         <img loading="lazy" src="./assets/images/vanlagos-gallery-feature-image.png" alt="Mainlandsolar" class="w-full">
-                        <a href="#" class="block absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-light hover:bg-theme-clr-white text-on-theme-clr-light shadow-md lg:-bottom-12">
+                        <a href="#" class="focus:outline-none focus:ring focus:ring-accent-50 block absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-light hover:bg-theme-clr-white text-on-theme-clr-light shadow-md lg:-bottom-12">
                             <h4 class="lg:font-semibold">Van lagos</h4>
                             <p class="font-semibold lg:font-bold text-xl">Moving our Clent to their various desination</p>
                         </a>
@@ -204,7 +204,7 @@
                 <div class="col-span-12 md:col-span-4 lg:pb-12">
                     <div class="relative shadow-md bg-theme-clr-white h-full flex flex-col items-center justify-center">
                         <img loading="lazy" src="./assets/images/studiomainland-gallery-feature-image.png" alt="Mainlandsolar" class="w-full">
-                        <a href="#" class="block absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-light hover:bg-theme-clr-white text-on-theme-clr-light shadow-md lg:-bottom-12">
+                        <a href="#" class="focus:outline-none focus:ring focus:ring-accent-50 block absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-light hover:bg-theme-clr-white text-on-theme-clr-light shadow-md lg:-bottom-12">
                             <h4 class="lg:font-semibold">Studio Mainland</h4>
                             <p class="font-semibold lg:font-bold text-xl">Working on an Adidas Marketing Project</p>
                         </a>
@@ -213,7 +213,7 @@
                 <div class="col-span-12 md:col-span-4 lg:pb-12">
                     <div class="relative shadow-md bg-theme-clr-white h-full flex flex-col items-center justify-center">
                         <img loading="lazy" src="./assets/images/lagoscart-gallery-feature-image.png" alt="Mainlandsolar" class="w-full">
-                        <a href="#" class="block absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-light hover:bg-theme-clr-white text-on-theme-clr-light shadow-md lg:-bottom-12">
+                        <a href="#" class="focus:outline-none focus:ring focus:ring-accent-50 block absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-light hover:bg-theme-clr-white text-on-theme-clr-light shadow-md lg:-bottom-12">
                             <h4 class="lg:font-semibold">Lagos Cart</h4>
                             <p class="font-semibold lg:font-bold text-xl">Fixing Solar panel of a client</p>
                         </a>
@@ -310,8 +310,8 @@
                         <!-- Custom dots will be appended here -->
                     </div>
                     <div>
-                        <button class="play-slider-btn | h-[20px] w-[20px] rounded-full border-2 border-[hsl(0, 0%, 74%)] cursor-pointer" aria-label="play"></button>
-                        <button class="pause-slider-btn | h-[20px] w-[20px] rounded-full border-2 border-[hsl(0, 0%, 74%)] cursor-pointer" aria-label="pause"></button>
+                        <button class="play-slider-btn | focus:outline-none focus:ring focus:ring-accent-50 h-[20px] w-[20px] rounded-full border-2 border-[hsl(0, 0%, 74%)] cursor-pointer" aria-label="play"></button>
+                        <button class="pause-slider-btn | focus:outline-none focus:ring focus:ring-accent-50 h-[20px] w-[20px] rounded-full border-2 border-[hsl(0, 0%, 74%)] cursor-pointer" aria-label="pause"></button>
                     </div>
                 </div>
             </div>
@@ -335,7 +335,7 @@
                 </div>
 
 
-                <a href="#" class="text-sm hover:bg-white/50 block uppercase border border-on-theme-clr-white py-2 px-4 rounded-lg whitespace-nowrap">View all</a>
+                <a href="#" class="focus:outline-none focus:ring focus:ring-accent-50 text-sm hover:bg-white/50 block uppercase border border-on-theme-clr-white py-2 px-4 rounded-lg whitespace-nowrap">View all</a>
             </div>
 
             <div class="h-8 md:h-12"></div>
@@ -427,8 +427,8 @@
                         <!-- Custom dots will be appended here -->
                     </div>
                     <div>
-                        <button class="play-slider-btn | h-[20px] w-[20px] rounded-full border-2 border-[hsl(0, 0%, 74%)] cursor-pointer" aria-label="play"></button>
-                        <button class="pause-slider-btn | h-[20px] w-[20px] rounded-full border-2 border-[hsl(0, 0%, 74%)] cursor-pointer" aria-label="pause"></button>
+                        <button class="play-slider-btn | focus:outline-none focus:ring focus:ring-accent-50 h-[20px] w-[20px] rounded-full border-2 border-[hsl(0, 0%, 74%)] cursor-pointer" aria-label="play"></button>
+                        <button class="pause-slider-btn | focus:outline-none focus:ring focus:ring-accent-50 h-[20px] w-[20px] rounded-full border-2 border-[hsl(0, 0%, 74%)] cursor-pointer" aria-label="pause"></button>
                     </div>
                 </div>
             </div>

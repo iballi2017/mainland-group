@@ -9,7 +9,7 @@ after:right-0 lg:after:left-1/2 lg:after:w-1/2
 <!-- </div> -->
 
 
-<header class="">
+<header class="main-toolbar">
   <div class="bg-theme-clr-white relative z-10 
 before:content[''] before:bg-secondary before:h-full before:block before:absolute before:top-0 before:-z-10 
 before:left-0 before:right-1/2 before:w-1/2
@@ -42,7 +42,7 @@ after:right-0 after:left-1/2 after:w-1/2
                       <span class="me-3 text-sm">Font size:
                       </span>
                       <input type="checkbox" value="" class="ui-font-sizes-toggler | sr-only peer">
-                      <div aria-label="toggle font" class="cursor relative w-14 h-6 bg-theme-clr-secondary peer-focus:outline-none rounded-full peer after:absolute after:top-[2px] after:start-[2px] after:bg-accent-50 after:text-white after:border-accent-50 after:border after:rounded-full after:w-5 after:h-5 after:transition-all peer-checked:after:border-black peer-checked:after:bg-transparent before:absolute before:top-[2px] before:end-[2px] before:bg-transparent before:text-white before:border-black before:border before:rounded-full before:w-5 before:h-5 before:transition-all peer-checked:before:border-accent-50 peer-checked:before:bg-accent-50"></div>
+                      <span class="cursor relative w-14 h-6 bg-theme-clr-secondary peer-focus:outline-none rounded-full peer after:absolute after:top-[2px] after:start-[2px] after:bg-accent-50 after:text-white after:border-accent-50 after:border after:rounded-full after:w-5 after:h-5 after:transition-all peer-checked:after:border-black peer-checked:after:bg-transparent before:absolute before:top-[2px] before:end-[2px] before:bg-transparent before:text-white before:border-black before:border before:rounded-full before:w-5 before:h-5 before:transition-all peer-checked:before:border-accent-50 peer-checked:before:bg-accent-50"></span>
                     </label>
                   </li>
                 </ul>
@@ -55,56 +55,57 @@ after:right-0 after:left-1/2 after:w-1/2
                       <span class="me-3 text-sm">Mode:
                       </span>
                       <input type="checkbox" value="" class="ui-mode-toggler | sr-only peer">
-                      <div aria-label="toggle theme mode" class="cursor relative w-14 h-6 bg-accent-50 peer-focus:outline-none rounded-full peer after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-white after:border after:rounded-full after:w-5 after:h-5 after:transition-all peer-checked:after:border-black peer-checked:after:bg-transparent before:absolute before:top-[2px] before:end-[2px] before:bg-transparent before:border-black before:border before:rounded-full before:w-5 before:h-5 before:transition-all peer-checked:before:border-white peer-checked:before:bg-white"></div>
+                      <span class="cursor relative w-14 h-6 bg-accent-50 peer-focus:outline-none rounded-full peer after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-white after:border after:rounded-full after:w-5 after:h-5 after:transition-all peer-checked:after:border-black peer-checked:after:bg-transparent before:absolute before:top-[2px] before:end-[2px] before:bg-transparent before:border-black before:border before:rounded-full before:w-5 before:h-5 before:transition-all peer-checked:before:border-white peer-checked:before:bg-white"></span>
                     </label>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
-          <div class="bg-theme-clr-white | md:flex items-center py-4 md:px-8">
+          <!-- <div class="bg-theme-clr-white | md:flex items-center py-4 md:px-8"> -->
+          <div class="bg-theme-clr-white | md:flex items-center md:px-8">
             <div class="w-full md:w-auto order-1 md:order-2 flex justify-between md:justify-end md:before:content-[''] md:before:bg-primary-500 md:before:w-[1px] md:before:mr-8">
-              <button data-collapse-toggle="navbar-search" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-sticky" aria-expanded="false">
+              <button data-collapse-toggle="navbar" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar" aria-expanded="false">
                 <span class="sr-only">Open main menu</span>
                 <i data-feather="menu" class="text-on-theme-clr-white"></i>
               </button>
-              <button class="search-icon | p-2 w-10 h-10 inline-flex items-center justify-center">
+              <button tabindex="0" class="search-icon | focus:border p-2 w-10 h-10 inline-flex items-center justify-center" aria-label="search">
                 <i data-feather="search" class="text-on-theme-clr-white"></i>
               </button>
             </div>
-            <ul class="hidden order-2 md:order-1 w-full md:mr-8 md:flex flex-col p-2 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:items-center md:justify-between md:mt-0 md:border-0" id="navbar-search">
+            <ul class="hidden order-2 md:order-1 w-full md:mr-8 md:flex flex-col p-2 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:items-center md:justify-between md:mt-0 md:border-0" id="navbar">
               <li>
-                <a href="#" class="block py-2 px-3 text-on-theme-clr-white rounded md:py-0" aria-current="page">
+                <a tabindex="0" href="#" class="nav-link | block py-2 px-3 text-on-theme-clr-white rounded lg:rounded-none md:py-0" aria-current="page">
                   Home
                 </a>
               </li>
               <li>
-                <a href="#" class="block py-2 px-3 text-on-theme-clr-white rounded md:p-0">
+                <a href="#" class="nav-link active | block py-2 px-3 text-on-theme-clr-white rounded lg:rounded-none md:p-0">
                   About
                 </a>
               </li>
               <li>
-                <a href="#" class="block py-2 px-3 text-on-theme-clr-white rounded md:p-0">
+                <a href="#" class="nav-link | block py-2 px-3 text-on-theme-clr-white rounded lg:rounded-none md:p-0">
                   Sub-Company
                 </a>
               </li>
               <li>
-                <a href="#" class="block py-2 px-3 text-on-theme-clr-white rounded md:p-0">
+                <a href="#" class="nav-link | block py-2 px-3 text-on-theme-clr-white rounded lg:rounded-none md:p-0">
                   Portfolio
                 </a>
               </li>
               <li>
-                <a href="#" class="block py-2 px-3 text-on-theme-clr-white rounded md:p-0">
+                <a href="#" class="nav-link | block py-2 px-3 text-on-theme-clr-white rounded lg:rounded-none md:p-0">
                   Blog
                 </a>
               </li>
               <li>
-                <a href="#" class="block py-2 px-3 text-on-theme-clr-white rounded md:p-0">
+                <a href="#" class="nav-link | block py-2 px-3 text-on-theme-clr-white rounded lg:rounded-none md:p-0">
                   Career
                 </a>
               </li>
               <li>
-                <a href="#" class="block py-2 px-3 text-on-theme-clr-white rounded md:p-0">
+                <a href="#" class="nav-link | block py-2 px-3 text-on-theme-clr-white rounded lg:rounded-none md:p-0">
                   Contact Us
                 </a>
               </li>

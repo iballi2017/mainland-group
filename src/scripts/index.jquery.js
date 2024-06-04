@@ -90,7 +90,6 @@ $(function () {
             blogpostCarousel.trigger('to.owl.carousel', [$(this).index(), 300]);
         });
         playBtn.on("click", function () {
-            alert("played!")
             blogpostCarousel.trigger('play.owl.autoplay', []);
             $('.blogpost-carousel + .dots-wrapper').addClass("playing");
         });

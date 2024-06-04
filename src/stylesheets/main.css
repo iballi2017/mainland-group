@@ -198,12 +198,42 @@ html {
 .owl-dot.active, .owl-dot:hover {
   background: var(--clr-primary);
 }
+.owl-dot:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px var(--clr-accent);
+}
 
 .overlay {
   display: none;
 }
 .overlay.show {
   display: block;
+}
+
+.main-toolbar .nav-link {
+  display: block;
+  position: relative;
+  padding: 1em;
+}
+.main-toolbar .nav-link:after {
+  content: "";
+  display: block;
+  height: 2px;
+  background-color: var(--clr-secondary);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  transform: scale(0);
+  transform-origin: left;
+  transition: transform 300ms ease-in-out;
+}
+.main-toolbar .nav-link:hover:after, .main-toolbar .nav-link.active:after, .main-toolbar .nav-link:focus:after {
+  transform: scale(1);
+}
+.main-toolbar .nav-link.active {
+  background-color: var(--clr-primary);
 }
 
 @layer base {
