@@ -2,7 +2,7 @@ import ConfigureUiDisplayFontSizes from "./ConfigureUiDisplayFontSizes.js";
 import ConfigureUiDisplayModes from "./ConfigureUiDisplayModes.js";
 import CreateHtmlElement from "./CreateHtmlElement.js";
 import History from "./History.js";
-import Overlay from "./overlay.js";
+import Overlay from "./Overlay.js";
 
 
 document.addEventListener("DOMContentLoaded", () => {

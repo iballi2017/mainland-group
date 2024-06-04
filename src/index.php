@@ -1,9 +1,9 @@
 <!-- head opens -->
-<?php include_once(__DIR__ . "./includes/head.php"); ?>
+<?php include_once("./includes/head.php"); ?>
 <!-- head closes -->
 
 <!-- main-toolbar opens -->
-<?php include_once(__DIR__ . "./components/main-toolbar.php"); ?>
+<?php include_once("./components/main-toolbar.php"); ?>
 <!-- main-toolbar closes -->
 
 <main>
@@ -93,7 +93,7 @@
                     <?php
                     $label = "Read more";
                     $url = "#";
-                    include(__DIR__ . "./shared/widgets/call-to-action.php"); ?>
+                    include("./shared/widgets/call-to-action.php"); ?>
                 </div>
             </div>
         </div>
@@ -117,7 +117,7 @@
                                 <?php
                                 $label = "Visit page";
                                 $url = "#";
-                                include(__DIR__ . "./shared/widgets/call-to-action.php"); ?>
+                                include("./shared/widgets/call-to-action.php"); ?>
                             </span>
                         </p>
                     </div>
@@ -131,7 +131,7 @@
                                 <?php
                                 $label = "Visit page";
                                 $url = "#";
-                                include(__DIR__ . "./shared/widgets/call-to-action.php"); ?>
+                                include("./shared/widgets/call-to-action.php"); ?>
                             </span>
                         </p>
                     </div>
@@ -145,7 +145,7 @@
                                 <?php
                                 $label = "Visit page";
                                 $url = "#";
-                                include(__DIR__ . "./shared/widgets/call-to-action.php"); ?>
+                                include("./shared/widgets/call-to-action.php"); ?>
                             </span>
                         </p>
                     </div>
@@ -159,7 +159,7 @@
                                 <?php
                                 $label = "Visit page";
                                 $url = "#";
-                                include(__DIR__ . "./shared/widgets/call-to-action.php"); ?>
+                                include("./shared/widgets/call-to-action.php"); ?>
                             </span>
                         </p>
                     </div>
@@ -184,37 +184,39 @@
                 <div class="col-span-12 md:col-span-4 lg:pb-12">
                     <div class="relative shadow-md bg-theme-clr-white h-full flex flex-col items-center justify-center">
                         <img loading="lazy" src="./assets/images/mainlandsolar-gallery-feature-image.png" alt="Mainlandsolar" class="w-full">
-                        <div class="absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-light text-on-theme-clr-light shadow-md lg:-bottom-12">
-                            <h4 class="lg:font-semibold">Mainland Solar</h4>
-                            <p class="font-semibold lg:font-bold text-xl">Fixing Solar panel of a client</p>
-                        </div>
+                        <a href="#" class="block absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-light hover:bg-theme-clr-white text-on-theme-clr-light shadow-md lg:-bottom-12">
+                            <div class="">
+                                <h4 class="lg:font-semibold">Mainland Solar</h4>
+                                <p class="font-semibold lg:font-bold text-xl">Fixing Solar panel of a client</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="col-span-12 md:col-span-4 lg:pb-12">
                     <div class="relative shadow-md bg-theme-clr-white h-full flex flex-col items-center justify-center">
                         <img loading="lazy" src="./assets/images/vanlagos-gallery-feature-image.png" alt="Mainlandsolar" class="w-full">
-                        <div class="absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-light text-on-theme-clr-light shadow-md lg:-bottom-12">
+                        <a href="#" class="block absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-light hover:bg-theme-clr-white text-on-theme-clr-light shadow-md lg:-bottom-12">
                             <h4 class="lg:font-semibold">Van lagos</h4>
                             <p class="font-semibold lg:font-bold text-xl">Moving our Clent to their various desination</p>
-                        </div>
+                        </a>
                     </div>
                 </div>
                 <div class="col-span-12 md:col-span-4 lg:pb-12">
                     <div class="relative shadow-md bg-theme-clr-white h-full flex flex-col items-center justify-center">
                         <img loading="lazy" src="./assets/images/studiomainland-gallery-feature-image.png" alt="Mainlandsolar" class="w-full">
-                        <div class="absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-light text-on-theme-clr-light shadow-md lg:-bottom-12">
+                        <a href="#" class="block absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-light hover:bg-theme-clr-white text-on-theme-clr-light shadow-md lg:-bottom-12">
                             <h4 class="lg:font-semibold">Studio Mainland</h4>
                             <p class="font-semibold lg:font-bold text-xl">Working on an Adidas Marketing Project</p>
-                        </div>
+                        </a>
                     </div>
                 </div>
                 <div class="col-span-12 md:col-span-4 lg:pb-12">
                     <div class="relative shadow-md bg-theme-clr-white h-full flex flex-col items-center justify-center">
                         <img loading="lazy" src="./assets/images/lagoscart-gallery-feature-image.png" alt="Mainlandsolar" class="w-full">
-                        <div class="absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-light text-on-theme-clr-light shadow-md lg:-bottom-12">
+                        <a href="#" class="block absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-light hover:bg-theme-clr-white text-on-theme-clr-light shadow-md lg:-bottom-12">
                             <h4 class="lg:font-semibold">Lagos Cart</h4>
                             <p class="font-semibold lg:font-bold text-xl">Fixing Solar panel of a client</p>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -224,7 +226,7 @@
                 <?php
                 $label = "View all";
                 $url = "#";
-                include(__DIR__ . "./shared/widgets/call-to-action.php"); ?>
+                include("./shared/widgets/call-to-action.php"); ?>
             </div>
 
         </div>
@@ -346,12 +348,16 @@
 
                     <div class="bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                         <a href="#" class="block h-56 md:h-72 overflow-hidden">
-                            <img class="rounded-t-lg" src="./assets/images/power-outage-looms-round-the-nation-after-power-grid-collapse.png" alt="Noteworthy technology acquisitions 2021" />
+                            <img class="rounded-t-lg" src="./assets/images/power-outage-looms-round-the-nation-after-power-grid-collapse.png" alt="Noteworthy technology acquisitions 2021">
                         </a>
                         <div class="p-5 text-left">
+                            <div class="flex items-center justify-between gap-8 text-sm">
+                                <span><i class="far fa-calendar me-2"></i>May 10, 2021</span>
+                                <span><i class="far fa-user me-2"></i>By Admin</span>
+                            </div>
+                            <div class="h-2"></div>
                             <a href="#" class="hover:text-primary">
-                                <h4 class="mb-2 text-xl md:text-2xl font-bold tracking-tight h-[90px] md:h-[100px] overflow-hidden"
-                                title="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui natus amet quam deleniti ipsum praesentium possimus quis vitae eveniet veniam assumenda fugiat, soluta ab minima doloribus veritatis quo eaque? Commodi saepe, inventore sequi optio praesentium iste nemo hic molestiae accusamus!">
+                                <h4 class="mb-2 text-xl md:text-2xl font-bold tracking-tight h-[90px] md:h-[100px] overflow-hidden" title="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui natus amet quam deleniti ipsum praesentium possimus quis vitae eveniet veniam assumenda fugiat, soluta ab minima doloribus veritatis quo eaque? Commodi saepe, inventore sequi optio praesentium iste nemo hic molestiae accusamus!">
                                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui natus amet quam deleniti ipsum praesentium possimus quis vitae eveniet veniam assumenda fugiat, soluta ab minima doloribus veritatis quo eaque? Commodi saepe, inventore sequi optio praesentium iste nemo hic molestiae accusamus!
                                 </h4>
                             </a>
@@ -360,9 +366,14 @@
 
                     <div class="bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                         <a href="#" class="block h-56 md:h-72 overflow-hidden">
-                            <img class="rounded-t-lg" src="./assets/images/power-outage-looms-round-the-nation-after-power-grid-collapse.png" alt="Noteworthy technology acquisitions 2021" />
+                            <img class="rounded-t-lg" src="./assets/images/power-outage-looms-round-the-nation-after-power-grid-collapse.png" alt="Noteworthy technology acquisitions 2021">
                         </a>
                         <div class="p-5 text-left">
+                            <div class="flex items-center justify-between gap-8 text-sm">
+                                <span><i class="far fa-calendar me-2"></i>May 10, 2021</span>
+                                <span><i class="far fa-user me-2"></i>By Admin</span>
+                            </div>
+                            <div class="h-2"></div>
                             <a href="#" class="hover:text-primary">
                                 <h4 class="mb-2 text-xl md:text-2xl font-bold tracking-tight h-[90px] md:h-[100px] overflow-hidden">
                                     Power outage looms round the nation after power grid collapse
@@ -373,9 +384,14 @@
 
                     <div class="bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                         <a href="#" class="block h-56 md:h-72 overflow-hidden">
-                            <img class="rounded-t-lg" src="./assets/images/fuel-scarcity-and-hike-in-price-may-cause-slow-productivity.png" alt="Fuel Scarcity and hike in price may cause slow productivity." />
+                            <img class="rounded-t-lg" src="./assets/images/fuel-scarcity-and-hike-in-price-may-cause-slow-productivity.png" alt="Fuel Scarcity and hike in price may cause slow productivity.">
                         </a>
                         <div class="p-5 text-left">
+                            <div class="flex items-center justify-between gap-8 text-sm">
+                                <span><i class="far fa-calendar me-2"></i>May 10, 2021</span>
+                                <span><i class="far fa-user me-2"></i>By Admin</span>
+                            </div>
+                            <div class="h-2"></div>
                             <a href="#" class="hover:text-primary">
                                 <h4 class="mb-2 text-xl md:text-2xl font-bold tracking-tight h-[90px] md:h-[100px] overflow-hidden">
                                     Fuel Scarcity and hike in price may cause slow productivity.
@@ -386,9 +402,14 @@
 
                     <div class="bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                         <a href="#" class="block h-56 md:h-72 overflow-hidden">
-                            <img class="rounded-t-lg" src="./assets/images/food-price-increases-by-200-percent-progression-say-it-may-increase.png" alt="food price increases by 200%, progression say it may increase" />
+                            <img class="rounded-t-lg" src="./assets/images/food-price-increases-by-200-percent-progression-say-it-may-increase.png" alt="food price increases by 200%, progression say it may increase">
                         </a>
                         <div class="p-5 text-left">
+                            <div class="flex items-center justify-between gap-8 text-sm">
+                                <span><i class="far fa-calendar me-2"></i>May 10, 2021</span>
+                                <span><i class="far fa-user me-2"></i>By Admin</span>
+                            </div>
+                            <div class="h-2"></div>
                             <a href="#" class="hover:text-primary">
                                 <h4 class="mb-2 text-xl md:text-2xl font-bold tracking-tight h-[90px] md:h-[100px] overflow-hidden">
                                     Food price increases by 200%, progression say it may increase.
@@ -418,8 +439,8 @@
 </main>
 
 <!-- footer opens -->
-<?php include_once(__DIR__ . "./components/footer.php"); ?>
+<?php include_once("./components/footer.php"); ?>
 <!-- footer closes -->
 <!-- foot opens -->
-<?php include_once(__DIR__ . "./includes/foot.php"); ?>
+<?php include_once("./includes/foot.php"); ?>
 <!-- foot closes -->

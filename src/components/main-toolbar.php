@@ -20,7 +20,7 @@ after:right-0 after:left-1/2 after:w-1/2
       <div class="grid grid-cols-12 w-full">
         <div class="col-span-12 sm:col-span-2 bg-[#1B3512] text-white flex items-center justify-center py-4">
           <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src="./assets/images/brand-logo.svg" alt="Company brand logo" class="max-w-40" />
+            <img src="./assets/images/brand-logo.svg" alt="Company brand logo" class="max-w-40">
           </a>
         </div>
         <div class="col-span-12 sm:col-span-10">
@@ -41,8 +41,8 @@ after:right-0 after:left-1/2 after:w-1/2
                     <label class="theme-font-toggle-wrapper | inline-flex items-center cursor-pointer">
                       <span class="me-3 text-sm">Font size:
                       </span>
-                      <input type="checkbox" value="" class="ui-font-sizes-toggler | sr-only peer" />
-                      <div class="cursor relative w-14 h-6 bg-theme-clr-secondary peer-focus:outline-none rounded-full peer after:absolute after:top-[2px] after:start-[2px] after:bg-accent-50 after:text-white after:border-accent-50 after:border after:rounded-full after:w-5 after:h-5 after:transition-all peer-checked:after:border-black peer-checked:after:bg-transparent before:absolute before:top-[2px] before:end-[2px] before:bg-transparent before:text-white before:border-black before:border before:rounded-full before:w-5 before:h-5 before:transition-all peer-checked:before:border-accent-50 peer-checked:before:bg-accent-50"></div>
+                      <input type="checkbox" value="" class="ui-font-sizes-toggler | sr-only peer">
+                      <div aria-label="toggle font" class="cursor relative w-14 h-6 bg-theme-clr-secondary peer-focus:outline-none rounded-full peer after:absolute after:top-[2px] after:start-[2px] after:bg-accent-50 after:text-white after:border-accent-50 after:border after:rounded-full after:w-5 after:h-5 after:transition-all peer-checked:after:border-black peer-checked:after:bg-transparent before:absolute before:top-[2px] before:end-[2px] before:bg-transparent before:text-white before:border-black before:border before:rounded-full before:w-5 before:h-5 before:transition-all peer-checked:before:border-accent-50 peer-checked:before:bg-accent-50"></div>
                     </label>
                   </li>
                 </ul>
@@ -54,8 +54,8 @@ after:right-0 after:left-1/2 after:w-1/2
                     <label class="theme-mode-toggle-wrapper | inline-flex items-center cursor-pointer">
                       <span class="me-3 text-sm">Mode:
                       </span>
-                      <input type="checkbox" value="" class="ui-mode-toggler | sr-only peer" />
-                      <div class="cursor relative w-14 h-6 bg-accent-50 peer-focus:outline-none rounded-full peer after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-white after:border after:rounded-full after:w-5 after:h-5 after:transition-all peer-checked:after:border-black peer-checked:after:bg-transparent before:absolute before:top-[2px] before:end-[2px] before:bg-transparent before:border-black before:border before:rounded-full before:w-5 before:h-5 before:transition-all peer-checked:before:border-white peer-checked:before:bg-white"></div>
+                      <input type="checkbox" value="" class="ui-mode-toggler | sr-only peer">
+                      <div aria-label="toggle theme mode" class="cursor relative w-14 h-6 bg-accent-50 peer-focus:outline-none rounded-full peer after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-white after:border after:rounded-full after:w-5 after:h-5 after:transition-all peer-checked:after:border-black peer-checked:after:bg-transparent before:absolute before:top-[2px] before:end-[2px] before:bg-transparent before:border-black before:border before:rounded-full before:w-5 before:h-5 before:transition-all peer-checked:before:border-white peer-checked:before:bg-white"></div>
                     </label>
                   </li>
                 </ul>
@@ -115,3 +115,15 @@ after:right-0 after:left-1/2 after:w-1/2
     </div>
   </div>
 </header>
+
+<!-- page-search -->
+<div class="page-search overlay-ctrl | fixed left-4 right-4 sm:left-32 sm:right-32  lg:left-80 lg:right-80 top-40 md:top-64 z-50">
+  <form>
+    <div class="relative rounded-lg overflow-hidden">
+      <button class="absolute z-10 inset-y-0 end-0 flex items-center ps-3.5 pe-3.5 bg-primary focus:ring-accent-50 focus:border-accent-50">
+        <i data-feather="search" class="text-on-theme-clr-white"></i>
+      </button>
+      <input type="text" id="email-address-icon" class="relative z-0 focus:bg-theme-clr-white bg-theme-clr-white border border-gray-300 text-on-theme-clr-white text-sm rounded-lg focus:ring-accent-50 focus:border-accent-50 block w-full pe-10 p-2.5" placeholder="Search">
+    </div>
+  </form>
+</div>

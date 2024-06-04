@@ -7,7 +7,7 @@
     --clr-primary-alt: hsl(51, 92%, 41%); //#c9ac08;
     // --clr-secondary-alt: #1b3512; //#1B3512;
     --clr-secondary: hsl(105, 46%, 14%); //#1b3413;
-    --clr-secondary-alt: #152310; //#152410;
+    --clr-secondary-alt: hsl(104, 37%, 10%); //#152410;
     --clr-accent: #61c93b; //#5FC93A;
 
     --clr-base-text: var(--clr-secondary); //#1B3513;
@@ -24,7 +24,7 @@
     --theme-clr-primary-alt: 51deg 92% 41%;
     --theme-clr-secondary: 105deg 46% 14%;
     --on-theme-clr-secondary: 0deg 0% 100%; // #ffffff;
-    --theme-clr-secondary-alt: 105deg 38% 10%;
+    --theme-clr-secondary-alt: 105deg 38% 10%; //#152410;
     --theme-clr-accent: 104deg 57% 51%;
     --clr-base-text: 105deg 46% 14%;
     --theme-clr-gray-400: 0 0% 74%; // #BDBDBD;
