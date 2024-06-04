@@ -942,6 +942,10 @@ video {
   height: 100px;
 }
 
+.h-\[150px\] {
+  height: 150px;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -1957,6 +1961,10 @@ video {
     height: 14rem;
   }
 
+  .md\:h-\[100px\] {
+    height: 100px;
+  }
+
   .md\:w-auto {
     width: auto;
   }
@@ -1995,6 +2003,10 @@ video {
     --tw-space-x-reverse: 0;
     margin-right: calc(2rem * var(--tw-space-x-reverse));
     margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .md\:overflow-hidden {
+    overflow: hidden;
   }
 
   .md\:border-0 {

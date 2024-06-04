@@ -350,7 +350,7 @@
                         </a>
                         <div class="p-5 text-left">
                             <a href="#" class="hover:text-primary">
-                                <h4 class="mb-2 text-xl md:text-2xl font-bold tracking-tight h-[100px] overflow-hidden"
+                                <h4 class="mb-2 text-xl md:text-2xl font-bold tracking-tight h-[90px] md:h-[100px] overflow-hidden"
                                 title="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui natus amet quam deleniti ipsum praesentium possimus quis vitae eveniet veniam assumenda fugiat, soluta ab minima doloribus veritatis quo eaque? Commodi saepe, inventore sequi optio praesentium iste nemo hic molestiae accusamus!">
                                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui natus amet quam deleniti ipsum praesentium possimus quis vitae eveniet veniam assumenda fugiat, soluta ab minima doloribus veritatis quo eaque? Commodi saepe, inventore sequi optio praesentium iste nemo hic molestiae accusamus!
                                 </h4>
@@ -364,7 +364,7 @@
                         </a>
                         <div class="p-5 text-left">
                             <a href="#" class="hover:text-primary">
-                                <h4 class="mb-2 text-xl md:text-2xl font-bold tracking-tight h-[100px] overflow-hidden">
+                                <h4 class="mb-2 text-xl md:text-2xl font-bold tracking-tight h-[90px] md:h-[100px] overflow-hidden">
                                     Power outage looms round the nation after power grid collapse
                                 </h4>
                             </a>
@@ -377,7 +377,7 @@
                         </a>
                         <div class="p-5 text-left">
                             <a href="#" class="hover:text-primary">
-                                <h4 class="mb-2 text-xl md:text-2xl font-bold tracking-tight h-[100px] overflow-hidden">
+                                <h4 class="mb-2 text-xl md:text-2xl font-bold tracking-tight h-[90px] md:h-[100px] overflow-hidden">
                                     Fuel Scarcity and hike in price may cause slow productivity.
                                 </h4>
                             </a>
@@ -390,7 +390,7 @@
                         </a>
                         <div class="p-5 text-left">
                             <a href="#" class="hover:text-primary">
-                                <h4 class="mb-2 text-xl md:text-2xl font-bold tracking-tight h-[100px] overflow-hidden">
+                                <h4 class="mb-2 text-xl md:text-2xl font-bold tracking-tight h-[90px] md:h-[100px] overflow-hidden">
                                     Food price increases by 200%, progression say it may increase.
                                 </h4>
                             </a>
