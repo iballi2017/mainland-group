@@ -184,7 +184,7 @@
                 <div class="col-span-12 md:col-span-4 lg:pb-12">
                     <div class="relative shadow-md bg-theme-clr-white h-full flex flex-col items-center justify-center">
                         <img loading="lazy" src="./assets/images/mainlandsolar-gallery-feature-image.png" alt="Mainlandsolar" class="w-full">
-                        <a href="#" class="focus:outline-none focus:ring focus:ring-accent-50 block absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-light hover:bg-theme-clr-white text-on-theme-clr-light shadow-md lg:-bottom-12">
+                        <a href="#" class="focus:outline-none focus:ring focus:ring-primary-alt block absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-light hover:bg-theme-clr-white text-on-theme-clr-light shadow-md lg:-bottom-12">
                             <div class="">
                                 <h4 class="lg:font-semibold">Mainland Solar</h4>
                                 <p class="font-semibold lg:font-bold text-xl">Fixing Solar panel of a client</p>
@@ -195,7 +195,7 @@
                 <div class="col-span-12 md:col-span-4 lg:pb-12">
                     <div class="relative shadow-md bg-theme-clr-white h-full flex flex-col items-center justify-center">
                         <img loading="lazy" src="./assets/images/vanlagos-gallery-feature-image.png" alt="Mainlandsolar" class="w-full">
-                        <a href="#" class="focus:outline-none focus:ring focus:ring-accent-50 block absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-light hover:bg-theme-clr-white text-on-theme-clr-light shadow-md lg:-bottom-12">
+                        <a href="#" class="focus:outline-none focus:ring focus:ring-primary-alt block absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-light hover:bg-theme-clr-white text-on-theme-clr-light shadow-md lg:-bottom-12">
                             <h4 class="lg:font-semibold">Van lagos</h4>
                             <p class="font-semibold lg:font-bold text-xl">Moving our Clent to their various desination</p>
                         </a>
@@ -204,7 +204,7 @@
                 <div class="col-span-12 md:col-span-4 lg:pb-12">
                     <div class="relative shadow-md bg-theme-clr-white h-full flex flex-col items-center justify-center">
                         <img loading="lazy" src="./assets/images/studiomainland-gallery-feature-image.png" alt="Mainlandsolar" class="w-full">
-                        <a href="#" class="focus:outline-none focus:ring focus:ring-accent-50 block absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-light hover:bg-theme-clr-white text-on-theme-clr-light shadow-md lg:-bottom-12">
+                        <a href="#" class="focus:outline-none focus:ring focus:ring-primary-alt block absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-light hover:bg-theme-clr-white text-on-theme-clr-light shadow-md lg:-bottom-12">
                             <h4 class="lg:font-semibold">Studio Mainland</h4>
                             <p class="font-semibold lg:font-bold text-xl">Working on an Adidas Marketing Project</p>
                         </a>
@@ -213,7 +213,7 @@
                 <div class="col-span-12 md:col-span-4 lg:pb-12">
                     <div class="relative shadow-md bg-theme-clr-white h-full flex flex-col items-center justify-center">
                         <img loading="lazy" src="./assets/images/lagoscart-gallery-feature-image.png" alt="Mainlandsolar" class="w-full">
-                        <a href="#" class="focus:outline-none focus:ring focus:ring-accent-50 block absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-light hover:bg-theme-clr-white text-on-theme-clr-light shadow-md lg:-bottom-12">
+                        <a href="#" class="focus:outline-none focus:ring focus:ring-primary-alt block absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-light hover:bg-theme-clr-white text-on-theme-clr-light shadow-md lg:-bottom-12">
                             <h4 class="lg:font-semibold">Lagos Cart</h4>
                             <p class="font-semibold lg:font-bold text-xl">Fixing Solar panel of a client</p>
                         </a>
@@ -310,8 +310,8 @@
                         <!-- Custom dots will be appended here -->
                     </div>
                     <div>
-                        <button class="play-slider-btn | focus:outline-none focus:ring focus:ring-accent-50 h-[20px] w-[20px] rounded-full border-2 border-[hsl(0, 0%, 74%)] cursor-pointer" aria-label="play"></button>
-                        <button class="pause-slider-btn | focus:outline-none focus:ring focus:ring-accent-50 h-[20px] w-[20px] rounded-full border-2 border-[hsl(0, 0%, 74%)] cursor-pointer" aria-label="pause"></button>
+                        <button class="play-slider-btn | focus:outline-none focus:ring focus:ring-primary-alt h-[20px] w-[20px] rounded-full border-2 border-[hsl(0, 0%, 74%)] cursor-pointer" aria-label="play"></button>
+                        <button class="pause-slider-btn | focus:outline-none focus:ring focus:ring-primary-alt h-[20px] w-[20px] rounded-full border-2 border-[hsl(0, 0%, 74%)] cursor-pointer" aria-label="pause"></button>
                     </div>
                 </div>
             </div>
@@ -335,7 +335,7 @@
                 </div>
 
 
-                <a href="#" class="focus:outline-none focus:ring focus:ring-accent-50 text-sm hover:bg-white/50 block uppercase border border-on-theme-clr-white py-2 px-4 rounded-lg whitespace-nowrap">View all</a>
+                <a href="#" class="focus:outline-none focus:ring focus:ring-primary-alt text-sm hover:bg-white/50 block uppercase border border-on-theme-clr-white py-2 px-4 rounded-lg whitespace-nowrap">View all</a>
             </div>
 
             <div class="h-8 md:h-12"></div>
@@ -427,8 +427,8 @@
                         <!-- Custom dots will be appended here -->
                     </div>
                     <div>
-                        <button class="play-slider-btn | focus:outline-none focus:ring focus:ring-accent-50 h-[20px] w-[20px] rounded-full border-2 border-[hsl(0, 0%, 74%)] cursor-pointer" aria-label="play"></button>
-                        <button class="pause-slider-btn | focus:outline-none focus:ring focus:ring-accent-50 h-[20px] w-[20px] rounded-full border-2 border-[hsl(0, 0%, 74%)] cursor-pointer" aria-label="pause"></button>
+                        <button class="play-slider-btn | focus:outline-none focus:ring focus:ring-primary-alt h-[20px] w-[20px] rounded-full border-2 border-[hsl(0, 0%, 74%)] cursor-pointer" aria-label="play"></button>
+                        <button class="pause-slider-btn | focus:outline-none focus:ring focus:ring-primary-alt h-[20px] w-[20px] rounded-full border-2 border-[hsl(0, 0%, 74%)] cursor-pointer" aria-label="pause"></button>
                     </div>
                 </div>
             </div>

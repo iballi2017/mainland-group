@@ -69,13 +69,13 @@ after:right-0 after:left-1/2 after:w-1/2
                 <span class="sr-only">Open main menu</span>
                 <i data-feather="menu" class="text-on-theme-clr-white"></i>
               </button>
-              <button tabindex="0" class="search-icon | focus:border p-2 w-10 h-10 inline-flex items-center justify-center" aria-label="search">
+              <button class="search-icon | focus:border-2 focus:border-primary-alt p-2 w-10 h-10 inline-flex items-center justify-center" aria-label="search">
                 <i data-feather="search" class="text-on-theme-clr-white"></i>
               </button>
             </div>
             <ul class="hidden order-2 md:order-1 w-full md:mr-8 md:flex flex-col p-2 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:items-center md:justify-between md:mt-0 md:border-0" id="navbar">
               <li>
-                <a tabindex="0" href="#" class="nav-link | block py-2 px-3 text-on-theme-clr-white rounded lg:rounded-none md:py-0" aria-current="page">
+                <a href="#" class="nav-link | block py-2 px-3 text-on-theme-clr-white rounded lg:rounded-none md:py-0" aria-current="page">
                   Home
                 </a>
               </li>

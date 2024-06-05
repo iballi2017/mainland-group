@@ -1692,9 +1692,21 @@ video {
   border-width: 1px;
 }
 
+.focus\:border-2:focus {
+  border-width: 2px;
+}
+
 .focus\:border-accent-50:focus {
   --tw-border-opacity: 1;
   border-color: hsl(var(--theme-clr-accent) / var(--tw-border-opacity));
+}
+
+.focus\:border-primary:focus {
+  border-color: hsl(var(--theme-clr-primary));
+}
+
+.focus\:border-primary-alt:focus {
+  border-color: hsl(var(--theme-clr-primary-alt));
 }
 
 .focus\:bg-theme-clr-white:focus {
@@ -1728,6 +1740,10 @@ video {
 .focus\:ring-accent-50:focus {
   --tw-ring-opacity: 1;
   --tw-ring-color: hsl(var(--theme-clr-accent) / var(--tw-ring-opacity));
+}
+
+.focus\:ring-primary-alt:focus {
+  --tw-ring-color: hsl(var(--theme-clr-primary-alt));
 }
 
 .group:hover .group-hover\:visible {

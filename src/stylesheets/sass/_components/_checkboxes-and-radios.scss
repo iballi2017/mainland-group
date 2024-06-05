@@ -10,6 +10,12 @@
         }
       }
     }
+
+    &:focus{
+      & + .cursor{
+        box-shadow: 0 0 0 2px var(--clr-primary-alt);
+      }
+    }
   }
   .cursor {
     &::before,
@@ -40,6 +46,11 @@
           &::after {
             content: "A";
           }
+        }
+      }
+      &:focus{
+        & + .cursor{
+          box-shadow: 0 0 0 2px var(--clr-primary-alt);
         }
       }
     }
