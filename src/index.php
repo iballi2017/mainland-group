@@ -186,7 +186,7 @@
                         <img loading="lazy" src="./assets/images/mainlandsolar-gallery-feature-image.png" alt="Mainlandsolar" class="w-full">
                         <a href="#" class="focus:outline-none focus:ring focus:ring-primary-alt block absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-light hover:bg-theme-clr-white text-on-theme-clr-light shadow-md lg:-bottom-12">
                             <div class="">
-                                <h4 class="lg:font-semibold">Mainland Solar</h4>
+                                <h3 class="lg:font-semibold">Mainland Solar</h3>
                                 <p class="font-semibold lg:font-bold text-xl">Fixing Solar panel of a client</p>
                             </div>
                         </a>
@@ -196,7 +196,7 @@
                     <div class="relative shadow-md bg-theme-clr-white h-full flex flex-col items-center justify-center">
                         <img loading="lazy" src="./assets/images/vanlagos-gallery-feature-image.png" alt="Mainlandsolar" class="w-full">
                         <a href="#" class="focus:outline-none focus:ring focus:ring-primary-alt block absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-light hover:bg-theme-clr-white text-on-theme-clr-light shadow-md lg:-bottom-12">
-                            <h4 class="lg:font-semibold">Van lagos</h4>
+                            <h3 class="lg:font-semibold">Van lagos</h3>
                             <p class="font-semibold lg:font-bold text-xl">Moving our Clent to their various desination</p>
                         </a>
                     </div>
@@ -205,7 +205,7 @@
                     <div class="relative shadow-md bg-theme-clr-white h-full flex flex-col items-center justify-center">
                         <img loading="lazy" src="./assets/images/studiomainland-gallery-feature-image.png" alt="Mainlandsolar" class="w-full">
                         <a href="#" class="focus:outline-none focus:ring focus:ring-primary-alt block absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-light hover:bg-theme-clr-white text-on-theme-clr-light shadow-md lg:-bottom-12">
-                            <h4 class="lg:font-semibold">Studio Mainland</h4>
+                            <h3 class="lg:font-semibold">Studio Mainland</h3>
                             <p class="font-semibold lg:font-bold text-xl">Working on an Adidas Marketing Project</p>
                         </a>
                     </div>
@@ -214,7 +214,7 @@
                     <div class="relative shadow-md bg-theme-clr-white h-full flex flex-col items-center justify-center">
                         <img loading="lazy" src="./assets/images/lagoscart-gallery-feature-image.png" alt="Mainlandsolar" class="w-full">
                         <a href="#" class="focus:outline-none focus:ring focus:ring-primary-alt block absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-light hover:bg-theme-clr-white text-on-theme-clr-light shadow-md lg:-bottom-12">
-                            <h4 class="lg:font-semibold">Lagos Cart</h4>
+                            <h3 class="lg:font-semibold">Lagos Cart</h3>
                             <p class="font-semibold lg:font-bold text-xl">Fixing Solar panel of a client</p>
                         </a>
                     </div>
@@ -252,7 +252,7 @@
                             <div class="h-16 w-16 rounded-full overflow-hidden bg-gray-200 mx-auto mb-4">
                                 <img src="./assets/images/user-black-avatar.svg" alt="Paul Davids">
                             </div>
-                            <h5>Founder of Olasco</h5>
+                            <h3>Founder of Olasco</h3>
                             <p class="font-semibold">Paul Davids</p>
                         </div>
                         <div class="col-span-3 md:col-span-2 h-full flex items-center overflow-hidden md:border-s md:border-on-theme-clr-white md:ps-4 md:pe-4 text-center md:text-left">
@@ -264,7 +264,7 @@
                             <div class="h-16 w-16 rounded-full overflow-hidden bg-gray-200 mx-auto mb-4">
                                 <img src="./assets/images/user-black-avatar.svg" alt="Paul Davids">
                             </div>
-                            <h5>Software Tester</h5>
+                            <h3>Software Tester</h3>
                             <p class="font-semibold">John Doe</p>
                         </div>
                         <div class="col-span-3 md:col-span-2 h-full flex items-center overflow-hidden md:border-s md:border-on-theme-clr-white md:ps-4 md:pe-4 text-center md:text-left">
@@ -278,7 +278,7 @@
                             <div class="h-16 w-16 rounded-full overflow-hidden bg-gray-200 mx-auto mb-4">
                                 <img src="./assets/images/user-black-avatar.svg" alt="Paul Davids">
                             </div>
-                            <h5>Digital Marketer</h5>
+                            <h3>Digital Marketer</h3>
                             <p class="font-semibold">Benjamin Noah</p>
                         </div>
                         <div class="col-span-3 md:col-span-2 h-full flex items-center overflow-hidden md:border-s md:border-on-theme-clr-white md:ps-4 md:pe-4 text-center md:text-left">
@@ -292,7 +292,7 @@
                             <div class="h-16 w-16 rounded-full overflow-hidden bg-gray-200 mx-auto mb-4">
                                 <img src="./assets/images/user-black-avatar.svg" alt="Paul Davids">
                             </div>
-                            <h5>Sport Critic</h5>
+                            <h3>Sport Critic</h3>
                             <p class="font-semibold">Lucas Muora</p>
                         </div>
                         <div class="col-span-3 md:col-span-2 h-full flex items-center overflow-hidden md:border-s md:border-on-theme-clr-white md:ps-4 md:pe-4 text-center md:text-left">
@@ -357,9 +357,9 @@
                             </div>
                             <div class="h-2"></div>
                             <a href="#" class="hover:text-primary">
-                                <h4 class="mb-2 text-xl md:text-2xl font-bold tracking-tight h-[90px] md:h-[100px] overflow-hidden" title="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui natus amet quam deleniti ipsum praesentium possimus quis vitae eveniet veniam assumenda fugiat, soluta ab minima doloribus veritatis quo eaque? Commodi saepe, inventore sequi optio praesentium iste nemo hic molestiae accusamus!">
+                                <h3 class="mb-2 text-xl md:text-2xl font-bold tracking-tight h-[90px] md:h-[100px] overflow-hidden" title="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui natus amet quam deleniti ipsum praesentium possimus quis vitae eveniet veniam assumenda fugiat, soluta ab minima doloribus veritatis quo eaque? Commodi saepe, inventore sequi optio praesentium iste nemo hic molestiae accusamus!">
                                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui natus amet quam deleniti ipsum praesentium possimus quis vitae eveniet veniam assumenda fugiat, soluta ab minima doloribus veritatis quo eaque? Commodi saepe, inventore sequi optio praesentium iste nemo hic molestiae accusamus!
-                                </h4>
+                                </h3>
                             </a>
                         </div>
                     </div>
@@ -375,9 +375,9 @@
                             </div>
                             <div class="h-2"></div>
                             <a href="#" class="hover:text-primary">
-                                <h4 class="mb-2 text-xl md:text-2xl font-bold tracking-tight h-[90px] md:h-[100px] overflow-hidden">
+                                <h3 class="mb-2 text-xl md:text-2xl font-bold tracking-tight h-[90px] md:h-[100px] overflow-hidden">
                                     Power outage looms round the nation after power grid collapse
-                                </h4>
+                                </h3>
                             </a>
                         </div>
                     </div>
@@ -393,9 +393,9 @@
                             </div>
                             <div class="h-2"></div>
                             <a href="#" class="hover:text-primary">
-                                <h4 class="mb-2 text-xl md:text-2xl font-bold tracking-tight h-[90px] md:h-[100px] overflow-hidden">
+                                <h3 class="mb-2 text-xl md:text-2xl font-bold tracking-tight h-[90px] md:h-[100px] overflow-hidden">
                                     Fuel Scarcity and hike in price may cause slow productivity.
-                                </h4>
+                                </h3>
                             </a>
                         </div>
                     </div>
@@ -411,9 +411,9 @@
                             </div>
                             <div class="h-2"></div>
                             <a href="#" class="hover:text-primary">
-                                <h4 class="mb-2 text-xl md:text-2xl font-bold tracking-tight h-[90px] md:h-[100px] overflow-hidden">
+                                <h3 class="mb-2 text-xl md:text-2xl font-bold tracking-tight h-[90px] md:h-[100px] overflow-hidden">
                                     Food price increases by 200%, progression say it may increase.
-                                </h4>
+                                </h3>
                             </a>
                         </div>
                     </div>
