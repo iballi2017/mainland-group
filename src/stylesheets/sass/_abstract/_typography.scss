@@ -98,7 +98,8 @@ $fontStack: var(--ff-body);
 }
 
 .lg-font {
-  font-size: 105%;
+  // font-size: 105%;
+  font-size: 17px;
   .mg-main-container {
     --max-width: 1680px;
   }

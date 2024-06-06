@@ -18,12 +18,12 @@ after:right-0 after:left-1/2 after:w-1/2
 ">
     <div class="mg-main-wrapper">
       <div class="grid grid-cols-12 w-full">
-        <div class="col-span-12 sm:col-span-2 bg-[#1B3512] text-white flex items-center justify-center py-4">
+        <div class="col-span-12 lg:col-span-2 bg-[#1B3512] text-white flex items-center justify-center py-4">
           <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
             <img src="./assets/images/brand-logo.svg" alt="Company brand logo" class="max-w-40">
           </a>
         </div>
-        <div class="col-span-12 sm:col-span-10">
+        <div class="col-span-12 lg:col-span-10">
           <div class="top-bar | bg-theme-clr-light text-on-theme-clr-light py-2 px-2 sm:px-4 md:px-8">
             <div class="flex items-center justify-between gap-2 flex-wrap">
               <ul class="sm:flex items-center gap-4 text-sm">
@@ -63,9 +63,9 @@ after:right-0 after:left-1/2 after:w-1/2
             </div>
           </div>
           <!-- <div class="bg-theme-clr-white | md:flex items-center py-4 md:px-8"> -->
-          <div class="bg-theme-clr-white | md:flex items-center md:px-8">
-            <div class="w-full md:w-auto order-1 md:order-2 flex justify-between md:justify-end md:before:content-[''] md:before:bg-primary-500 md:before:w-[1px] md:before:mr-8">
-              <button data-collapse-toggle="navbar" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar" aria-expanded="false">
+          <div class="bg-theme-clr-white | md:flex items-center lg:px-8">
+            <div class="w-full md:w-auto order-1 md:order-2 flex justify-between md:justify-end md:before:content-[''] md:before:bg-primary-500 md:before:w-[1px] lg:before:mr-8">
+              <button data-collapse-toggle="navbar" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden focus:outline-none  focus:ring-primary-alt focus:border-2 focus:border-primary-alt" aria-controls="navbar" aria-expanded="false">
                 <span class="sr-only">Open main menu</span>
                 <i data-feather="menu" class="text-on-theme-clr-white"></i>
               </button>
@@ -73,7 +73,8 @@ after:right-0 after:left-1/2 after:w-1/2
                 <i data-feather="search" class="text-on-theme-clr-white"></i>
               </button>
             </div>
-            <ul class="hidden order-2 md:order-1 w-full md:mr-8 md:flex flex-col p-2 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:items-center md:justify-between md:mt-0 md:border-0" id="navbar">
+            
+            <ul class="hidden order-2 md:order-1 w-full md:mr-2 lg:mr-8 md:flex flex-col p-2 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:space-x-2 lg:space-x-8 rtl:space-x-reverse md:flex-row md:items-center md:justify-between md:mt-0 md:border-0" id="navbar">
               <li>
                 <a href="#" class="nav-link | block py-2 px-3 text-on-theme-clr-white rounded lg:rounded-none md:py-0" aria-current="page">
                   Home
@@ -121,10 +122,10 @@ after:right-0 after:left-1/2 after:w-1/2
 <div class="page-search overlay-ctrl | fixed left-4 right-4 sm:left-32 sm:right-32  lg:left-80 lg:right-80 top-40 md:top-64 z-50">
   <form>
     <div class="relative rounded-lg overflow-hidden">
-      <button class="absolute z-10 inset-y-0 end-0 flex items-center ps-3.5 pe-3.5 bg-primary focus:ring-accent-50 focus:border-accent-50">
+      <input type="text" class="relative z-0 bg-theme-clr-white border border-gray-300 text-on-theme-clr-white text-sm rounded-lg focus:ring-primary-alt focus:border-2 focus:border-primary-alt block w-full pe-10 p-2.5" placeholder="Search">
+      <button class="absolute z-10 inset-y-0 end-0 flex items-center ps-3.5 pe-3.5 bg-primary focus:ring-primary-alt focus:border-2 focus:border-primary-alt">
         <i data-feather="search" class="text-on-theme-clr-white"></i>
       </button>
-      <input type="text" id="email-address-icon" class="relative z-0 focus:bg-theme-clr-white bg-theme-clr-white border border-gray-300 text-on-theme-clr-white text-sm rounded-lg focus:ring-accent-50 focus:border-accent-50 block w-full pe-10 p-2.5" placeholder="Search">
     </div>
   </form>
 </div>

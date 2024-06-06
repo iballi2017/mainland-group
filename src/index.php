@@ -11,10 +11,10 @@
         <div class="mg-main-wrapper">
             <div id="default-carousel" class="relative w-full" data-carousel="slide">
                 <!-- Carousel wrapper -->
-                <div class="relative overflow-hidden h-56 md:h-[570px]">
+                <div class="relative overflow-hidden h-56 md:h-[600px]">
                     <!-- Slide 1 -->
                     <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img loading="lazy" src="./assets/images/hero-slider-1-image.jpg" class="absolute x-z-1 block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Ignite Innovation">
+                        <img loading="lazy" src="./assets/images/hero-slider-1-image.png" class="absolute x-z-1 block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Ignite Innovation">
                         <div class="absolute z-2 block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
                             <div class="text-center text-white max-w-2xl mx-auto">
                                 <h1 class="text-2xl lg:text-5xl font-bold">Corrupti amet nobis repellendus</h1>
@@ -26,7 +26,7 @@
                     </div>
                     <!-- Slide 2 -->
                     <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img loading="lazy" src="./assets/images/hero-slider-2-image.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                        <img loading="lazy" src="./assets/images/hero-slider-2-image.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                         <div class="absolute z-2 block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
                             <div class="text-center text-white max-w-2xl mx-auto">
                                 <h1 class="text-2xl lg:text-5xl font-bold">Ignite Innovations</h1>
@@ -36,7 +36,7 @@
                     </div>
                     <!-- Slide 3 -->
                     <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img loading="lazy" src="./assets/images/hero-slider-3-image.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                        <img loading="lazy" src="./assets/images/hero-slider-3-image.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                         <div class="absolute z-2 block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
                             <div class="text-center text-white max-w-2xl mx-auto">
                                 <h1 class="text-2xl lg:text-5xl font-bold">Nulla quis quasi quia sit,</h1>

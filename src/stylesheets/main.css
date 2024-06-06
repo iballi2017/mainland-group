@@ -10,7 +10,7 @@ body {
   color: var(--clr-secondary);
   margin: 0;
   padding: 0;
-  font: 100% var(--ff-body);
+  font-family: var(--ff-body);
   position: relative;
 }
 html *:focus,
@@ -218,6 +218,7 @@ html {
 
 .main-toolbar .nav-link {
   display: block;
+  text-wrap: nowrap;
   position: relative;
   padding: 1em;
 }
@@ -240,6 +241,12 @@ html {
 }
 .main-toolbar .nav-link.active {
   background-color: var(--clr-primary);
+}
+@media (max-width: 50em) {
+  .main-toolbar {
+    padding: 0.3em;
+    font-size: 14px;
+  }
 }
 
 @layer base {
@@ -403,7 +410,7 @@ html {
 }
 
 .lg-font {
-  font-size: 105%;
+  font-size: 17px;
 }
 .lg-font .mg-main-container {
   --max-width: 1680px;

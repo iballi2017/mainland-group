@@ -111,16 +111,14 @@ $(function () {
             var owlDots = $(".owl-dots");
             var owlDotsList = owlDots.toArray();
 
-            console.warn("owlDotsList: ", owlDotsList);
             for (let i = 0; i < owlDotsList.length; i++) {
                 const owl_dots = owlDotsList[i];
-                const dot_list = owl_dots.children();
-                var positionTag = testPosition();
+                const dot_list = owl_dots.children;
 
-                function testPosition() {
-                    if (dot_list.length == 1) {
+                function positionTag(index) {
+                    if (index == 0) {
                         return "st";
-                    } else if (dot_list.length == 2) {
+                    } else if (index == 1) {
                         return "nd"
                     } else {
                         return "th";
@@ -129,72 +127,13 @@ $(function () {
                 }
 
                 for (let j = 0; j < dot_list.length; j++) {
-                    const element = dot_list[j];
-
-                    console.log({
-                        parent: owl_dots,
-                        children: element
-                    })
+                    const dot_button = dot_list[j];
+                    dot_button.setAttribute("aria-label", `click to show the ${j + 1}${positionTag(j)} slide`);
 
                 }
 
 
             }
-
-            // var dotList = owlDots.children();
-            // console.warn(dotList);
-
-            // for (let index = 0; index < dotList.length; index++) {
-            //     const dot = dotList[index];
-            //     var positionTag = testPosition();
-
-            //     function testPosition() {
-            //         if (dotList.length == 1) {
-            //             return "st";
-            //         } else if (dotList.length == 2) {
-            //             return "nd"
-            //         } else {
-            //             return "th";
-            //         }
-
-            //     }
-
-            //     $(".owl-dot").attr("aria-label", `click to see the ${index + 1}${positionTag} slide`);
-
-            //     console.log("dot: ", dot)
-            //     console.log("dot.length: ", dot.length);
-
-            // }
-
-
-
-            // $(".owl-dot").attr("role", "button");
-            // // $(".owl-dot").attr("aria-label", "click to see another slide");
-            // var parent = $(".owl-dot").parent();
-            // var dots = parent.children();
-
-            // for (let index = 0; index < dots.length; index++) {
-            //     var positionTag = testPosition();
-
-            //     function testPosition() {
-            //         if (dots.length == 1) {
-            //             return "st";
-            //         } else if (dots.length == 2) {
-            //             return "nd"
-            //         } else {
-            //             return "th";
-            //         }
-
-            //     }
-            //     const element = dots[index];
-            //     console.log((element, index))
-            //     $(".owl-dot").attr("aria-label", `click to see the ${index + 1}${positionTag} slide`);
-
-            // }
-
-
-            // console.log("dots: ", dots)
-            // console.log("$('.owl-dot'): ", $(".owl-dot"))
         }, 0);
     }
 
