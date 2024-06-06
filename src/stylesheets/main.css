@@ -78,6 +78,9 @@ html {
 .theme-mode-toggle-wrapper input[type=checkbox]:checked + .cursor::after {
   content: url(../assets/icons/icon-sun-alt.svg);
 }
+.theme-mode-toggle-wrapper input[type=checkbox]:focus + .cursor {
+  box-shadow: 0 0 0 2px var(--clr-primary-alt);
+}
 .theme-mode-toggle-wrapper .cursor::before, .theme-mode-toggle-wrapper .cursor::after {
   display: flex;
   align-items: center;
@@ -97,6 +100,9 @@ html {
 }
 .theme-font-toggle-wrapper input[type=checkbox]:checked + .cursor::after {
   content: "A";
+}
+.theme-font-toggle-wrapper input[type=checkbox]:focus + .cursor {
+  box-shadow: 0 0 0 2px var(--clr-primary-alt);
 }
 .theme-font-toggle-wrapper input + .cursor::before, .theme-font-toggle-wrapper input + .cursor::after {
   display: flex;
