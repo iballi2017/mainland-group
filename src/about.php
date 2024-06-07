@@ -6,7 +6,6 @@
 <?php include_once("./components/main-toolbar.php"); ?>
 <!-- main-toolbar closes -->
 
-
 <!-- header opens -->
 <?php
 $routes = array("Home", "About");
