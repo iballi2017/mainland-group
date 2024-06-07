@@ -16,16 +16,13 @@ include_once("./components/header.php"); ?>
 
     <section class="bg-theme-clr-white py-12 lg:py-20">
         <div class="mg-main-container">
-            <div class="max-w-5xl mx-auto flex flex-col items-center jusify-center gap-8 bg-red-500">
+            <div class="max-w-4xl mx-auto flex flex-col items-center jusify-center gap-8">
                 <h2 class="bg-primary">
                     <span class="sr-only">Mainland Solar</span>
                     <img src="./assets/images/our-sub-company-logos/mainlandsolar-brand-logo.png" alt="">
                 </h2>
 
-                <p>Mainlandsolar is dedicated to promoting sustainable energy solutions through advanced solar power technology. We offer comprehensive solar installation services for residential, commercial, and industrial clients. Our goal is to reduce carbon footprints and help you achieve energy independence with high-quality solar panels and expert installation. Trust Mainlandsolar to provide you with clean, efficient, and cost-effective energy solutions tailored to your needs.</p>
-
-                <!-- <div class="h-4"></div>
-                <div class="h-4"></div> -->
+                <p class="text-center">Mainlandsolar is dedicated to promoting sustainable energy solutions through advanced solar power technology. We offer comprehensive solar installation services for residential, commercial, and industrial clients. Our goal is to reduce carbon footprints and help you achieve energy independence with high-quality solar panels and expert installation. Trust Mainlandsolar to provide you with clean, efficient, and cost-effective energy solutions tailored to your needs.</p>
 
                 <?php
                 $label = "Visit website";
