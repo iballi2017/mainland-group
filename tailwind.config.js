@@ -35,7 +35,7 @@ module.exports = {
       "on-theme-clr-call-to-action": 'hsl(var(on-theme-clr-call-to-action) / <alpha-value>)',
 
       "accent": {
-        "50": "hsl(var(--theme-clr-accent) / <alpha-value>)",
+        "50": "hsl(var(--theme-clr-accent-50) / <alpha-value>)",
       },
     }
   },

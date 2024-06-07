@@ -824,6 +824,10 @@ video {
   height: 100%;
 }
 
+.h-32 {
+  height: 8rem;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -894,6 +898,10 @@ video {
 
 .max-w-sm {
   max-width: 24rem;
+}
+
+.max-w-7xl {
+  max-width: 80rem;
 }
 
 .-translate-x-1\/2 {
@@ -1055,7 +1063,7 @@ video {
 
 .bg-accent-50 {
   --tw-bg-opacity: 1;
-  background-color: hsl(var(--theme-clr-accent) / var(--tw-bg-opacity));
+  background-color: hsl(var(--theme-clr-accent-50) / var(--tw-bg-opacity));
 }
 
 .bg-black\/75 {
@@ -1243,6 +1251,11 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .font-bold {
@@ -1508,7 +1521,7 @@ video {
 .after\:border-accent-50::after {
   content: var(--tw-content);
   --tw-border-opacity: 1;
-  border-color: hsl(var(--theme-clr-accent) / var(--tw-border-opacity));
+  border-color: hsl(var(--theme-clr-accent-50) / var(--tw-border-opacity));
 }
 
 .after\:border-white::after {
@@ -1520,7 +1533,7 @@ video {
 .after\:bg-accent-50::after {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
-  background-color: hsl(var(--theme-clr-accent) / var(--tw-bg-opacity));
+  background-color: hsl(var(--theme-clr-accent-50) / var(--tw-bg-opacity));
 }
 
 .after\:bg-theme-clr-white::after {
@@ -1579,7 +1592,7 @@ video {
 
 .focus\:border-accent-50:focus {
   --tw-border-opacity: 1;
-  border-color: hsl(var(--theme-clr-accent) / var(--tw-border-opacity));
+  border-color: hsl(var(--theme-clr-accent-50) / var(--tw-border-opacity));
 }
 
 .focus\:border-primary-alt:focus {
@@ -1611,7 +1624,7 @@ video {
 
 .focus\:ring-accent-50:focus {
   --tw-ring-opacity: 1;
-  --tw-ring-color: hsl(var(--theme-clr-accent) / var(--tw-ring-opacity));
+  --tw-ring-color: hsl(var(--theme-clr-accent-50) / var(--tw-ring-opacity));
 }
 
 .focus\:ring-primary-alt:focus {
@@ -1649,7 +1662,7 @@ video {
 .peer:checked ~ .peer-checked\:before\:border-accent-50::before {
   content: var(--tw-content);
   --tw-border-opacity: 1;
-  border-color: hsl(var(--theme-clr-accent) / var(--tw-border-opacity));
+  border-color: hsl(var(--theme-clr-accent-50) / var(--tw-border-opacity));
 }
 
 .peer:checked ~ .peer-checked\:before\:border-white::before {
@@ -1661,7 +1674,7 @@ video {
 .peer:checked ~ .peer-checked\:before\:bg-accent-50::before {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
-  background-color: hsl(var(--theme-clr-accent) / var(--tw-bg-opacity));
+  background-color: hsl(var(--theme-clr-accent-50) / var(--tw-bg-opacity));
 }
 
 .peer:checked ~ .peer-checked\:before\:bg-white::before {
@@ -1716,6 +1729,11 @@ video {
   .sm\:px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .sm\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 }
 

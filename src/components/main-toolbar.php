@@ -76,12 +76,12 @@ after:right-0 after:left-1/2 after:w-1/2
             
             <ul class="hidden order-2 md:order-1 w-full md:mr-2 lg:mr-8 md:flex flex-col p-2 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:space-x-2 lg:space-x-8 rtl:space-x-reverse md:flex-row md:items-center md:justify-between md:mt-0 md:border-0" id="navbar">
               <li>
-                <a href="#" class="nav-link | block py-2 px-3 text-on-theme-clr-white rounded lg:rounded-none md:py-0" aria-current="page">
+                <a href="./" class="nav-link | block py-2 px-3 text-on-theme-clr-white rounded lg:rounded-none md:py-0" aria-current="page">
                   Home
                 </a>
               </li>
               <li>
-                <a href="#" class="nav-link active | block py-2 px-3 text-on-theme-clr-white rounded lg:rounded-none md:p-0">
+                <a href="about.php" class="nav-link active | block py-2 px-3 text-on-theme-clr-white rounded lg:rounded-none md:p-0">
                   About
                 </a>
               </li>
