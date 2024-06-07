@@ -11,7 +11,7 @@
         <div class="mg-main-wrapper">
             <div id="default-carousel" class="relative w-full" data-carousel="slide">
                 <!-- Carousel wrapper -->
-                <div class="relative overflow-hidden h-56 md:h-[600px]">
+                <div class="relative overflow-hidden h-56 lg:h-[600px]">
                     <!-- Slide 1 -->
                     <div class="hidden duration-700 ease-in-out" data-carousel-item>
                         <img loading="lazy" src="./assets/images/hero-slider-1-image.png" class="absolute x-z-1 block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Ignite Innovation">
@@ -99,75 +99,9 @@
     </section>
 
 
-    <section class="bg-theme-clr-light dark:text-on-theme-clr-light py-12 lg:py-20">
-        <div class="mg-main-container">
-            <h2 class="font-semibold text-sm lg:text-lg text-center">OUR SUB - COMPANY</h2>
-            <p class="font-bold text-xl lg:text-3xl text-center max-w-[850px] mx-auto">We proudly oversees a diverse portfolio of businesses, each excelling in its field and contributing uniquely to the market</p>
 
-            <div class="h-8 md:h-12"></div>
-
-            <div class="grid grid-cols-12 gap-2 md:gap-8 w-full max-w-[1000px] mx-auto">
-                <div class="col-span-6 md:col-span-3">
-                    <div tabindex="0" class="focus:border group relative rounded-lg overflow-hidden shadow-md bg-theme-clr-white px-8 py-12 h-full flex items-center justify-center">
-                        <img src="./assets/images/our-sub-company-logos/lagoscart-brand-logo.svg" alt="Lagoscart" class="">
-                        <p class="invisible group-hover:visible group-focus:visible bg-black/80 text-white text-sm p-4 absolute top-0 bottom-0 left-0 right-0 flex flex-col items-center justify-center text-center">
-                            Your one-stop online marketplace for a wide range of products from groceries to electronics.
-                            <span class="text-xs mt-2">
-                                <?php
-                                $label = "Visit page";
-                                $url = "#";
-                                $tabIndex="0";
-                                include("./shared/widgets/call-to-action.php"); ?>
-                            </span>
-                        </p>
-                    </div>
-                </div>
-                <div class="col-span-6 md:col-span-3">
-                    <div tabindex="0" class="focus:border group relative rounded-lg overflow-hidden shadow-md bg-theme-clr-white px-8 py-12 h-full flex items-center justify-center">
-                        <img src="./assets/images/our-sub-company-logos/vanlagos-brand-logo.svg" alt="Vanlagos" class="">
-                        <p class="invisible group-hover:visible group-focus:visible bg-black/80 text-white text-sm p-4 absolute top-0 bottom-0 left-0 right-0 flex flex-col items-center justify-center text-center">
-                            Offering reliable and efficient van rental services tailored to meet your transportation needs.
-                            <span class="text-xs mt-2">
-                                <?php
-                                $label = "Visit page";
-                                $url = "#";
-                                include("./shared/widgets/call-to-action.php"); ?>
-                            </span>
-                        </p>
-                    </div>
-                </div>
-                <div class="col-span-6 md:col-span-3">
-                    <div tabindex="0" class="focus:border group relative rounded-lg overflow-hidden shadow-md bg-theme-clr-white px-8 py-12 h-full flex items-center justify-center">
-                        <img src="./assets/images/our-sub-company-logos/mainlandsolar-brand-logo.svg" alt="mainlandsolar" class="">
-                        <p class="invisible group-hover:visible group-focus:visible bg-black/80 text-white text-sm p-4 absolute top-0 bottom-0 left-0 right-0 flex flex-col items-center justify-center text-center">
-                            Leading the way in renewable energy solutions, providing solar power installations and services.
-                            <span class="text-xs mt-2">
-                                <?php
-                                $label = "Visit page";
-                                $url = "#";
-                                include("./shared/widgets/call-to-action.php"); ?>
-                            </span>
-                        </p>
-                    </div>
-                </div>
-                <div class="col-span-6 md:col-span-3">
-                    <div tabindex="0" class="focus:border group relative rounded-lg overflow-hidden shadow-md bg-theme-clr-white px-8 py-12 h-full flex items-center justify-center">
-                        <img src="./assets/images/our-sub-company-logos/studiomainland-brand-logo.svg" alt="studiomainland" class="">
-                        <p class="invisible group-hover:visible group-focus:visible bg-black/80 text-white text-sm p-4 absolute top-0 bottom-0 left-0 right-0 flex flex-col items-center justify-center text-center">
-                            A premier destination for creative professionals, offering state-of-the-art studio spaces and equipment.
-                            <span class="text-xs mt-2">
-                                <?php
-                                $label = "Visit page";
-                                $url = "#";
-                                include("./shared/widgets/call-to-action.php"); ?>
-                            </span>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
+    <!-- about-us-subsidiary-company-section -->
+    <?php include("./components/about-us-subsidiary-company-section.php"); ?>
 
 
 

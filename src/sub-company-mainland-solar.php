@@ -1,0 +1,55 @@
+<!-- head opens -->
+<?php include_once("./includes/head.php"); ?>
+<!-- head closes -->
+
+<!-- main-toolbar opens -->
+<?php include_once("./components/main-toolbar.php"); ?>
+<!-- main-toolbar closes -->
+
+<!-- header opens -->
+<?php
+$routes = array("Home", "Mainland Solar");
+include_once("./components/header.php"); ?>
+<!-- header closes -->
+
+<main>
+
+    <section class="bg-theme-clr-white py-12 lg:py-20">
+        <div class="mg-main-container">
+            <div class="max-w-5xl mx-auto flex flex-col items-center jusify-center gap-8 bg-red-500">
+                <h2 class="bg-primary">
+                    <span class="sr-only">Mainland Solar</span>
+                    <img src="./assets/images/our-sub-company-logos/mainlandsolar-brand-logo.png" alt="">
+                </h2>
+
+                <p>Mainlandsolar is dedicated to promoting sustainable energy solutions through advanced solar power technology. We offer comprehensive solar installation services for residential, commercial, and industrial clients. Our goal is to reduce carbon footprints and help you achieve energy independence with high-quality solar panels and expert installation. Trust Mainlandsolar to provide you with clean, efficient, and cost-effective energy solutions tailored to your needs.</p>
+
+                <!-- <div class="h-4"></div>
+                <div class="h-4"></div> -->
+
+                <?php
+                $label = "Visit website";
+                $target_blank = "_blank";
+                $url = "#";
+                include("./shared/widgets/call-to-action.php"); ?>
+            </div>
+        </div>
+    </section>
+
+
+</main>
+
+
+
+
+
+
+
+
+
+<!-- footer opens -->
+<?php include_once("./components/footer.php"); ?>
+<!-- footer closes -->
+<!-- foot opens -->
+<?php include_once("./includes/foot.php"); ?>
+<!-- foot closes -->
