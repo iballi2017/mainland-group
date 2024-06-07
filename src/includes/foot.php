@@ -5,6 +5,9 @@
   </button>
 </div>
 
+<div class="page-loader show">
+  <div class="loader"></div>
+</div>
 
 
 <!-- jquery-3.7.1.js -->

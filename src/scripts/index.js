@@ -7,12 +7,12 @@ import Overlay from "./Overlay.js";
 
 document.addEventListener("DOMContentLoaded", () => {
     // alert("Page Loaded!!!");
-
     var OverlayObj = new Overlay();
     var overlay = document.querySelector(".overlay");
     var closeOverlayBtn = document.querySelector(".close-overlay-btn");
 
     const Init = () => {
+        handlePageLoader();
         const configureUiDisplayModes = new ConfigureUiDisplayModes();
         configureUiDisplayModes.handle_switch_theme();
 
@@ -27,6 +27,15 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
     /** */
+
+
+    function handlePageLoader() {
+        /**remove page loader */
+        const page_loader = document.querySelector(".page-loader");
+        page_loader?.classList.contains("show") ?
+            page_loader.classList.remove("show") :
+            null;
+    }
 
 
     function toggleOverlay() {
