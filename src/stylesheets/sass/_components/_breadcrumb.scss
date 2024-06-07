@@ -1,0 +1,12 @@
+.breadcrumb {
+    li {
+        &:not(:last-child){
+            font-weight: 600;
+            &:after {
+                content: "/";
+                margin-right: 2px;
+                margin-left: 2px;
+            }
+        }
+    }
+}
