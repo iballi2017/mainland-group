@@ -150,7 +150,7 @@ after:right-0 after:left-1/2 after:w-1/2
                 </a>
               </li> -->
               <li>
-                <a href="#" class="nav-link | block py-2 px-3 text-on-theme-clr-white rounded lg:rounded-none md:p-0">
+                <a href="blog.php" class="nav-link | block py-2 px-3 text-on-theme-clr-white rounded lg:rounded-none md:p-0">
                   Blog
                 </a>
               </li>
@@ -160,7 +160,7 @@ after:right-0 after:left-1/2 after:w-1/2
                 </a>
               </li>
               <li>
-                <a href="#" class="nav-link | block py-2 px-3 text-on-theme-clr-white rounded lg:rounded-none md:p-0">
+                <a href="contact-us.php" class="nav-link | block py-2 px-3 text-on-theme-clr-white rounded lg:rounded-none md:p-0">
                   Contact Us
                 </a>
               </li>
