@@ -199,7 +199,7 @@ html {
   margin: 5px;
   border-radius: 50%;
   cursor: pointer;
-  background-color: var(--clr-gray-400);
+  border: 1px solid var(--clr-gray-400);
 }
 .owl-dot.active, .owl-dot:hover {
   background: var(--clr-primary);

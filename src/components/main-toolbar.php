@@ -20,7 +20,7 @@ after:right-0 after:left-1/2 after:w-1/2
       <div class="grid grid-cols-12 w-full">
         <div class="col-span-12 lg:col-span-2 bg-[#1B3512] text-white flex items-center justify-center py-4">
           <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src="./assets/images/brand-logo.svg" alt="Company brand logo" class="max-w-40">
+            <img src="./assets/images/brand-logo.svg" alt="Manland Group brand logo" class="max-w-40">
           </a>
         </div>
         <div class="col-span-12 lg:col-span-10">
@@ -100,7 +100,7 @@ after:right-0 after:left-1/2 after:w-1/2
                 </button>
 
                 <!-- Dropdown menu -->
-                <div id="dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg bg-primary focus:border focus:border-primary shadow w-full md:w-44 lg:w-56 dark:bg-gray-700">
+                <div id="dropdown" class="z-[3000px] hidden bg-white divide-y divide-gray-100 rounded-lg bg-primary focus:border focus:border-primary shadow w-full md:w-44 lg:w-56 dark:bg-gray-700">
                   <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
                     <li>
                       <a href="sub-company-lagoscart.php" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
@@ -118,8 +118,8 @@ after:right-0 after:left-1/2 after:w-1/2
                       </a>
                     </li>
                     <li>
-                      <a href="sub-company-studio-mainland.php" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
-                        Studio Mainland
+                      <a href="sub-company-studios-mainland.php" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
+                        Studios Mainland
                       </a>
                     </li>
                   </ul>

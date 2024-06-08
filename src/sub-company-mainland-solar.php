@@ -14,7 +14,7 @@ include_once("./components/header.php"); ?>
 
 <main>
 
-    <section class="bg-theme-clr-white py-12 lg:py-20">
+    <section class="bg-theme-clr-white py-12 lg:py-16">
         <div class="mg-main-container">
             <div class="max-w-4xl mx-auto flex flex-col items-center jusify-center gap-8">
                 <h2 class="bg-primary">
@@ -27,7 +27,7 @@ include_once("./components/header.php"); ?>
                 <?php
                 $label = "Visit website";
                 $target_blank = "_blank";
-                $url = "#";
+                $url = "https://mainlandsolar.com/";
                 include("./shared/widgets/call-to-action.php"); ?>
             </div>
         </div>

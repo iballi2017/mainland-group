@@ -42,12 +42,6 @@ include_once("./components/header.php"); ?>
 
 
 
-
-
-
-
-
-
 <!-- footer opens -->
 <?php include_once("./components/footer.php"); ?>
 <!-- footer closes -->

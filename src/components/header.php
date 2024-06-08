@@ -3,6 +3,7 @@
     <div class="bg-theme-clr-secondary text-on-theme-clr-secondary py-12">
         <div class="mg-main-container">
             <div class="flex flex-col items-center gap-4">
+                <h1 class="sr-only">Breadcrumb list</h1>
                 <ul class="breadcrumb | text-sm flex items-center">
                     <?php
                     $length = count($routes);

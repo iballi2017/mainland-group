@@ -70,6 +70,7 @@
 .owl-dots {
   text-align: center;
   border: 1px solid var(--clr-gray-400);
+  // border: 1px solid red;
   display: inline-flex;
   border-radius: 5rem;
 }
@@ -81,13 +82,15 @@
   margin: 5px;
   border-radius: 50%;
   cursor: pointer;
-  background-color: var(--clr-gray-400);
+  // background-color: var(--clr-gray-400);
+  // background-color: white;
+  border: 1px solid var(--clr-gray-400);
   &.active,
   &:hover {
     background: var(--clr-primary);
   }
 
-  &:focus{
+  &:focus {
     outline: none;
     // border: 1px solid var(--clr-accent);
     box-shadow: 0 0 0 1px var(--clr-accent);
