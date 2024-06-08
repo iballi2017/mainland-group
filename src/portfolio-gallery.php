@@ -17,7 +17,7 @@ include_once("./components/header.php"); ?>
     <section class="bg-theme-clr-white py-12 lg:py-20">
         <div class="mg-main-container">
             <!-- Filter -->
-            <ul class="portfolio-filter-gallery | min-w-[425px] max-w-3xl mx-auto overflow-auto flex items-center justify-between flex-wrap gap-4">
+            <ul class="portfolio-filter-gallery | hidden md:flex w-full max-w-3xl mx-auto overflow-auto flex-nowrap items-center justify-between gap-4">
                 <li>
                     <input type="radio" name="filter-gallery" id="1" value="1" class="absolute invisible" checked>
                     <label for="1">All</label>
@@ -39,6 +39,18 @@ include_once("./components/header.php"); ?>
                     <label for="5">Lagoscart</label>
                 </li>
             </ul>
+
+            <form class="max-w-sm mx-auto md:hidden">
+                <select id="countries" class="bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-primary focus:border-primary block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary dark:focus:border-primary">
+                    <option selected>Filter portfolio</option>
+                    <option value="1">All</option>
+                    <option value="2">Vanlagos</option>
+                    <option value="3">Studio Mainland</option>
+                    <option value="4">Mainland Solar</option>
+                    <option value="5">Lagoscart</option>
+                </select>
+            </form>
+
             <div class="h-4"></div>
             <div class="h-4"></div>
             <div class="h-4"></div>
