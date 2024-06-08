@@ -303,6 +303,15 @@ html {
   margin-left: 2px;
 }
 
+.portfolio-filter-gallery input[type=radio]:checked + label {
+  color: red;
+}
+.portfolio-filter-gallery label {
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
 @layer base {
   :root {
     /* PRIMARY COLOR */

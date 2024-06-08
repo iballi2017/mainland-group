@@ -1,0 +1,14 @@
+.portfolio-filter-gallery {
+  input[type="radio"] {
+    &:checked {
+      & + label {
+        color: red;
+      }
+    }
+  }
+  label{
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+}
