@@ -21,7 +21,7 @@
                         <li class="mb-2 md:mb-4"><a href="#">Studio Mainland</a></li>
                     </ul>
                 </div>
-                <div class="col-span-12 md:col-span-3">
+                <div class="col-span-12 sm:col-span-6 md:col-span-3">
                     <h4 class="text-lg font-semibold mb-4">Contact</h4>
                     <ul>
                         <li class="flex items-start gap-2 mb-2 md:mb-4">
@@ -60,36 +60,17 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-span-12 md:col-span-3">
+                <div class="col-span-12 sm:col-span-6 md:col-span-3">
                     <h4 class="text-lg font-semibold mb-4">Recent Updates</h4>
                     <ul>
                         <li class="mb-4">
                             <a href="#">
                                 <div class="flex items-start gap-2">
-
-                                    <div class="rounded-lg w-16 overflow-hidden">
+                                    <div class="rounded-lg w-10 lg:w-16 overflow-hidden">
                                         <img src="./assets/images/food-price-increases-by-200-percent-progression-say-it-may-increase.png" alt="">
                                     </div>
                                     <div>
-                                        <div class="flex items-center justify-between gap-8">
-                                            <span><i class="fas fa-calendar me-2"></i>May 10, 2021</span>
-                                            <span><i class="fas fa-user me-2"></i>By Admin</span>
-                                        </div>
-                                        <div class="h-2"></div>
-                                        <h5 class="font-semibold">Fixing Solar panel of a client</h5>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="mb-4">
-                            <a href="#">
-                                <div class="flex items-start gap-2">
-
-                                    <div class="rounded-lg w-16 overflow-hidden">
-                                        <img src="./assets/images/food-price-increases-by-200-percent-progression-say-it-may-increase.png" alt="">
-                                    </div>
-                                    <div>
-                                        <div class="flex items-center justify-between gap-8">
+                                        <div class="flex items-center justify-between flex-wrap gap-2 lg:gap-8">
                                             <span><i class="fas fa-calendar me-2"></i>May 10, 2021</span>
                                             <span><i class="fas fa-user me-2"></i>By Admin</span>
                                         </div>

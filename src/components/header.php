@@ -24,7 +24,24 @@
                     </li>
                     <li>About</li> -->
                 </ul>
-                <h1 class="text-3xl font-bold"><?php echo  $routes[$length - 1]; ?></h1>
+                <h1 class=" 
+                <?php
+                if ($textSize) {
+                    echo "$textSize ";
+                } else {
+                    echo "text-3xl ";
+                };
+                if ($fontWeight) {
+                    echo "$fontWeight ";
+                } else {
+                    echo "font-bold ";
+                };
+                if ($textTransform) {
+                    echo "$textTransform ";
+                }
+
+                ?>
+                "><?php echo  $routes[$length - 1]; ?></h1>
                 <!-- <h1>ABOUT</h1> -->
             </div>
         </div>
