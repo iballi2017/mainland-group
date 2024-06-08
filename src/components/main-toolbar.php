@@ -18,9 +18,9 @@ after:right-0 after:left-1/2 after:w-1/2
 ">
     <div class="mg-main-wrapper">
       <div class="grid grid-cols-12 w-full">
-        <div class="col-span-12 lg:col-span-2 bg-[#1B3512] text-white flex items-center justify-center py-4">
+        <div class="bg-theme-clr-secondary col-span-12 lg:col-span-2 text-white flex items-center justify-center lg:justify-start py-4">
           <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src="./assets/images/brand-logo.svg" alt="Manland Group brand logo" class="max-w-40">
+            <img src="./assets/images/brand-logo.svg" alt="Mainland Group brand logo" class="max-w-40">
           </a>
         </div>
         <div class="col-span-12 lg:col-span-10">
@@ -155,7 +155,7 @@ after:right-0 after:left-1/2 after:w-1/2
                 </a>
               </li>
               <li>
-                <a href="#" class="nav-link | block py-2 px-3 text-on-theme-clr-white rounded lg:rounded-none md:p-0">
+                <a href="career.php" class="nav-link | block py-2 px-3 text-on-theme-clr-white rounded lg:rounded-none md:p-0">
                   Career
                 </a>
               </li>

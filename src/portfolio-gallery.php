@@ -14,7 +14,7 @@ include_once("./components/header.php"); ?>
 
 <main>
 
-    <section class="bg-theme-clr-white py-12 lg:py-20">
+    <section class="bg-theme-clr-white py-12">
         <div class="mg-main-container">
             <!-- Filter -->
             <ul class="portfolio-filter-gallery | hidden md:flex w-full max-w-3xl mx-auto overflow-auto flex-nowrap items-center justify-between gap-4">

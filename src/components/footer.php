@@ -1,6 +1,6 @@
 <footer>
     <div class="bg-theme-clr-secondary text-on-theme-clr-secondary py-8 lg:pb-20">
-        <div class="mg-main-container flex flex-col flex-wrap items-center justify-between mx-auto md:px-4">
+        <div class="mg-main-container flex flex-col flex-wrap items-center justify-between">
             <div class="grid grid-cols-12 gap-4 w-full text-sm">
                 <div class="col-span-6 md:col-span-3">
                     <h4 class="text-lg font-semibold mb-4">Quick links</h4>
