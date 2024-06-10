@@ -14,7 +14,7 @@ include_once("./components/header.php"); ?>
 
 <main>
 
-    <section class="bg-theme-clr-white py-12 lg:py-20">
+    <section class="bg-theme-clr-white text-on-theme-clr-white py-12 lg:py-20">
         <div class="mg-main-container">
 
             <div class="grid grid-cols-12 gap-4 lg:gap-8 items-center max-w-[1200px] mx-auto">
@@ -23,7 +23,7 @@ include_once("./components/header.php"); ?>
                         <img src="./assets/images/featured-image-1.png" alt="KNOW ABOUT MAINLAND EDGE BUSINESS" class="w-full">
                     </div>
                 </div>
-                <div class="col-span-12 md:col-span-6 text-on-theme-clr-white">
+                <div class="col-span-12 md:col-span-6">
                     <h2 class="font-semibold text-sm lg:text-lg">KNOW ABOUT MAINLAND EDGE BUSINESS</h2>
                     <p class="font-bold text-xl lg:text-3xl">Welcome to Mainland Group!</p>
                     <div class="h-2 md:h-4"></div>

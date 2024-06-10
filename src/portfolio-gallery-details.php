@@ -96,7 +96,7 @@ include_once("./components/header.php"); ?>
                             <a href="#">
                                 <span class="font-semibold">Previous</span>
                                 <div class="flex items-start gap-2">
-                                    <div class="rounded-lg w-10 lg:w-12 overflow-hidden">
+                                    <div class="rounded-lg w-10 lg:w-12 overflow-hidden hidden lg:block">
                                         <img src="./assets/images/food-price-increases-by-200-percent-progression-say-it-may-increase.png" alt="">
                                     </div>
                                     <div class="text-on-theme-clr-light">
@@ -110,7 +110,7 @@ include_once("./components/header.php"); ?>
                             <a href="#">
                                 <span class="block text-right font-semibold">Next</span>
                                 <div class="flex items-start gap-2">
-                                    <div class="rounded-lg w-10 lg:w-12 overflow-hidden">
+                                    <div class="rounded-lg w-10 lg:w-12 overflow-hidden hidden lg:block">
                                         <img src="./assets/images/food-price-increases-by-200-percent-progression-say-it-may-increase.png" alt="">
                                     </div>
                                     <div class="text-on-theme-clr-light">

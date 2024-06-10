@@ -65,12 +65,12 @@
                     <ul>
                         <li class="mb-4">
                             <a href="#">
-                                <div class="flex items-start gap-2">
+                                <div class="flex items-start gap-2 text-sm">
                                     <div class="rounded-lg w-10 lg:w-16 overflow-hidden">
                                         <img src="./assets/images/food-price-increases-by-200-percent-progression-say-it-may-increase.png" alt="">
                                     </div>
                                     <div>
-                                        <div class="flex items-center justify-between flex-wrap gap-2 lg:gap-8">
+                                        <div class="text-xs flex items-center justify-between flex-wrap gap-2 lg:gap-8">
                                             <span><i class="fas fa-calendar me-2"></i>May 10, 2021</span>
                                             <span><i class="fas fa-user me-2"></i>By Admin</span>
                                         </div>

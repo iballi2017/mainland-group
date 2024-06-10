@@ -126,7 +126,7 @@ html {
 }
 
 .mg-main-container {
-  width: min(var(--max-width), 100% - (var(--padding) * 2));
+  width: min(var(--max-width), 100% - var(--padding) * 2);
   margin-inline: auto;
 }
 
@@ -335,6 +335,7 @@ html {
     --theme-clr-accent-50: 104deg 57% 51%;
     --clr-base-text: 105deg 46% 14%;
     --theme-clr-gray-400: 0 0% 74%;
+    --theme-clr-gray-300: 0 0% 83%;
     --theme-clr-white: 0deg 0% 100%;
     --on-theme-clr-white: 106deg 47% 14%;
     --theme-light: 0deg 0% 96%;
@@ -344,7 +345,6 @@ html {
     /**/
     /* ... */
   }
-
   @media (prefers-color-scheme: dark) {
     :root {
       /* PRIMARY COLOR DARK MODE*/
@@ -383,22 +383,14 @@ html {
   --ff-body: var(--ff-primary);
   --ff-heading: var(--ff-secondary);
   /* FONT SIZES */
-  --fs-50: 0.81rem;
-  /*13px*/
-  --fs-100: 0.88rem;
-  /*14px*/
-  --fs-150: 0.94rem;
-  /*15px*/
-  --fs-200: 1rem;
-  /*16px*/
-  --fs-300: 1.38rem;
-  /*22px*/
-  --fs-400: 1.56rem;
-  /*25px*/
-  --fs-500: 2.5rem;
-  /*40px*/
-  --fs-600: 4.38rem;
-  /*70px*/
+  --fs-50: 0.81rem; /*13px*/
+  --fs-100: 0.88rem; /*14px*/
+  --fs-150: 0.94rem; /*15px*/
+  --fs-200: 1rem; /*16px*/
+  --fs-300: 1.38rem; /*22px*/
+  --fs-400: 1.56rem; /*25px*/
+  --fs-500: 2.5rem; /*40px*/
+  --fs-600: 4.38rem; /*70px*/
   --fs-nav: var(--fs-150);
   --fs-body: var(--fs-200);
   --fs-hero-title: var(--fs-600);
@@ -409,8 +401,7 @@ html {
   --fs-button: var(--fs-150);
   /* SIZES */
   --size-200: 0.2rem;
-  --size-250: 0.313rem;
-  /* 5px */
+  --size-250: 0.313rem; /* 5px */
   --size-300: 0.5rem;
   --size-400: 1rem;
   --size-500: 1.5rem;

@@ -46,7 +46,7 @@
                 </div>
                 <div class="dots-wrapper playing | absolute bottom-0 left-0 right-0 z-10 pb-2 md:pb-4 lg:pb-8">
                     <!-- custom-hero-dots -->
-                    <div class="bg-theme-clr-white dark:text-on-theme-clr-white rounded-full p-[2px] relative inline-flex items-center gap-4 mt-8">
+                    <div class="rounded-full p-[2px] relative inline-flex items-center gap-4 mt-8">
                         <div id="custom-hero-dots" class="owl-dots relative">
                             <!-- custom-hero-dots will be appended here -->
                         </div>

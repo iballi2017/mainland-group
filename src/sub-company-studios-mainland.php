@@ -14,7 +14,7 @@ include_once("./components/header.php"); ?>
 
 <main>
 
-    <div class="bg-theme-clr-white">
+    <div class="bg-theme-clr-white text-on-theme-clr-white">
         <div class="mg-main-container">
             <div class="py-12 lg:py-16 flex flex-col gap-8 lg:gap-12">
                 <section>
