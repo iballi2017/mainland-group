@@ -880,6 +880,10 @@ video {
   width: 100%;
 }
 
+.min-w-\[425px\] {
+  min-width: 425px;
+}
+
 .max-w-2xl {
   max-width: 42rem;
 }
@@ -968,10 +972,6 @@ video {
 
 .items-center {
   align-items: center;
-}
-
-.justify-start {
-  justify-content: flex-start;
 }
 
 .justify-center {
@@ -1083,23 +1083,9 @@ video {
   border-bottom-width: 1px;
 }
 
-.border-l {
-  border-left-width: 1px;
-}
-
-.border-on-theme-clr-light {
-  --tw-border-opacity: 1;
-  border-color: hsl(var(--on-theme-clr-light) / var(--tw-border-opacity));
-}
-
 .border-on-theme-clr-white {
   --tw-border-opacity: 1;
   border-color: hsl(var(--on-theme-clr-white) / var(--tw-border-opacity));
-}
-
-.border-l-on-theme-clr-light {
-  --tw-border-opacity: 1;
-  border-left-color: hsl(var(--on-theme-clr-light) / var(--tw-border-opacity));
 }
 
 .bg-\[\#1B3512\] {
@@ -1445,6 +1431,11 @@ video {
   display: block;
 }
 
+.before\:h-20::before {
+  content: var(--tw-content);
+  height: 5rem;
+}
+
 .before\:h-5::before {
   content: var(--tw-content);
   height: 1.25rem;
@@ -1458,6 +1449,11 @@ video {
 .before\:w-1\/2::before {
   content: var(--tw-content);
   width: 50%;
+}
+
+.before\:w-32::before {
+  content: var(--tw-content);
+  width: 8rem;
 }
 
 .before\:w-5::before {
@@ -1708,12 +1704,12 @@ video {
   --tw-ring-color: hsl(var(--theme-clr-accent-50) / var(--tw-ring-opacity));
 }
 
-.focus\:ring-primary:focus {
-  --tw-ring-color: hsl(var(--theme-clr-primary));
-}
-
 .focus\:ring-primary-alt:focus {
   --tw-ring-color: hsl(var(--theme-clr-primary-alt));
+}
+
+.focus\:ring-primary:focus {
+  --tw-ring-color: hsl(var(--theme-clr-primary));
 }
 
 .group:hover .group-hover\:visible {
@@ -2085,14 +2081,6 @@ video {
     grid-column: span 7 / span 7;
   }
 
-  .lg\:col-span-1 {
-    grid-column: span 1 / span 1;
-  }
-
-  .lg\:col-span-11 {
-    grid-column: span 11 / span 11;
-  }
-
   .lg\:mr-8 {
     margin-right: 2rem;
   }
@@ -2115,10 +2103,6 @@ video {
 
   .lg\:justify-start {
     justify-content: flex-start;
-  }
-
-  .lg\:justify-center {
-    justify-content: center;
   }
 
   .lg\:gap-12 {
