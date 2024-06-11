@@ -50,13 +50,77 @@ include_once("./components/header.php"); ?>
 
                             <div class="h-4"></div>
                             <div class="h-2"></div>
-                            
-                            <ul class="list-type-disc">
-                                <li class="flex items-center gap-2">
+
+                            <ul>
+                                <li class="flex items-center gap-2 before:content[''] before:bg-on-theme-clr-white before:h-[5px] before:w-[5px] before:rounded-full">
                                     <span>Minimum Qualification:</span>
                                     <span class="font-semibold">Degree</span>
                                 </li>
+                                <li class="flex items-center gap-2 before:content[''] before:bg-on-theme-clr-white before:h-[5px] before:w-[5px] before:rounded-full">
+                                    <span>Experience Level:</span>
+                                    <span class="font-semibold">Mid-level</span>
+                                </li>
+                                <li class="flex items-center gap-2 before:content[''] before:bg-on-theme-clr-white before:h-[5px] before:w-[5px] before:rounded-full">
+                                    <span>Experience Length:</span>
+                                    <span class="font-semibold">5 years</span>
+                                </li>
                             </ul>
+
+                            <div class="h-4"></div>
+                            <p>We are seeking a motivated and creative Product Design Intern to join our team. As a Product Design Intern, you will gain hands-on experience in the design process, working closely with experienced designers and cross-functional teams to enhance our product's user experience.</p>
+                        </section>
+                        <div class="h-6"></div>
+                        <section>
+                            <h4 class="font-semibold">Key Responsibilities:</h4>
+                            <div class="h-2"></div>
+                            <ul>
+                                <li class="flex items-center gap-2 before:content[''] before:bg-on-theme-clr-white before:h-[5px] before:w-[5px] before:rounded-full">
+                                    Support the design team in creating user interfaces for web and mobile applications.
+                                </li>
+                                <li class="flex items-center gap-2 before:content[''] before:bg-on-theme-clr-white before:h-[5px] before:w-[5px] before:rounded-full">
+                                    Assist in conducting user research and usability testing.
+                                </li>
+                                <li class="flex items-center gap-2 before:content[''] before:bg-on-theme-clr-white before:h-[5px] before:w-[5px] before:rounded-full">
+                                    Help create wireframes, prototypes, and design mockups.
+                                </li>
+                                <li class="flex items-center gap-2 before:content[''] before:bg-on-theme-clr-white before:h-[5px] before:w-[5px] before:rounded-full">
+                                    Collaborate with product managers and engineers to implement design solutions.
+                                </li>
+                                <li class="flex items-center gap-2 before:content[''] before:bg-on-theme-clr-white before:h-[5px] before:w-[5px] before:rounded-full">
+                                    Participate in brainstorming sessions and contribute ideas to improve the product.
+                                </li>
+                                <li class="flex items-center gap-2 before:content[''] before:bg-on-theme-clr-white before:h-[5px] before:w-[5px] before:rounded-full">
+                                    Learn and apply design best practices and principles.
+                                </li>
+                            </ul>
+                        </section>
+                        <div class="h-6"></div>
+                        <section>
+                            <h4 class="font-semibold">Qualifications:</h4>
+                            <div class="h-2"></div>
+                            <ul>
+                                <li class="flex items-center gap-2 before:content[''] before:bg-on-theme-clr-white before:h-[5px] before:w-[5px] before:rounded-full">
+                                    Basic understanding of design tools such as Sketch, Figma, Adobe Creative Suite, and prototyping tools.
+                                </li>
+                                <li class="flex items-center gap-2 before:content[''] before:bg-on-theme-clr-white before:h-[5px] before:w-[5px] before:rounded-full">
+                                    Passion for user-centered design and a strong desire to learn.
+                                </li>
+                                <li class="flex items-center gap-2 before:content[''] before:bg-on-theme-clr-white before:h-[5px] before:w-[5px] before:rounded-full">
+                                    Good communication and teamwork skills.
+                                </li>
+                                <li class="flex items-center gap-2 before:content[''] before:bg-on-theme-clr-white before:h-[5px] before:w-[5px] before:rounded-full">
+                                    Portfolio or samples of work (school projects are acceptable).
+                                </li>
+                            </ul>
+                        </section>
+                        <div class="h-6"></div>
+                        <section>
+                            <h5 class="sr-only">Salary</h5>
+
+                            <div class="flex items-center gap-2">
+                                <span>Pay</span>
+                                <span class="font-semibold">#300,000</span>
+                            </div>
                         </section>
                     </div>
 

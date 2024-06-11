@@ -1,5 +1,12 @@
-ul.list-type-disc{
-   > li{
-        list-style: disc;
-    }
-}
+// ul.list-type-disc {
+//   > li {
+//     &::before {
+//       content: "";
+//       height: 5px;
+//       width: 5px;
+//     //   background-color: var(--on-theme-clr-white);
+//       background-color:  hsl(106, 47%, 14%);
+//       border-radius: 50%;
+//     }
+//   }
+// }
