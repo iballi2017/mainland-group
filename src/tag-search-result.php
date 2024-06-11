@@ -13,7 +13,6 @@ include_once("./components/header.php"); ?>
 <!-- header closes -->
 
 <main>
-
     <section class="bg-theme-clr-white text-on-theme-clr-white py-12">
         <div class="mg-main-container">
             <div class="grid grid-cols-12 gap-4">

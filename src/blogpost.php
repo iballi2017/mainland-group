@@ -8,7 +8,17 @@
 
 <!-- header opens -->
 <?php
-$routes = array("Home", "Blog");
+include './shared/functions/breadcrumb.php';
+
+$home = new Breadcrumb("Home", "index.php");
+$blog = new Breadcrumb("Blog", "blog.php");
+$title = new Breadcrumb("POWER OUTAGE LOOMS ROUND THE NATION AFTER POWER GRID COLLAPSE", "");
+
+$routes = array(
+    $home,
+    $blog,
+    $title
+);
 include_once("./components/header.php"); ?>
 <!-- header closes -->
 

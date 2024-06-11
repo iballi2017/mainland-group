@@ -8,7 +8,15 @@
 
 <!-- header opens -->
 <?php
-$routes = array("Home", "Career");
+include './shared/functions/breadcrumb.php';
+
+$home = new Breadcrumb("Home", "index.php");
+$title = new Breadcrumb("Career", "");
+
+$routes = array(
+    $home,
+    $title
+);
 include_once("./components/header.php"); ?>
 <!-- header closes -->
 

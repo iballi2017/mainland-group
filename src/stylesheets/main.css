@@ -312,6 +312,10 @@ html {
   font-weight: 600;
 }
 
+ul.list-type-disc > li {
+  list-style: disc;
+}
+
 @layer base {
   :root {
     /* PRIMARY COLOR */

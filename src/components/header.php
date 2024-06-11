@@ -9,20 +9,15 @@
                     $length = count($routes);
                     $i = 0;
                     while ($i < $length - 1) {
-                        echo "<li><a href=\"#\">" . $routes[$i] . "</a></li>";
+                        echo "<li><a href=\"". $routes[$i]->url ."\">" . $routes[$i]->title . "</a></li>";
                         $i++;
                     }
                     ?>
                     <li>
                         <?php
-                        echo  $routes[$length - 1];
+                        echo  $routes[$length - 1]->title;
                         ?>
                     </li>
-                    <!-- 
-                    <li>
-                        <a href="#">Home</a>
-                    </li>
-                    <li>About</li> -->
                 </ul>
                 <h1 class=" 
                 <?php
@@ -41,7 +36,7 @@
                 }
 
                 ?>
-                "><?php echo  $routes[$length - 1]; ?></h1>
+                "><?php echo  $routes[$length - 1]->title; ?></h1>
                 <!-- <h1>ABOUT</h1> -->
             </div>
         </div>
