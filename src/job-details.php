@@ -31,7 +31,7 @@ include_once("./components/header.php"); ?>
             <div class="h-2"></div>
             <div class="grid grid-cols-12 gap-4">
                 <div class="col-span-12 md:col-span-8">
-                    <div class="border border-theme-clr-gray-400 rounded-md p-4">
+                    <section class="border border-theme-clr-gray-400 rounded-md p-4">
                         <section>
                             <h2 class="text-2xl font-bold">FINANCIAL OFFICER</h2>
                             <p class="text-xl font-semibold">Vanlagos</p>
@@ -122,11 +122,32 @@ include_once("./components/header.php"); ?>
                                 <span class="font-semibold">#300,000</span>
                             </div>
                         </section>
-                    </div>
+                    </section>
 
 
                 </div>
-                <div class="col-span-12 md:col-span-4">A</div>
+                <div class="col-span-12 md:col-span-4">
+                    <section class="border border-theme-clr-gray-400 rounded-md overflow-hidden">
+                        <h2 class="uppercase font-bold p-4 bg-theme-clr-light">Apply here</h2>
+                        <div class="p-4">
+                            <form action="/" method="post">
+                                <fieldset>
+                                    <legend class="font-semibold">Personal Information</legend>
+                                    <div class="h-5"></div>
+                                    <div class="mb-4">
+                                        <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white after:content[''] after:h-[5px] after:w-[5px] after:bg-black">Your Name</label>
+                                        <input type="email" id="name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
+                                    </div>
+
+                                    <div class="mb-4">
+                                        <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your Email</label>
+                                        <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </section>
+                </div>
             </div>
         </div>
     </div>
