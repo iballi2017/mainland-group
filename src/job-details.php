@@ -135,7 +135,7 @@ include_once("./components/header.php"); ?>
                                     <legend class="font-semibold">Personal Information</legend>
                                     <div class="h-5"></div>
                                     <div class="mb-4">
-                                        <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white after:content[''] after:h-[5px] after:w-[5px] after:bg-black">Your Name</label>
+                                        <label for="name" class="mb-2 text-sm font-medium text-gray-900 dark:text-white flex items-start gap-2 after:content[''] after:h-[5px] after:w-[5px] after:block after:bg-black">Your Name</label>
                                         <input type="email" id="name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
                                     </div>
 
