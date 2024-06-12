@@ -129,50 +129,78 @@ include_once("./components/header.php"); ?>
                 <div class="col-span-12 md:col-span-4">
                     <section class="border border-theme-clr-gray-400 rounded-md overflow-hidden">
                         <h2 class="uppercase font-bold p-4 bg-theme-clr-light">Apply here</h2>
-                        <div class="p-4">
+                        <div>
                             <form action="/" method="post">
-                                <fieldset>
+                                <fieldset class="p-4">
                                     <legend class="font-semibold">Personal Information</legend>
                                     <div class="h-5"></div>
                                     <div class="mb-4">
                                         <label for="name" class="mb-2 text-sm font-medium text-gray-900 dark:text-white required">Your Name</label>
-                                        <input type="email" id="name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
+                                        <input type="email" id="name" class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-transparent dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
                                     </div>
 
                                     <div class="mb-4">
                                         <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white required">Your Email</label>
-                                        <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
+                                        <input type="email" id="email" class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-transparent dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
                                     </div>
 
                                     <div class="mb-4">
                                         <label for="phone" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white required">Phone Number</label>
-                                        <input type="tel" id="phone" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
+                                        <input type="tel" id="phone" class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-transparent dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
                                     </div>
 
                                     <div class="mb-4">
                                         <label for="address" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white required">Address</label>
-                                        <input type="text" id="address" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
+                                        <input type="text" id="address" class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-transparent dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
                                     </div>
                                 </fieldset>
 
-                                <hr class="my-4 border-t border-theme-clr-gray-400">
+                                <hr class="mb-4 border-t border-theme-clr-gray-400">
 
-                                <fieldset>
+                                <fieldset class="p-4">
                                     <legend class="font-semibold">General Information</legend>
+                                    <div class="h-5"></div>
+                                    <div class="mb-4">
+                                        <label for="years_of_experience" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white required">Years of experience</label>
+                                        <input type="number" id="years_of_experience" class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-transparent dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
+                                    </div>
+                                    <div class="mb-4">
+                                        <label for="salary_expectation" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white required">Monthly Salary Expectation (&#8358;)</label>
+                                        <input type="number" id="salary_expectation" class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-transparent dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
+                                    </div>
+                                </fieldset>
+
+                                <hr class="mb-4 border-t border-theme-clr-gray-400">
+
+                                <fieldset class="p-4">
+                                    <legend class="font-semibold">Curriculum Vitae</legend>
+                                    <div class="h-5"></div>
+                                    <div>
+                                        <label for="resume-file" class="cursor-pointer uppercase px-6 py-2 text-primary text-sm font-semibold border border-1 border-primary bg-theme-clr-white rounded-s-full rounded-e-full">Choose</label>
+                                        <input type="file" name="resume-file" id="resume-file" hidden>
+                                    </div>
                                 </fieldset>
 
 
+                                <hr class="mb-4 border-t border-theme-clr-gray-400">
 
-
-
-                                <div class="mb-4">
-                                    <label for="username-error" class="block mb-2 text-sm font-medium text-red-700 dark:text-red-500 required">Your Name</label>
-                                    <input type="text" id="username-error" class="bg-red-50 border border-red-500 text-red-900 placeholder-red-700 text-sm rounded-lg focus:ring-red-500 dark:bg-gray-700 focus:border-red-500 block w-full p-2.5 dark:text-red-500 dark:placeholder-red-500 dark:border-red-500" placeholder="Bonnie Green">
-                                    <p class="mt-2 text-sm text-red-600 dark:text-red-500"><span class="font-medium">Oops!</span> Username already taken!</p>
+                                <div class="p-4">
+                                    <button class="w-full focus:outline-none focus:ring-1 focus:ring-accent-50 | block bg-theme-clr-call-to-action hover:bg-primary-alt dark:hover:bg-black/15 text-black dark:hover:text-white dark:hover:border dark:hover:border-white font-semibold shadow-md rounded-s-full rounded-e-full py-2 px-6 uppercase">
+                                        Apply Now
+                                    </button>
                                 </div>
                             </form>
                         </div>
                     </section>
+
+
+
+                    <!-- Error control -->
+                    <div class="p-4">
+                        <label for="username-error" class="block mb-2 text-sm font-medium text-red-700 dark:text-red-500 required">Your Name</label>
+                        <input type="text" id="username-error" class="bg-red-50 border border-red-500 text-red-900 placeholder-red-700 text-sm rounded-lg focus:ring-red-500 dark:bg-transparent focus:border-red-500 block w-full p-2.5 dark:text-red-500 dark:placeholder-red-500 dark:border-red-500" placeholder="Bonnie Green">
+                        <p class="mt-2 text-sm text-red-600 dark:text-red-500"><span class="font-medium">Oops!</span> Username already taken!</p>
+                    </div>
                 </div>
             </div>
         </div>

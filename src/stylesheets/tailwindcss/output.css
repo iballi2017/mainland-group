@@ -704,16 +704,6 @@ video {
   margin-right: auto;
 }
 
-.my-2 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -1128,6 +1118,10 @@ video {
   border-color: hsl(var(--on-theme-clr-white) / var(--tw-border-opacity));
 }
 
+.border-primary {
+  border-color: hsl(var(--theme-clr-primary));
+}
+
 .border-theme-clr-gray-400 {
   --tw-border-opacity: 1;
   border-color: hsl(var(--theme-clr-gray-400) / var(--tw-border-opacity));
@@ -1433,6 +1427,10 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-primary {
+  color: hsl(var(--theme-clr-primary));
+}
+
 .shadow {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
@@ -1643,11 +1641,6 @@ video {
   height: 1.25rem;
 }
 
-.after\:h-\[5px\]::after {
-  content: var(--tw-content);
-  height: 5px;
-}
-
 .after\:h-full::after {
   content: var(--tw-content);
   height: 100%;
@@ -1661,11 +1654,6 @@ video {
 .after\:w-5::after {
   content: var(--tw-content);
   width: 1.25rem;
-}
-
-.after\:w-\[5px\]::after {
-  content: var(--tw-content);
-  width: 5px;
 }
 
 .after\:rounded-full::after {
@@ -1694,12 +1682,6 @@ video {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
   background-color: hsl(var(--theme-clr-accent-50) / var(--tw-bg-opacity));
-}
-
-.after\:bg-black::after {
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .after\:bg-theme-clr-white::after {
@@ -1955,6 +1937,14 @@ video {
 
   .md\:col-span-8 {
     grid-column: span 8 / span 8;
+  }
+
+  .md\:col-span-5 {
+    grid-column: span 5 / span 5;
+  }
+
+  .md\:col-span-7 {
+    grid-column: span 7 / span 7;
   }
 
   .md\:mb-4 {
@@ -2415,6 +2405,10 @@ video {
 .dark\:bg-black:where(.dark, .dark *) {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.dark\:bg-transparent:where(.dark, .dark *) {
+  background-color: rgba(0, 0, 0, 0.0);
 }
 
 .dark\:text-on-theme-clr-light:where(.dark, .dark *) {
