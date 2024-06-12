@@ -135,15 +135,41 @@ include_once("./components/header.php"); ?>
                                     <legend class="font-semibold">Personal Information</legend>
                                     <div class="h-5"></div>
                                     <div class="mb-4">
-                                        <label for="name" class="mb-2 text-sm font-medium text-gray-900 dark:text-white flex items-start gap-2 after:content[''] after:h-[5px] after:w-[5px] after:block after:bg-black">Your Name</label>
+                                        <label for="name" class="mb-2 text-sm font-medium text-gray-900 dark:text-white required">Your Name</label>
                                         <input type="email" id="name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
                                     </div>
 
                                     <div class="mb-4">
-                                        <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your Email</label>
+                                        <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white required">Your Email</label>
                                         <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
                                     </div>
+
+                                    <div class="mb-4">
+                                        <label for="phone" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white required">Phone Number</label>
+                                        <input type="tel" id="phone" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
+                                    </div>
+
+                                    <div class="mb-4">
+                                        <label for="address" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white required">Address</label>
+                                        <input type="text" id="address" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
+                                    </div>
                                 </fieldset>
+
+                                <hr class="my-4 border-t border-theme-clr-gray-400">
+
+                                <fieldset>
+                                    <legend class="font-semibold">General Information</legend>
+                                </fieldset>
+
+
+
+
+
+                                <div class="mb-4">
+                                    <label for="username-error" class="block mb-2 text-sm font-medium text-red-700 dark:text-red-500 required">Your Name</label>
+                                    <input type="text" id="username-error" class="bg-red-50 border border-red-500 text-red-900 placeholder-red-700 text-sm rounded-lg focus:ring-red-500 dark:bg-gray-700 focus:border-red-500 block w-full p-2.5 dark:text-red-500 dark:placeholder-red-500 dark:border-red-500" placeholder="Bonnie Green">
+                                    <p class="mt-2 text-sm text-red-600 dark:text-red-500"><span class="font-medium">Oops!</span> Username already taken!</p>
+                                </div>
                             </form>
                         </div>
                     </section>

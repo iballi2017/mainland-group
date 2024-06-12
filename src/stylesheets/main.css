@@ -72,6 +72,18 @@ html {
   transform: translateY(50%);
 }
 
+.required {
+  display: flex;
+  gap: 2px;
+}
+.required:after {
+  content: "*";
+  height: 2px;
+  width: 2px;
+  display: block;
+  color: #ef4444;
+}
+
 .theme-mode-toggle-wrapper input[type=checkbox]:checked + .cursor::before {
   content: url(../assets/icons/icon-moon.svg);
 }
