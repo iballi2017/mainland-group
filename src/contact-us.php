@@ -31,20 +31,53 @@ include_once("./components/header.php"); ?>
                         <h2 class="font-semibold text-sm lg:text-lg">OUR CLIENT</h2>
                         <p class="max-w-2xl font-bold text-xl lg:text-3xl">We at Mainland Group are for people, Contact Our Office</p>
                         <div class="h-5"></div>
-                        <ul class="grid grid-cols-12 gap-4">
+                        <ul class="grid grid-cols-12 gap-4 lg:gap-6">
                             <li class="col-span-12 md:col-span-6">
-                                <div class="flex items-center gap-2">
-                                    <div class="border rounded-md bg-on-theme-clr-white p-2">
-                                        <img src="./assets/icons/icon-phone.svg" alt="Call">
+                                <div class="flex items-start gap-4">
+                                    <div class="border rounded-md bg-white p-2 h-[50px] w-[50px] flex place-content-center">
+                                        <img src="./assets/icons/icon-phone.svg" alt="Place a call">
                                     </div>
-                                    <div>
-                                        <span>Phone number</span>
-                                        <span>+234 (9012) 1223 563</span>
+                                    <div class="flex flex-col">
+                                        <span class="text-on-theme-clr-light">Phone number</span>
+                                        <span class="font-semibold">+234 (9012) 1223 563</span>
                                     </div>
                                 </div>
                             </li>
                             <li class="col-span-12 md:col-span-6">
-                                g
+                                <div class="flex items-start gap-4">
+                                    <div class="border rounded-md bg-white p-2 h-[50px] w-[50px] flex place-content-center">
+                                        <img src="./assets/icons/icon-envelope.svg" alt="Send an email">
+                                    </div>
+                                    <div class="flex flex-col">
+                                        <span class="text-on-theme-clr-light">Email Address</span>
+                                        <span class="font-semibold">Info.mainlandgroup@gmail.com</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-span-12 md:col-span-6">
+                                <div class="flex items-start gap-4">
+                                    <div class="border rounded-md bg-white p-2 h-[50px] w-[50px] flex place-content-center">
+                                        <img src="./assets/icons/icon-location.svg" alt="Our office address">
+                                    </div>
+                                    <div class="flex flex-col">
+                                        <span class="text-on-theme-clr-light">Address</span>
+                                        <span class="font-semibold">6b, Shonibanire, Oshodi, Lagos, Nigeria</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-span-12 md:col-span-6">
+                                <div class="flex items-start gap-4">
+                                    <div class="border rounded-md bg-white p-2 h-[50px] w-[50px] flex place-content-center">
+                                        <img src="./assets/icons/icon-clock.svg" alt="Opening time">
+                                    </div>
+                                    <div class="flex flex-col">
+                                        <span class="text-on-theme-clr-light">Office time</span>
+                                        <ul class="font-semibold">
+                                            <li><span class="font-medium">Mon - Friday,</span> <span>6:00am - 9:00pm</span></li>
+                                            <li><span class="font-medium">Sat - Sunday,</span> <span>10:00am - 2:00pm</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </li>
                         </ul>
                     </div>
