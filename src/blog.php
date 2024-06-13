@@ -29,7 +29,7 @@ include_once("./components/header.php"); ?>
                     <ul class="grid grid-cols-12 gap-4">
                         <li class="col-span-12 bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700">
                             <a href="#" class="block max-h-72 overflow-hidden">
-                                <img class="rounded-t-lg" src="https://images.pexels.com/photos/733856/pexels-photo-733856.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="w-full" />
+                                <img class="rounded-t-lg" src="https://images.pexels.com/photos/733856/pexels-photo-733856.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="w-full">
                             </a>
                             <div class="p-5">
                                 <div class="flex items-center gap-8 text-sm mb-2">
@@ -47,7 +47,7 @@ include_once("./components/header.php"); ?>
                         </li>
                         <li class="col-span-12 bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700">
                             <a href="#" class="block max-h-72 overflow-hidden">
-                                <img class="rounded-t-lg" src="https://images.pexels.com/photos/733856/pexels-photo-733856.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="w-full" />
+                                <img class="rounded-t-lg" src="https://images.pexels.com/photos/733856/pexels-photo-733856.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="w-full">
                             </a>
                             <div class="p-5">
                                 <div class="flex items-center gap-8 text-sm mb-2">
