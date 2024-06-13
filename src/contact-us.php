@@ -27,7 +27,7 @@ include_once("./components/header.php"); ?>
 
             <div class="grid grid-cols-12 gap-4">
                 <div class="col-span-12 md:col-span-7">
-                    <div class="text-on-theme-clr-white flex flex-col justify-between bg-red-50 h-full">
+                    <div class="text-on-theme-clr-white flex flex-col justify-between h-full">
                         <section>
                             <h2 class="font-semibold text-sm lg:text-lg">OUR CLIENT</h2>
                             <p class="max-w-2xl font-bold text-xl lg:text-3xl">We at Mainland Group are for people, Contact Our Office</p>
@@ -84,18 +84,24 @@ include_once("./components/header.php"); ?>
                         </section>
 
                         <section>
-                            <div class="flex items-center gap-8">
+                            <div class="flex items-center gap-4">
 
                                 <h3>Social Handles:</h3>
-                                <ul class="flex items-center gap-4">
+                                <ul class="flex items-center gap-2">
                                     <li class="w-8">
-                                        <img src="./assets/icons/icon-facebook-box.svg" alt="facebook" class="w-full">
+                                        <a href="#">
+                                            <img src="./assets/icons/icon-facebook-box.svg" alt="facebook" class="w-full">
+                                        </a>
                                     </li>
                                     <li class="w-8">
-                                        <img src="./assets/icons/icon-xtwitter-box.svg" alt="x twitter" class="w-full">
+                                        <a href="#">
+                                            <img src="./assets/icons/icon-xtwitter-box.svg" alt="x twitter" class="w-full">
+                                        </a>
                                     </li>
                                     <li class="w-8">
-                                        <img src="./assets/icons/icon-instagram-box.svg" alt="instagram" class="w-full">
+                                        <a href="#">
+                                            <img src="./assets/icons/icon-instagram-box.svg" alt="instagram" class="w-full">
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
