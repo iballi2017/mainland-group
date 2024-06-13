@@ -32,8 +32,8 @@ include_once("./components/header.php"); ?>
 
                 <p class="text-center">
                     Vanlagos.com is a reliable vehicle hiring company that provides premium services to our customers at an affordable and competitive market price. In the areas of safety, timeliness, efficiency and excellent customer service, Vanlagos provides outstanding offers for you. We also have tools in place to provide support and assist you in a situation which is why you should choose us.
-                    <br />
-                    <br />
+                    <br>
+                    <br>
                     Our rigorous vetting process has ensured that all our drivers are qualified and in compliance with all the regulations of applicable bodies. When you book a bus/van with us, your safety is assured as a result of the trust you have established with us to get you to your location.
                 </p>
 
