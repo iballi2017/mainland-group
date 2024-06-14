@@ -24,6 +24,7 @@ $(function () {
                 animateOut: 'fadeOut',
                 items: 1,
                 dotsContainer: '#custom-hero-dots',
+                lazyLoad: true,
             });
 
             customHeroDots.on('click', '.owl-dot', function () {
@@ -56,6 +57,7 @@ $(function () {
                 autoplaySpeed: 2000,
                 autoplayHoverPause: true,
                 dotsContainer: '#custom-dots',
+                lazyLoad: true,
                 responsive: {
                     0: {
                         items: 1
@@ -107,6 +109,7 @@ $(function () {
                 autoplaySpeed: 2000,
                 autoplayHoverPause: true,
                 dotsContainer: '#blogpost-carousel-dots',
+                lazyLoad: true,
                 responsive: {
                     0: {
                         items: 1

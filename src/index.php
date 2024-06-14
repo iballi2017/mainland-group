@@ -13,7 +13,7 @@
             <div class="w-full text-center bg-theme-clr-white dark:text-on-theme-clr-white relative">
                 <div class="owl-carousel owl-theme | hero-carousel">
                     <div class="duration-700 ease-in-out h-56 lg:h-[600px]">
-                        <img loading="lazy" src="./assets/images/hero-slider-1-image.png" class="block w-full" alt="Ignite Innovation">
+                        <img src="./assets/images/hero-slider-1-image.png" class="block w-full" alt="Ignite Innovation">
                         <div class="absolute z-2 block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
                             <div class="text-center text-white max-w-2xl mx-auto">
                                 <h1 class="text-2xl lg:text-5xl font-bold">Corrupti amet nobis repellendus</h1>
@@ -24,7 +24,7 @@
                         </div>
                     </div>
                     <div class="duration-700 ease-in-out h-56 lg:h-[600px]">
-                        <img loading="lazy" src="./assets/images/hero-slider-2-image.png" class="block w-full" alt="...">
+                        <img src="./assets/images/hero-slider-2-image.png" class="block w-full" alt="...">
                         <div class="absolute z-2 block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
                             <div class="text-center text-white max-w-2xl mx-auto">
                                 <h1 class="text-2xl lg:text-5xl font-bold">Ignite Innovations</h1>
@@ -33,7 +33,7 @@
                         </div>
                     </div>
                     <div class="duration-700 ease-in-out h-56 lg:h-[600px]">
-                        <img loading="lazy" src="./assets/images/hero-slider-3-image.png" class="block w-full" alt="...">
+                        <img src="./assets/images/hero-slider-3-image.png" class="block w-full" alt="...">
                         <div class="absolute z-2 block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
                             <div class="text-center text-white max-w-2xl mx-auto">
                                 <h1 class="text-2xl lg:text-5xl font-bold">Nulla quis quasi quia sit,</h1>
@@ -66,7 +66,7 @@
             <div class="grid grid-cols-12 gap-4 lg:gap-8 items-center max-w-[1200px] mx-auto">
                 <div class="col-span-12 md:col-span-6 hidden md:block">
                     <div>
-                        <img src="./assets/images/featured-image-1.png" alt="KNOW ABOUT MAINLAND EDGE BUSINESS" class="w-full">
+                        <img loading="lazy" src="./assets/images/featured-image-1.png" alt="KNOW ABOUT MAINLAND EDGE BUSINESS" class="w-full">
                     </div>
                 </div>
                 <div class="col-span-12 md:col-span-6 text-on-theme-clr-white">
@@ -268,7 +268,7 @@
 
                     <div class="bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                         <a href="#" class="block h-56 md:h-72 overflow-hidden">
-                            <img class="rounded-t-lg" src="./assets/images/power-outage-looms-round-the-nation-after-power-grid-collapse.png" alt="Noteworthy technology acquisitions 2021">
+                            <img loading="lazy" class="rounded-t-lg" src="./assets/images/power-outage-looms-round-the-nation-after-power-grid-collapse.png" alt="Noteworthy technology acquisitions 2021">
                         </a>
                         <div class="p-5 text-left">
                             <div class="flex items-center justify-between gap-8 text-sm">
@@ -286,7 +286,7 @@
 
                     <div class="bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                         <a href="#" class="block h-56 md:h-72 overflow-hidden">
-                            <img class="rounded-t-lg" src="./assets/images/power-outage-looms-round-the-nation-after-power-grid-collapse.png" alt="Noteworthy technology acquisitions 2021">
+                            <img loading="lazy" class="rounded-t-lg" src="./assets/images/power-outage-looms-round-the-nation-after-power-grid-collapse.png" alt="Noteworthy technology acquisitions 2021">
                         </a>
                         <div class="p-5 text-left">
                             <div class="flex items-center justify-between gap-8 text-sm">
@@ -304,7 +304,7 @@
 
                     <div class="bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                         <a href="#" class="block h-56 md:h-72 overflow-hidden">
-                            <img class="rounded-t-lg" src="./assets/images/fuel-scarcity-and-hike-in-price-may-cause-slow-productivity.png" alt="Fuel Scarcity and hike in price may cause slow productivity.">
+                            <img loading="lazy" class="rounded-t-lg" src="./assets/images/fuel-scarcity-and-hike-in-price-may-cause-slow-productivity.png" alt="Fuel Scarcity and hike in price may cause slow productivity.">
                         </a>
                         <div class="p-5 text-left">
                             <div class="flex items-center justify-between gap-8 text-sm">
@@ -322,7 +322,7 @@
 
                     <div class="bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                         <a href="#" class="block h-56 md:h-72 overflow-hidden">
-                            <img class="rounded-t-lg" src="./assets/images/food-price-increases-by-200-percent-progression-say-it-may-increase.png" alt="food price increases by 200%, progression say it may increase">
+                            <img loading="lazy" class="rounded-t-lg" src="./assets/images/food-price-increases-by-200-percent-progression-say-it-may-increase.png" alt="food price increases by 200%, progression say it may increase">
                         </a>
                         <div class="p-5 text-left">
                             <div class="flex items-center justify-between gap-8 text-sm">

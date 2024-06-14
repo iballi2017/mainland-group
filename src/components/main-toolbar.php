@@ -19,7 +19,7 @@ after:right-0 after:left-1/2 after:w-1/2
     <div class="mg-main-wrapper">
       <div class="grid grid-cols-12 w-full">
         <div class="bg-theme-clr-secondary col-span-12 lg:col-span-2 text-white flex items-center justify-center lg:justify-start py-4">
-          <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <a href="./" class="flex items-center space-x-3 rtl:space-x-reverse">
             <img src="./assets/images/brand-logo.svg" alt="Mainland Group brand logo" class="max-w-40">
           </a>
         </div>
