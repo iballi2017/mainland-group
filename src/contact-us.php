@@ -112,18 +112,18 @@ include_once("./components/header.php"); ?>
                     <div class="bg-theme-clr-secondary text-on-theme-clr-secondary rounded-md p-4 md:p-6">
                         <h4 class="text-lg font-semibold text-primary">Write us today</h4>
                         <div class="h-5"></div>
-                        <form action="">
+                        <form action="/">
                             <div class="mb-4">
                                 <label for="name" class="mb-2 font-medium required">Your Name</label>
-                                <input type="text" id="name" class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary focus:border-primary block w-full p-2.5 dark:bg-transparent dark:border-gray-600 dark:text-white dark:focus:ring-primary dark:focus:border-primary" required />
+                                <input type="text" id="name" class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary focus:border-primary block w-full p-2.5 dark:bg-transparent dark:border-gray-600 dark:text-white dark:focus:ring-primary dark:focus:border-primary" required>
                             </div>
                             <div class="mb-4">
                                 <label for="email" class="mb-2 font-medium required">Your Email Address</label>
-                                <input type="email" id="email" class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary focus:border-primary block w-full p-2.5 dark:bg-transparent dark:border-gray-600 dark:text-white dark:focus:ring-primary dark:focus:border-primary" required />
+                                <input type="email" id="email" class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary focus:border-primary block w-full p-2.5 dark:bg-transparent dark:border-gray-600 dark:text-white dark:focus:ring-primary dark:focus:border-primary" required>
                             </div>
                             <div class="mb-4">
                                 <label for="phone" class="mb-2 font-medium required">Your Phone Number</label>
-                                <input type="tel" id="phone" class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary focus:border-primary block w-full p-2.5 dark:bg-transparent dark:border-gray-600 dark:text-white dark:focus:ring-primary dark:focus:border-primary" required />
+                                <input type="tel" id="phone" class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary focus:border-primary block w-full p-2.5 dark:bg-transparent dark:border-gray-600 dark:text-white dark:focus:ring-primary dark:focus:border-primary" required>
                             </div>
                             <div class="mb-4">
                                 <label for="message" class="mb-2 font-medium required">Message</label>

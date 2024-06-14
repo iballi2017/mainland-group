@@ -32,7 +32,7 @@ include_once("./components/header.php"); ?>
                     <p class="text-sm">Showing 1 - 10 of 100</p>
                 </div>
                 <div class="flex items-center gap-4">
-                    <label for="search">Sort</label>
+                    <label for="filter-blogpost">Sort</label>
                     <select id="filter-blogpost" class="cursor-pointer bg-gray-50 border border-gray-300 text-gray-900 text-xs rounded-lg focus:ring-green-500 focus:border-green-500 block w-full p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-green-500 dark:focus:border-green-500">
                         <option value="all">All</option>
                         <option value="recent">Recent</option>
