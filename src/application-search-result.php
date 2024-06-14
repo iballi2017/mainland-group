@@ -11,7 +11,7 @@
 include './shared/functions/breadcrumb.php';
 
 $home = new Breadcrumb("Home", "index.php");
-$title = new Breadcrumb("Hello world!", "");
+$title = new Breadcrumb("Search for XXXX", "");
 
 $routes = array(
     $home,
@@ -24,7 +24,7 @@ include_once("./components/header.php"); ?>
 
     <section class="bg-theme-clr-white py-12 lg:py-20">
         <div class="mg-main-container">
-            <h2><?php echo $title->title; ?></h2>
+            <h2><?php echo $title->title;?></h2>
         </div>
     </section>
 
