@@ -49,9 +49,18 @@ document.addEventListener("DOMContentLoaded", () => {
         };
         const appearOnScroll = new IntersectionObserver((entries, appearOnScroll) => {
             entries.forEach((entry) => {
+                let dataDelay = entry.target.getAttribute("data-delay");
+
                 if (!entry.isIntersecting) return;
-                entry.target.classList.add("appear");
-                appearOnScroll.unobserve(entry.target);
+                if (dataDelay) {
+                    setTimeout(() => {
+                        entry.target.classList.add("appear");
+                        appearOnScroll.unobserve(entry.target);
+                    }, parseInt(dataDelay));
+                } else {
+                    entry.target.classList.add("appear");
+                    appearOnScroll.unobserve(entry.target);
+                }
             });
         }, appearOptions);
 
