@@ -639,6 +639,10 @@ video {
   inset-inline-start: 0px;
 }
 
+.start-6 {
+  inset-inline-start: 1.5rem;
+}
+
 .top-0 {
   top: 0px;
 }
@@ -653,6 +657,10 @@ video {
 
 .top-40 {
   top: 10rem;
+}
+
+.top-8 {
+  top: 2rem;
 }
 
 .z-0 {
@@ -704,9 +712,8 @@ video {
   margin-right: auto;
 }
 
-.my-32 {
-  margin-top: 8rem;
-  margin-bottom: 8rem;
+.mb-12 {
+  margin-bottom: 3rem;
 }
 
 .mb-2 {
@@ -859,6 +866,10 @@ video {
 
 .max-h-96 {
   max-height: 24rem;
+}
+
+.min-h-96 {
+  min-height: 24rem;
 }
 
 .w-10 {
