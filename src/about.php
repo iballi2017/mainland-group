@@ -44,7 +44,7 @@ include_once("./components/header.php"); ?>
 
     <section class="bg-theme-clr-light dark:text-on-theme-clr-light py-12 lg:py-20">
         <div class="mg-main-container">
-            <div class="grid grid-cols-12 gap-8 md:gap-12">
+            <div class="grid grid-cols-12 gap-4 md:gap-8 lg:gap-12">
                 <div class="col-span-12 md:col-start-1 md:col-end-9 bg-theme-clr-white p-4 lg:p-6 shadow-sm rounded-lg fade-in" data-delay="400">
                     <div class="flex flex-col items-start jusify-center gap-2 md:gap-4">
                         <h2 class="text-xl lg:text-3xl font-semibold">Lagoscart </h2>
@@ -111,10 +111,10 @@ include_once("./components/header.php"); ?>
                         </p>
 
                         <section class="fade-in" data-delay="400">
-                            <h3 class="text-2xl font-bold mb-4">Services Provided</h3>
+                            <h3 class="text-lg lg:text-xl font-bold mb-2 lg:mb-4">Services Provided</h3>
                             <div class="grid grid-cols-12 gap-4 lg:gap-8">
                                 <div class="col-span-12 md:col-span-3">
-                                    <div class="h-full border px-8 py-10 rounded-md flex flex-col items-center justify-center gap-4 text-center">
+                                    <div class="h-full border px-4 py-8 lg:px-8 lg:py-10 rounded-md flex flex-col items-center justify-center gap-4 text-center">
                                         <div class="w-20 h-20 block p-2 rounded">
                                             <img src="./assets/icons/icon-video-production.svg" alt="video production" class="w-full">
                                         </div>
@@ -123,7 +123,7 @@ include_once("./components/header.php"); ?>
                                     </div>
                                 </div>
                                 <div class="col-span-12 md:col-span-3">
-                                    <div class="h-full border px-8 py-10 rounded-md flex flex-col items-center justify-center gap-4 text-center">
+                                    <div class="h-full border px-4 py-8 lg:px-8 lg:py-10 rounded-md flex flex-col items-center justify-center gap-4 text-center">
                                         <div class="w-20 h-20 block p-2 rounded">
                                             <img src="./assets/icons/icon-video-editing.svg" alt="video editing" class="w-full">
                                         </div>
@@ -134,7 +134,7 @@ include_once("./components/header.php"); ?>
                                     </div>
                                 </div>
                                 <div class="col-span-12 md:col-span-3">
-                                    <div class="h-full border px-8 py-10 rounded-md flex flex-col items-center justify-center gap-4 text-center">
+                                    <div class="h-full border px-4 py-8 lg:px-8 lg:py-10 rounded-md flex flex-col items-center justify-center gap-4 text-center">
                                         <div class="w-20 h-20 block p-2 rounded">
                                             <img src="./assets/icons/icon-video-animation.svg" alt="4K Video and Animation" class="w-full">
                                         </div>
@@ -145,7 +145,7 @@ include_once("./components/header.php"); ?>
                                     </div>
                                 </div>
                                 <div class="col-span-12 md:col-span-3">
-                                    <div class="h-full border px-8 py-10 rounded-md flex flex-col items-center justify-center gap-4 text-center">
+                                    <div class="h-full border px-4 py-8 lg:px-8 lg:py-10 rounded-md flex flex-col items-center justify-center gap-4 text-center">
                                         <div class="w-20 h-20 block p-2 rounded">
                                             <img src="./assets/icons/icon-high-quality-pictures.svg" alt="High-Quality Pictures" class="w-full">
                                         </div>

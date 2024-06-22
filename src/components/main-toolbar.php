@@ -87,40 +87,6 @@ after:right-0 after:left-1/2 after:w-1/2
               </li>
 
               <li>
-                <button id="sub-company-dropdown-btn" data-dropdown-toggle="sub-company-dropdown" class="inline-flex items-center py-2 px-3 text-on-theme-clr-white" type="button">
-                  Sub-Company
-                  <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
-                  </svg>
-                </button>
-                <!-- Sub-Company Dropdown menu -->
-                <div id="sub-company-dropdown" class="hidden z-40 bg-white divide-y divide-gray-100 rounded-lg focus:border focus:border-primary shadow w-full md:w-44 lg:w-56 dark:bg-gray-700">
-                  <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="sub-company-dropdown-btn">
-                    <li>
-                      <a href="sub-company-lagoscart.php" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
-                        Lagoscart
-                      </a>
-                    </li>
-                    <li>
-                      <a href="sub-company-vanlagos.php" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
-                        Vanlagos
-                      </a>
-                    </li>
-                    <li>
-                      <a href="sub-company-mainland-solar.php" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
-                        Mainland Solar
-                      </a>
-                    </li>
-                    <li>
-                      <a href="sub-company-studios-mainland.php" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
-                        Studios Mainland
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-
-              <li>
                 <button id="portfolio-dropdown-btn" data-dropdown-toggle="portfolio-dropdown" class="inline-flex items-center py-2 px-3 text-on-theme-clr-white" type="button">
                   Portfolio
                   <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
