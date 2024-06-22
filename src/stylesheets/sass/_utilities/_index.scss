@@ -33,3 +33,15 @@
 .from-bottom {
   transform: translateY(50%);
 }
+
+.required {
+  display: flex;
+  gap: 2px;
+  &:after {
+    content: "*";
+    height: 2px;
+    width: 2px;
+    display: block;
+    color: rgb(239, 68, 68);
+  }
+}

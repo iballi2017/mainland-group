@@ -13,18 +13,18 @@
             <div class="w-full text-center bg-theme-clr-white dark:text-on-theme-clr-white relative">
                 <div class="owl-carousel owl-theme | hero-carousel">
                     <div class="duration-700 ease-in-out h-56 lg:h-[600px]">
-                        <img loading="lazy" src="./assets/images/hero-slider-1-image.png" class="block w-full" alt="Ignite Innovation">
+                        <img src="./assets/images/hero-slider-1-image.png" class="block w-full" alt="Ignite Innovation">
                         <div class="absolute z-2 block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
                             <div class="text-center text-white max-w-2xl mx-auto">
-                                <h1 class="text-2xl lg:text-5xl font-bold">Corrupti amet nobis repellendus</h1>
-                                <p class="text-lg lg:text-2xl font-semibold">
+                                <h1 class="text-2xl lg:text-5xl font-bold animate__animated animate__pulse">Corrupti amet nobis repellendus</h1>
+                                <p class="text-lg lg:text-2xl font-semibold animate__animated animate__fadeInUp">
                                     Autem vero suscipit eum iste vel atque architecto, animi quod sint rem natus
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="duration-700 ease-in-out h-56 lg:h-[600px]">
-                        <img loading="lazy" src="./assets/images/hero-slider-2-image.png" class="block w-full" alt="...">
+                        <img src="./assets/images/hero-slider-2-image.png" class="block w-full" alt="...">
                         <div class="absolute z-2 block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
                             <div class="text-center text-white max-w-2xl mx-auto">
                                 <h1 class="text-2xl lg:text-5xl font-bold">Ignite Innovations</h1>
@@ -33,7 +33,7 @@
                         </div>
                     </div>
                     <div class="duration-700 ease-in-out h-56 lg:h-[600px]">
-                        <img loading="lazy" src="./assets/images/hero-slider-3-image.png" class="block w-full" alt="...">
+                        <img src="./assets/images/hero-slider-3-image.png" class="block w-full" alt="...">
                         <div class="absolute z-2 block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
                             <div class="text-center text-white max-w-2xl mx-auto">
                                 <h1 class="text-2xl lg:text-5xl font-bold">Nulla quis quasi quia sit,</h1>
@@ -66,7 +66,7 @@
             <div class="grid grid-cols-12 gap-4 lg:gap-8 items-center max-w-[1200px] mx-auto">
                 <div class="col-span-12 md:col-span-6 hidden md:block">
                     <div>
-                        <img src="./assets/images/featured-image-1.png" alt="KNOW ABOUT MAINLAND EDGE BUSINESS" class="w-full">
+                        <img loading="lazy" src="./assets/images/featured-image-1.png" alt="KNOW ABOUT MAINLAND EDGE BUSINESS" class="w-full">
                     </div>
                 </div>
                 <div class="col-span-12 md:col-span-6 text-on-theme-clr-white">
@@ -84,17 +84,15 @@
         </div>
     </section>
 
-
-
     <!-- about-us-subsidiary-company-section -->
     <?php include("./components/about-us-subsidiary-company-section.php"); ?>
 
 
 
-    <section class="bg-theme-clr-white dark:text-on-theme-clr-light py-12 lg:py-20">
+    <section class="bg-theme-clr-white dark:text-on-theme-clr-light py-12 lg:py-20 animate__animated animate__fadeIn">
         <div class="mg-main-container items-center">
-            <h2 class="font-semibold text-sm lg:text-lg text-center">CHECK OUR GALLERY</h2>
-            <p class="font-bold text-xl lg:text-3xl text-center max-w-[850px] mx-auto">
+            <h2 class="font-semibold text-sm lg:text-lg text-center fade-in" data-delay="200">CHECK OUR GALLERY</h2>
+            <p class="font-bold text-xl lg:text-3xl text-center max-w-[850px] mx-auto fade-in" data-delay="400">
                 Let's check our Project we have done
             </p>
 
@@ -102,7 +100,7 @@
 
             <div class="grid grid-cols-12 gap-2 md:gap-8 w-full">
                 <div class="col-span-12 md:col-span-4 lg:pb-12">
-                    <div class="relative shadow-md bg-theme-clr-white h-full flex flex-col items-center justify-center">
+                    <div class="relative shadow-md bg-theme-clr-white h-full flex flex-col items-center justify-center fade-in" data-delay="200">
                         <img loading="lazy" src="./assets/images/mainlandsolar-gallery-feature-image.png" alt="Mainlandsolar" class="w-full">
                         <a href="#" class="focus:outline-none focus:ring focus:ring-primary-alt block absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-light hover:bg-theme-clr-white text-on-theme-clr-light shadow-md lg:-bottom-12">
                             <div class="">
@@ -113,7 +111,7 @@
                     </div>
                 </div>
                 <div class="col-span-12 md:col-span-4 lg:pb-12">
-                    <div class="relative shadow-md bg-theme-clr-white h-full flex flex-col items-center justify-center">
+                    <div class="relative shadow-md bg-theme-clr-white h-full flex flex-col items-center justify-center fade-in" data-delay="300">
                         <img loading="lazy" src="./assets/images/vanlagos-gallery-feature-image.png" alt="Mainlandsolar" class="w-full">
                         <a href="#" class="focus:outline-none focus:ring focus:ring-primary-alt block absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-light hover:bg-theme-clr-white text-on-theme-clr-light shadow-md lg:-bottom-12">
                             <h3 class="lg:font-semibold">Van lagos</h3>
@@ -122,7 +120,7 @@
                     </div>
                 </div>
                 <div class="col-span-12 md:col-span-4 lg:pb-12">
-                    <div class="relative shadow-md bg-theme-clr-white h-full flex flex-col items-center justify-center">
+                    <div class="relative shadow-md bg-theme-clr-white h-full flex flex-col items-center justify-center fade-in" data-delay="400">
                         <img loading="lazy" src="./assets/images/studiomainland-gallery-feature-image.png" alt="Mainlandsolar" class="w-full">
                         <a href="#" class="focus:outline-none focus:ring focus:ring-primary-alt block absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-light hover:bg-theme-clr-white text-on-theme-clr-light shadow-md lg:-bottom-12">
                             <h3 class="lg:font-semibold">Studio Mainland</h3>
@@ -131,7 +129,7 @@
                     </div>
                 </div>
                 <div class="col-span-12 md:col-span-4 lg:pb-12">
-                    <div class="relative shadow-md bg-theme-clr-white h-full flex flex-col items-center justify-center">
+                    <div class="relative shadow-md bg-theme-clr-white h-full flex flex-col items-center justify-center fade-in" data-delay="500">
                         <img loading="lazy" src="./assets/images/lagoscart-gallery-feature-image.png" alt="Mainlandsolar" class="w-full">
                         <a href="#" class="focus:outline-none focus:ring focus:ring-primary-alt block absolute bottom-4 left-2 right-2 lg:left-8 lg:right-8 p-6 lg:p-8 rounded-lg bg-theme-clr-light hover:bg-theme-clr-white text-on-theme-clr-light shadow-md lg:-bottom-12">
                             <h3 class="lg:font-semibold">Lagos Cart</h3>
@@ -142,7 +140,7 @@
             </div>
             <div class="h-4"></div>
             <div class="h-4"></div>
-            <div class="text-center">
+            <div class="text-center fade-in" data-delay="600">
                 <?php
                 $label = "View all";
                 $url = "#";
@@ -156,16 +154,16 @@
 
 
     <section class="bg-theme-clr-secondary text-on-theme-clr-secondary py-12 lg:py-20">
-        <div class="mg-main-container flex flex-col flex-wrap items-center justify-between mx-auto md:px-4">
+        <div class="mg-main-container flex flex-col flex-wrap items-center justify-between mx-auto md:px-4 fade-in" data-delay="200">
             <h2 class="font-semibold text-sm lg:text-lg text-center">OUR TESTIMONIALS</h2>
-            <p class="font-bold text-xl lg:text-3xl text-center max-w-[850px] mx-auto">
+            <p class="font-bold text-xl lg:text-3xl text-center max-w-[850px] mx-auto fade-in" data-delay="400">
                 What our clients say about us
             </p>
 
             <div class="h-8 md:h-12"></div>
 
             <!-- Testimonials Sliders -->
-            <div class="w-full max-w-[1050px] mx-auto text-center">
+            <div class="w-full max-w-[1050px] mx-auto text-center fade-in" data-delay="600">
                 <div class="owl-carousel owl-theme | testimonial-carousel" id="testimonial-carousel">
                     <blockquote class="md:h-56 text-sm grid grid-cols-3 items-center gap-y-4 md:gap-y-0 bg-theme-clr-white text-on-theme-clr-white rounded-md p-4 md:px-4 md:py-8">
                         <div class="col-span-3 md:col-span-1 text-center md:ps-4 md:pe-4">
@@ -247,28 +245,26 @@
                 <div class="flex items-center gap-6">
                     <div class="h-24 w-[18px] bg-gradient-to-b from-[#AACE48] via-[#12AD58] to-[#1B3512] rounded-t-full rounded-b-full"></div>
                     <div>
-                        <h2 class="font-semibold text-sm lg:text-lg">Our Blog</h2>
-                        <p class="font-bold text-xl lg:text-3xl max-w-[850px]">
+                        <h2 class="font-semibold text-sm lg:text-lg fade-in" data-delay="200">Our Blog</h2>
+                        <p class="font-bold text-xl lg:text-3xl max-w-[850px] fade-in" data-delay="400">
                             News and Updates
                         </p>
                     </div>
                 </div>
 
 
-                <a href="#" class="focus:outline-none focus:ring focus:ring-primary-alt text-sm hover:bg-white/50 block uppercase border border-on-theme-clr-white py-2 px-4 rounded-lg whitespace-nowrap">View all</a>
+                <a href="#" class="focus:outline-none focus:ring focus:ring-primary-alt text-sm hover:bg-white/50 block uppercase border border-on-theme-clr-white py-2 px-4 rounded-lg whitespace-nowrap fade-in" data-delay="500">View all</a>
             </div>
 
             <div class="h-8 md:h-12"></div>
 
 
             <!-- Blogpost Sliders -->
-            <div class="w-full text-center">
+            <div class="w-full text-center fade-in" data-delay="200">
                 <div class="owl-carousel owl-theme | blogpost-carousel" id="blogpost-carousel">
-
-
                     <div class="bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                         <a href="#" class="block h-56 md:h-72 overflow-hidden">
-                            <img class="rounded-t-lg" src="./assets/images/power-outage-looms-round-the-nation-after-power-grid-collapse.png" alt="Noteworthy technology acquisitions 2021">
+                            <img loading="lazy" class="rounded-t-lg" src="./assets/images/power-outage-looms-round-the-nation-after-power-grid-collapse.png" alt="Noteworthy technology acquisitions 2021">
                         </a>
                         <div class="p-5 text-left">
                             <div class="flex items-center justify-between gap-8 text-sm">
@@ -286,7 +282,7 @@
 
                     <div class="bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                         <a href="#" class="block h-56 md:h-72 overflow-hidden">
-                            <img class="rounded-t-lg" src="./assets/images/power-outage-looms-round-the-nation-after-power-grid-collapse.png" alt="Noteworthy technology acquisitions 2021">
+                            <img loading="lazy" class="rounded-t-lg" src="./assets/images/power-outage-looms-round-the-nation-after-power-grid-collapse.png" alt="Noteworthy technology acquisitions 2021">
                         </a>
                         <div class="p-5 text-left">
                             <div class="flex items-center justify-between gap-8 text-sm">
@@ -304,7 +300,7 @@
 
                     <div class="bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                         <a href="#" class="block h-56 md:h-72 overflow-hidden">
-                            <img class="rounded-t-lg" src="./assets/images/fuel-scarcity-and-hike-in-price-may-cause-slow-productivity.png" alt="Fuel Scarcity and hike in price may cause slow productivity.">
+                            <img loading="lazy" class="rounded-t-lg" src="./assets/images/fuel-scarcity-and-hike-in-price-may-cause-slow-productivity.png" alt="Fuel Scarcity and hike in price may cause slow productivity.">
                         </a>
                         <div class="p-5 text-left">
                             <div class="flex items-center justify-between gap-8 text-sm">
@@ -322,7 +318,7 @@
 
                     <div class="bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                         <a href="#" class="block h-56 md:h-72 overflow-hidden">
-                            <img class="rounded-t-lg" src="./assets/images/food-price-increases-by-200-percent-progression-say-it-may-increase.png" alt="food price increases by 200%, progression say it may increase">
+                            <img loading="lazy" class="rounded-t-lg" src="./assets/images/food-price-increases-by-200-percent-progression-say-it-may-increase.png" alt="food price increases by 200%, progression say it may increase">
                         </a>
                         <div class="p-5 text-left">
                             <div class="flex items-center justify-between gap-8 text-sm">

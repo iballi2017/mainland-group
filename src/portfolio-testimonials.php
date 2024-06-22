@@ -32,8 +32,8 @@ include_once("./components/header.php"); ?>
                             <div class="h-16 w-16 rounded-full overflow-hidden bg-gray-200 mx-auto mb-4">
                                 <img src="./assets/images/user-black-avatar.svg" alt="Paul Davids">
                             </div>
-                            <h3>Digital marketter</h3>
-                            <p class="font-semibold">Paul Davids</p>
+                            <h3 class="font-semibold">Paul Davids</h3>
+                            <p>Digital marketer</p>
                         </div>
                         <div class="text-center">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. consectetur adipiscing elit, Quis ipsum suspendisse </p>
@@ -46,8 +46,8 @@ include_once("./components/header.php"); ?>
                             <div class="h-16 w-16 rounded-full overflow-hidden bg-gray-200 mx-auto mb-4">
                                 <img src="./assets/images/user-black-avatar.svg" alt="Paul Davids">
                             </div>
-                            <h3>Software engineer</h3>
-                            <p class="font-semibold">Benjamin Afafa</p>
+                            <h3 class="font-semibold">Benjamin Afafa</h3>
+                            <p>Software engineer</p>
                         </div>
                         <div class="text-center">
                             <p>Vero, atque qui sint magni, deleniti quisquam repellat eligendi ipsam quis illum, eos repudiandae eius in labore nihil exercitationem! Vel provident fuga unde illum incidunt alias suscipit ipsa officiis laboriosam doloribus temporibus, distinctio quis.</p>
