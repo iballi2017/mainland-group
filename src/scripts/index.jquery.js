@@ -13,6 +13,8 @@ $(function () {
             var heroCrousel = $(".hero-carousel");
             var playBtn = $(".hero-carousel + .dots-wrapper .play-slider-btn");
             var pauseBtn = $(".hero-carousel + .dots-wrapper .pause-slider-btn");
+            playBtn.addClass('hide')
+            pauseBtn.addClass('hide')
             var customHeroDots = $('#custom-hero-dots');
             heroCrousel.owlCarousel({
                 loop: true,
@@ -25,7 +27,9 @@ $(function () {
                 items: 1,
                 dotsContainer: '#custom-hero-dots',
                 lazyLoad: true,
-            });
+            },
+                playBtn.parent('.control-wrapper').removeClass("hidden")
+            );
 
             customHeroDots.on('click', '.owl-dot', function () {
                 heroCrousel.trigger('to.owl.carousel', [$(this).index(), 300]);
@@ -66,7 +70,9 @@ $(function () {
                         items: 2
                     }
                 }
-            });
+            },
+                playBtn.parent('.control-wrapper').removeClass("hidden")
+            );
 
             // Custom event listener for custom dots
             customDots.on('click', '.owl-dot', function () {
@@ -121,7 +127,9 @@ $(function () {
                         items: 3
                     }
                 }
-            });
+            },
+                playBtn.parent('.control-wrapper').removeClass("hidden")
+            );
             blogpostCarouselDots.on('click', '.owl-dot', function () {
                 blogpostCarousel.trigger('to.owl.carousel', [$(this).index(), 300]);
             });

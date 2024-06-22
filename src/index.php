@@ -50,7 +50,7 @@
                         <div id="custom-hero-dots" class="owl-dots relative">
                             <!-- custom-hero-dots will be appended here -->
                         </div>
-                        <div>
+                        <div class="control-wrapper | hidden">
                             <button class="play-slider-btn | focus:outline-none focus:ring focus:ring-primary-alt h-[20px] w-[20px] rounded-full border-2 border-[hsl(0, 0%, 74%)] cursor-pointer" aria-label="play"></button>
                             <button class="pause-slider-btn | focus:outline-none focus:ring focus:ring-primary-alt h-[20px] w-[20px] rounded-full border-2 border-[hsl(0, 0%, 74%)] cursor-pointer" aria-label="pause"></button>
                         </div>
@@ -227,7 +227,7 @@
                     <div id="custom-dots" class="owl-dots relative">
                         <!-- Custom dots will be appended here -->
                     </div>
-                    <div>
+                    <div class="control-wrapper | hidden">
                         <button class="play-slider-btn | focus:outline-none focus:ring focus:ring-primary-alt h-[20px] w-[20px] rounded-full border-2 border-[hsl(0, 0%, 74%)] cursor-pointer" aria-label="play"></button>
                         <button class="pause-slider-btn | focus:outline-none focus:ring focus:ring-primary-alt h-[20px] w-[20px] rounded-full border-2 border-[hsl(0, 0%, 74%)] cursor-pointer" aria-label="pause"></button>
                     </div>
@@ -342,7 +342,7 @@
                     <div id="blogpost-carousel-dots" class="owl-dots relative">
                         <!-- Custom dots will be appended here -->
                     </div>
-                    <div>
+                    <div class="control-wrapper | hidden">
                         <button class="play-slider-btn | focus:outline-none focus:ring focus:ring-primary-alt h-[20px] w-[20px] rounded-full border-2 border-[hsl(0, 0%, 74%)] cursor-pointer" aria-label="play"></button>
                         <button class="pause-slider-btn | focus:outline-none focus:ring focus:ring-primary-alt h-[20px] w-[20px] rounded-full border-2 border-[hsl(0, 0%, 74%)] cursor-pointer" aria-label="pause"></button>
                     </div>
