@@ -27,7 +27,7 @@ include_once("./components/header.php"); ?>
 
             <div class="grid grid-cols-12 gap-4">
                 <div class="col-span-12 md:col-span-7">
-                    <div class="text-on-theme-clr-white flex flex-col justify-between h-full">
+                    <div class="text-on-theme-clr-white flex flex-col justify-between gap-4 h-full">
                         <section>
                             <h2 class="font-semibold text-sm lg:text-lg">OUR CLIENT</h2>
                             <p class="max-w-2xl font-bold text-xl lg:text-3xl">We at Mainland Group are for people, Contact Our Office</p>
