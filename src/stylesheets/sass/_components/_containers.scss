@@ -8,7 +8,12 @@
 .mg-main-container {
   width: min(var(--max-width), 100% - (var(--padding) * 2));
   margin-inline: auto;
+}
 
+.hero-main-container {
+  --max-wrapper-width: 1600px;
+  width: min(var(--max-wrapper-width), 100% - (var(--padding) * 2));
+  margin-inline: auto;
 }
 
 .mg-main-wrapper {

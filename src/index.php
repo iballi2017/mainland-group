@@ -8,7 +8,7 @@
 
 <main>
     <section class="bg-theme-clr-white">
-        <div class="mg-main-wrapper">
+        <div class="hero-main-wrapper">
             <!-- hero slider -->
             <div class="w-full text-center bg-theme-clr-white dark:text-on-theme-clr-white relative">
                 <div class="owl-carousel owl-theme | hero-carousel">

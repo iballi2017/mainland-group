@@ -15,27 +15,26 @@
     --clr-gray-200: hsl(0, 0%, 96%); // #F4F4F4;
     --clr-gray-300: hsl(0, 0%, 83%); // #D4D4D4;
     --clr-gray-400: hsl(0, 0%, 74%); // #BDBDBD;
-    // --clr-gray-500: #5a5a5a; // #5A5A5A;
-    --clr-gray-500: 0deg 0% 35%; // #5A5A5A;
+    --clr-gray-500: hsl(0, 0%, 35%); // #5A5A5A;
     /**/
 
     /* THEMING */
     --theme-clr-primary: 51deg 75% 59%;
-
-    // --theme-clr-primary-alt: 51deg 92% 41%;
-    // --theme-clr-secondary: 105deg 46% 14%;
-    // --on-theme-clr-secondary: 0deg 0% 100%; // #ffffff;
-    // --theme-clr-secondary-alt: 105deg 38% 10%; //#152410;
-    // --theme-clr-accent-50: 104deg 57% 51%;
-    // --clr-base-text: 105deg 46% 14%;
-    // --theme-clr-gray-400: 0 0% 74%; // #BDBDBD;
-    // --theme-clr-gray-300: 0 0% 83%; // #D4D4D4;
-    // --theme-clr-white: 0deg 0% 100%;
-    // --on-theme-clr-white: 106deg 47% 14%;
-    // --theme-light: 0deg 0% 96%; // #F4F4F4;
-    // --on-theme-clr-light: var(--clr-gray-500); // #5A5A5A;
-    // --theme-clr-call-to-action: var(--theme-clr-primary);
-    // --on-theme-clr-call-to-action: var(--clr-base-text);
+    --theme-clr-primary-alt: 51deg 92% 41%;
+    --theme-clr-secondary: 105deg 46% 14%;
+    --on-theme-clr-secondary: 0deg 0% 100%; // #ffffff;
+    --theme-clr-secondary-alt: 105deg 38% 10%; //#152410;
+    --theme-clr-accent-50: 104deg 57% 51%;
+    --clr-base-text: 105deg 46% 14%;
+    --theme-clr-gray-500: 0deg 0% 35%; // #5A5A5A;
+    --theme-clr-gray-400: 0 0% 74%; // #BDBDBD;
+    --theme-clr-gray-300: 0 0% 83%; // #D4D4D4;
+    --theme-clr-white: 0deg 0% 100%;
+    --on-theme-clr-white: 106deg 47% 14%;
+    --theme-light: 0deg 0% 96%; // #F4F4F4;
+    --on-theme-clr-light: var(--theme-clr-gray-500); // #5A5A5A;
+    --theme-clr-call-to-action: var(--theme-clr-primary);
+    --on-theme-clr-call-to-action: var(--clr-base-text);
     /**/
     // DECLARATION //#1B3513;
     // SECONDARY COLOR

@@ -142,6 +142,12 @@ html {
   margin-inline: auto;
 }
 
+.hero-main-container {
+  --max-wrapper-width: 1600px;
+  width: min(var(--max-wrapper-width), 100% - var(--padding) * 2);
+  margin-inline: auto;
+}
+
 .mg-main-wrapper {
   width: 100%;
   max-width: var(--max-width);
@@ -353,7 +359,7 @@ html {
     --clr-gray-200: hsl(0, 0%, 96%);
     --clr-gray-300: hsl(0, 0%, 83%);
     --clr-gray-400: hsl(0, 0%, 74%);
-    --clr-gray-500: 0deg 0% 35%;
+    --clr-gray-500: hsl(0, 0%, 35%);
     /**/
     /* THEMING */
     --theme-clr-primary: 51deg 75% 59%;
@@ -363,12 +369,13 @@ html {
     --theme-clr-secondary-alt: 105deg 38% 10%;
     --theme-clr-accent-50: 104deg 57% 51%;
     --clr-base-text: 105deg 46% 14%;
+    --theme-clr-gray-500: 0deg 0% 35%;
     --theme-clr-gray-400: 0 0% 74%;
     --theme-clr-gray-300: 0 0% 83%;
     --theme-clr-white: 0deg 0% 100%;
     --on-theme-clr-white: 106deg 47% 14%;
     --theme-light: 0deg 0% 96%;
-    --on-theme-clr-light: var(--clr-gray-500);
+    --on-theme-clr-light: var(--theme-clr-gray-500);
     --theme-clr-call-to-action: var(--theme-clr-primary);
     --on-theme-clr-call-to-action: var(--clr-base-text);
     /**/
