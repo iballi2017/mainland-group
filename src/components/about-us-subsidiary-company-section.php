@@ -1,7 +1,7 @@
 <section class="bg-theme-clr-light dark:text-on-theme-clr-light py-12 lg:py-20">
     <div class="mg-main-container">
-        <h2 class="font-semibold text-sm lg:text-lg text-center">OUR SUB - COMPANY</h2>
-        <p class="font-bold text-xl lg:text-3xl text-center max-w-[850px] mx-auto">We proudly oversees a diverse portfolio of businesses, each excelling in its field and contributing uniquely to the market</p>
+        <h2 class="font-semibold text-sm lg:text-lg text-center uppercase">Subsidiaries</h2>
+        <p class="font-bold text-xl lg:text-3xl text-center max-w-[850px] mx-auto">We proudly oversee a diverse portfolio of businesses, each excelling in its field and contributing uniquely to the market</p>
 
         <div class="h-8 md:h-12"></div>
 

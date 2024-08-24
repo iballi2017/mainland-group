@@ -74,7 +74,7 @@ after:right-0 after:left-1/2 after:w-1/2
               </button>
             </div>
 
-            <ul class="hidden order-2 md:order-1 w-full md:mr-2 lg:mr-8 md:flex flex-col p-2 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:space-x-2 lg:space-x-8 rtl:space-x-reverse md:flex-row md:items-center md:justify-between md:mt-0 md:border-0" id="navbar">
+            <ul class="hidden order-2 md:order-1 w-full md:mr-2 lg:mr-8 md:flex flex-col p-2 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:space-x-2 lg:space-x-8 rtl:space-x-reverse md:flex-row md:items-center md:justify-end md:mt-0 md:border-0" id="navbar">
               <li>
                 <a href="./" class="nav-link | block py-2 px-3 text-on-theme-clr-white rounded lg:rounded-none md:py-0" aria-current="page">
                   Home
@@ -83,41 +83,6 @@ after:right-0 after:left-1/2 after:w-1/2
               <li>
                 <a href="about.php" class="nav-link active | block py-2 px-3 text-on-theme-clr-white rounded lg:rounded-none md:p-0">
                   About
-                </a>
-              </li>
-
-              <li>
-                <button id="portfolio-dropdown-btn" data-dropdown-toggle="portfolio-dropdown" class="inline-flex items-center py-2 px-3 text-on-theme-clr-white" type="button">
-                  Portfolio
-                  <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
-                  </svg>
-                </button>
-                <!-- Portfolio Dropdown menu -->
-                <div id="portfolio-dropdown" class="hidden z-40 bg-white divide-y divide-gray-100 rounded-lg bg-primary focus:border focus:border-primary shadow w-full md:w-44 lg:w-56 dark:bg-gray-700">
-                  <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="portfolio-dropdown-btn">
-                    <li>
-                      <a href="portfolio-gallery.php" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
-                        Gallery
-                      </a>
-                    </li>
-                    <li>
-                      <a href="portfolio-testimonials.php" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
-                        Testimonials
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-
-              <!-- <li>
-                <a href="#" class="nav-link | block py-2 px-3 text-on-theme-clr-white rounded lg:rounded-none md:p-0">
-                  Portfolio
-                </a>
-              </li> -->
-              <li>
-                <a href="blog.php" class="nav-link | block py-2 px-3 text-on-theme-clr-white rounded lg:rounded-none md:p-0">
-                  Blog
                 </a>
               </li>
               <li>

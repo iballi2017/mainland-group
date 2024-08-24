@@ -3,7 +3,7 @@
 <!-- head closes -->
 
 <!-- main-toolbar opens -->
-<?php include_once("./components/main-toolbar.php"); ?>
+<?php include_once("./components/main-toolbar-alt.php"); ?>
 <!-- main-toolbar closes -->
 
 <main>
@@ -91,10 +91,21 @@
 
     <section class="bg-theme-clr-white dark:text-on-theme-clr-light py-12 lg:py-20 animate__animated animate__fadeIn">
         <div class="mg-main-container items-center">
-            <h2 class="font-semibold text-sm lg:text-lg text-center fade-in" data-delay="200">CHECK OUR GALLERY</h2>
+            <h2 class="font-semibold text-sm lg:text-lg text-center fade-in uppercase" data-delay="200">Project Highlights</h2>
             <p class="font-bold text-xl lg:text-3xl text-center max-w-[850px] mx-auto fade-in" data-delay="400">
-                Let's check our Project we have done
+                A Glimpse into what we do
             </p>
+
+            <div class="h-8 md:h-12"></div>
+
+            <ul class="grid grid-cols-12 gap-2 md:gap-8 w-full">
+                <li class="col-span-12 lg:col-span-6">
+                    <iframe src="https://drive.google.com/file/d/1hqnSqh9j9kySE6NmdWwMQysk-Bx-TxGe/preview" class="w-full" height="480" allow="autoplay"></iframe>
+                </li>
+                <li class="col-span-12 lg:col-span-6">
+                    <iframe src="https://drive.google.com/file/d/1y27OJ6d94il1hLkdn7FJDjzFB37rrgbK/preview" class="w-full" height="480" allow="autoplay"></iframe>
+                </li>
+            </ul>
 
             <div class="h-8 md:h-12"></div>
 
@@ -138,6 +149,8 @@
                     </div>
                 </div>
             </div>
+
+
             <div class="h-4"></div>
             <div class="h-4"></div>
             <div class="text-center fade-in" data-delay="600">

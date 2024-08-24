@@ -173,11 +173,31 @@ include_once("./components/header.php"); ?>
                                 <hr class="mb-4 border-t border-theme-clr-gray-400">
 
                                 <fieldset class="p-4">
-                                    <legend class="font-semibold">Curriculum Vitae</legend>
+                                    <legend class="font-semibold">Upload Cover Letter</legend>
                                     <div class="h-5"></div>
-                                    <div>
-                                        <label for="resume-file" class="cursor-pointer uppercase px-6 py-2 text-primary text-sm font-semibold border border-1 border-primary bg-theme-clr-white rounded-s-full rounded-e-full">Choose</label>
-                                        <input type="file" name="resume-file" id="resume-file" hidden>
+
+                                    <div class="flex items-end text-wrap gap-x-2">
+                                        <div>
+                                            <label for="cover-letter-file" class="text-nowrap cursor-pointer uppercase px-6 py-2 text-primary text-sm font-semibold border border-1 border-primary bg-theme-clr-white rounded-s-full rounded-e-full">Choose File</label>
+                                            <input type="file" name="cover-letter-file" id="cover-letter-file" class="file-control" hidden>
+                                        </div>
+                                        <p data-file-ui-name="cover-letter-file" class="uploaded-file-name-ouput | hidden whitespace-nowrap w-[250px] overflow-hidden text-ellipsis"></p>
+                                    </div>
+                                </fieldset>
+
+
+                                <hr class="mb-4 border-t border-theme-clr-gray-400">
+
+                                <fieldset class="p-4">
+                                    <legend class="font-semibold">Upload CV/Resume</legend>
+                                    <div class="h-5"></div>
+
+                                    <div class="flex items-end text-wrap gap-x-2">
+                                        <div>
+                                            <label for="resume-file" class="text-nowrap cursor-pointer uppercase px-6 py-2 text-primary text-sm font-semibold border border-1 border-primary bg-theme-clr-white rounded-s-full rounded-e-full">Choose File</label>
+                                            <input type="file" name="resume-file" id="resume-file" class="file-control" hidden>
+                                        </div>
+                                        <p data-file-ui-name="resume-file" class="uploaded-file-name-ouput | hidden whitespace-nowrap w-[250px] overflow-hidden text-ellipsis"></p>
                                     </div>
                                 </fieldset>
 

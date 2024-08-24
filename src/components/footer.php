@@ -37,7 +37,7 @@
                                 <path d="M13.5 5H5.5C4.95 5 4.505 5.45 4.505 6L4.5 12C4.5 12.55 4.95 13 5.5 13H13.5C14.05 13 14.5 12.55 14.5 12V6C14.5 5.45 14.05 5 13.5 5ZM13.5 12H5.5V7L9.5 9.5L13.5 7V12ZM9.5 8.5L5.5 6H13.5L9.5 8.5Z" fill="#1B3513" />
                             </svg>
 
-                            <a href="mailto:info.mainlandgroup@gmail.com">info.mainlandgroup@gmail.com</a>
+                            <a href="mailto:info@mainlandgroup.com">info@mainlandgroup.com</a>
                         </li>
                         <li class="flex items-start gap-2 mb-2 md:mb-4">
                             <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">

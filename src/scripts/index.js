@@ -1,6 +1,7 @@
 import ConfigureUiDisplayFontSizes from "./ConfigureUiDisplayFontSizes.js";
 import ConfigureUiDisplayModes from "./ConfigureUiDisplayModes.js";
 import CreateHtmlElement from "./CreateHtmlElement.js";
+import FileUpload from "./FileUpload.js";
 import History from "./History.js";
 import Overlay from "./Overlay.js";
 
@@ -19,9 +20,11 @@ document.addEventListener("DOMContentLoaded", () => {
         const configureUiDisplayFontSizes = new ConfigureUiDisplayFontSizes();
         configureUiDisplayFontSizes.handle_switch_fontSize();
 
+
         handlePageSearch();
         hideOverlay();
         handleHistory();
+        setUploadedFileNameForUI();
 
 
     };
@@ -116,6 +119,30 @@ document.addEventListener("DOMContentLoaded", () => {
         }
         goBackWithButtonClicked();
     }
+
+    function setUploadedFileNameForUI() {
+        const fileControls = document.querySelectorAll(".file-control");
+        const uploadedFileNameOuput = document.querySelectorAll(".uploaded-file-name-ouput");
+
+        for (let i = 0; i < fileControls.length; i++) {
+            const control = fileControls[i];
+            let id = control.getAttribute('id');
+
+            control.addEventListener('change', ($event) => {
+                for (let j = 0; j < uploadedFileNameOuput.length; j++) {
+                    const nameOutput = uploadedFileNameOuput[j];
+                    let dataAttr = nameOutput.getAttribute('data-file-ui-name');
+                    if (id === dataAttr) {
+                        const fileUpload = new FileUpload();
+                        fileUpload.set_file_name_for_ui(nameOutput, $event);
+                    }
+
+                }
+            })
+
+        }
+    }
+
 
 
     Init();
