@@ -347,6 +347,33 @@ html {
   transition: all 1s;
 }
 
+.yt-iframe-wrapper.active .controls {
+  background-color: unset;
+}
+.yt-iframe-wrapper.active .controls .play-btn {
+  display: none;
+}
+.yt-iframe-wrapper.active .controls .pause-btn {
+  display: block;
+}
+.yt-iframe-wrapper .controls {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.yt-iframe-wrapper .controls .play-btn {
+  display: block;
+}
+.yt-iframe-wrapper .controls .pause-btn {
+  display: none;
+}
+
 @layer base {
   :root {
     /* PRIMARY COLOR */

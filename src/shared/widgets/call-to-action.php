@@ -4,8 +4,7 @@
                 } else {
                     echo 0;
                 }
-                ?>" href="<?php echo $url; ?>" target="
-<?php
+                ?>" href="<?php echo $url; ?>" target="<?php
 if ($target_blank) {
     echo $target_blank;
 };

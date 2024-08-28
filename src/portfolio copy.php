@@ -3,7 +3,7 @@
 <!-- head closes -->
 
 <!-- main-toolbar opens -->
-<?php include_once("./components/main-toolbar.php"); ?>
+<?php include_once("./components/main-toolbar-alt.php"); ?>
 <!-- main-toolbar closes -->
 
 <!-- header opens -->
@@ -11,7 +11,7 @@
 include './shared/functions/breadcrumb.php';
 
 $home = new Breadcrumb("Home", "index.php");
-$title = new Breadcrumb("Gallery", "");
+$title = new Breadcrumb("Portfolio", "");
 
 $routes = array(
     $home,

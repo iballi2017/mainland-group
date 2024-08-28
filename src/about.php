@@ -3,7 +3,7 @@
 <!-- head closes -->
 
 <!-- main-toolbar opens -->
-<?php include_once("./components/main-toolbar.php"); ?>
+<?php include_once("./components/main-toolbar-alt.php"); ?>
 <!-- main-toolbar closes -->
 
 <!-- header opens -->

@@ -4,6 +4,7 @@ import CreateHtmlElement from "./CreateHtmlElement.js";
 import FileUpload from "./FileUpload.js";
 import History from "./History.js";
 import Overlay from "./Overlay.js";
+import YouTubeIframeAPI from "./YouTubeIframeAPI.js";
 
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -143,6 +144,42 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
+
+    function handleCustomControlsForYoutubeVideos() {
+        const players = document.querySelectorAll(".player");
+        for (let i = 0; i < players.length; i++) {
+            const player = players[i];
+            console.log("player: ", i + ".", player)
+            const ytId = player?.getAttribute("data-youtubeId");
+            console.log("ytId: ", ytId);
+
+
+
+            // const youtube_iframe_api = new YouTubeIframeAPI(ytId);
+
+        }
+    }
+
+    // handleCustomControlsForYoutubeVideos();
+
+
+    function handleYtIframe() {
+        const play_btn_list = document.querySelectorAll(".play-btn");
+        for (let i = 0; i < play_btn_list.length; i++) {
+            const play_btn = play_btn_list[i];
+            console.log("play_btn: ", play_btn);
+            // const controls = yt_iframe_wrapper.lastElementChild
+            // console.log("controls: ", controls);
+
+            play_btn.addEventListener("click", (e) => {
+                console.log("e.target: ", e.target);
+                const yt_iframe_wrapper = e.target.parentElen
+                console.log("yt_iframe_wrapper: ", yt_iframe_wrapper);
+            })
+        }
+    }
+
+    // handleYtIframe()
 
 
     Init();

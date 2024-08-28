@@ -1,0 +1,35 @@
+.yt-iframe-wrapper {
+  &.active {
+    .controls {
+      background-color: unset;
+      .play-btn {
+        display: none;
+      }
+      .pause-btn {
+        display: block;
+      }
+    }
+  }
+  .controls {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .play-btn {
+      display: block;
+    }
+    .pause-btn {
+      display: none;
+    }
+  }
+}
+
+// .video-container {
+//   // aspect-ratio: 1.88;
+//   aspect-ratio: 1.28;
+// }
