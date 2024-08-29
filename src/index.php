@@ -18,10 +18,9 @@
                         <img src="./assets/images/hero-slider-1-image.png" class="block w-full" alt="Ignite Innovation">
                         <div class="absolute z-2 block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
                             <div class="text-center text-white max-w-2xl mx-auto">
-                                <h1 class="text-2xl lg:text-5xl font-bold animate__animated animate__pulse">Corrupti
-                                    amet nobis repellendus</h1>
+                                <h1 class="text-2xl lg:text-5xl font-bold animate__animated animate__pulse">Brighten Your Future with Solar</h1>
                                 <p class="text-lg lg:text-2xl font-semibold animate__animated animate__fadeInUp">
-                                    Autem vero suscipit eum iste vel atque architecto, animi quod sint rem natus
+                                    Invest in sustainable energy for a greener tomorrow.
                                 </p>
                             </div>
                         </div>
@@ -40,9 +39,9 @@
                         <img src="./assets/images/hero-slider-3-image.png" class="block w-full" alt="...">
                         <div class="absolute z-2 block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
                             <div class="text-center text-white max-w-2xl mx-auto">
-                                <h1 class="text-2xl lg:text-5xl font-bold">Nulla quis quasi quia sit,</h1>
+                                <h1 class="text-2xl lg:text-5xl font-bold">Inspiring Excellence Together</h1>
                                 <p class="text-lg lg:text-2xl font-semibold">
-                                    Sunt, aut. Maiores labore doloremque debitis! Nulla voluptatem, culpa quod sint
+                                    Creating impactful educational experiences through strategic partnerships and shared vision
                                 </p>
                             </div>
                         </div>

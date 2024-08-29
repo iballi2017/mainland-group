@@ -60,7 +60,7 @@ include_once("./components/header.php"); ?>
                         <button data-modal-target="default-modal3" data-modal-toggle="default-modal3" class="absolute top-0 bottom-0 left-0 right-0 flex items-end">
                             <span class="sr-only">Open</span>
                             <p class="w-full text-lg lg:text-xl font-semibold text-white bg-gray-900/50 py-4 mb-4 mx-2">
-                                TEPCAN Inauguration: Celebrating the Launch of The Education Project Associate Network
+                                STUDIOSMAINLAND FILMMAKING TRAINING PROGRAMME
                             </p>
                         </button>
                     </div>
