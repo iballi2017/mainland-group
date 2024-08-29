@@ -2458,6 +2458,11 @@ video {
     line-height: 1.75rem;
   }
 
+  .lg\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
   .lg\:font-bold {
     font-weight: 700;
   }
