@@ -1,5 +1,22 @@
 /* Animation Classes*/
 
+html {
+  .for-light-theme {
+    display: block;
+  }
+  .for-dark-theme {
+    display: none;
+  }
+  &[data-theme="dark"] {
+    .for-light-theme {
+      display: none;
+    }
+    .for-dark-theme {
+      display: block;
+    }
+  }
+}
+
 .fade-in {
   opacity: 0;
   transition: opacity 1000ms ease-in-out;
