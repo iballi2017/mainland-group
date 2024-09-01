@@ -31,10 +31,16 @@ include_once("./components/header.php"); ?>
                         <img class="rounded-lg" src="./assets/images/hero-slider-2-image.png" alt="" />
                     </div>
                     <div class="absolute top-0 bottom-0 left-0 right-0 flex items-center justify-center">
-                        <button data-modal-target="default-modal" data-modal-toggle="default-modal" class="absolute top-0 bottom-0 left-0 right-0 flex items-end">
+                        <!-- <button data-modal-target="default-modal" data-modal-toggle="default-modal" class="absolute top-0 bottom-0 left-0 right-0 flex items-end">
                             <span class="sr-only">Open</span>
                             <p class="w-full text-lg lg:text-xl font-semibold text-white bg-gray-900/50 py-4 mb-4 mx-2">Mainland Solar and VEICHI Partnership</p>
-                        </button>
+                        </button> -->
+                        <a href="https://drive.google.com/file/d/1_5UuK9L7OuqJpvcKZVqpbBBcGRBgXpNz/view?usp=sharing" target="_blank" class="absolute top-0 bottom-0 left-0 right-0 flex items-end">
+                            <span class="sr-only">Open</span>
+                            <p class="text-center w-full lg:text-xl leading-5 lg:leading-6 rounded-lg font-semibold text-white bg-gray-900/50 py-4 mb-4 mx-2">
+                                TEPCAN Inauguration: Celebrating the Launch of The Education Project Associate Network
+                            </p>
+                        </a>
                     </div>
                 </li>
                 <li class="col-span-12 lg:col-span-6 relative">
@@ -43,12 +49,18 @@ include_once("./components/header.php"); ?>
                         <img class="rounded-lg" src="./assets/images/1723837431491.png" alt="" />
                     </div>
                     <div class="absolute top-0 bottom-0 left-0 right-0 flex items-center justify-center">
-                        <button data-modal-target="default-modal2" data-modal-toggle="default-modal2" class="absolute top-0 bottom-0 left-0 right-0 flex items-end">
+                        <!-- <button data-modal-target="default-modal2" data-modal-toggle="default-modal2" class="absolute top-0 bottom-0 left-0 right-0 flex items-end">
                             <span class="sr-only">Open</span>
                             <p class="w-full text-lg lg:text-xl font-semibold text-white bg-gray-900/50 py-4 mb-4 mx-2">
                                 TEPCAN Inauguration: Celebrating the Launch of The Education Project Associate Network
                             </p>
-                        </button>
+                        </button> -->
+                        <a href="https://drive.google.com/file/d/1hqnSqh9j9kySE6NmdWwMQysk-Bx-TxGe/view?usp=sharing" target="_blank" class="absolute top-0 bottom-0 left-0 right-0 flex items-end">
+                            <span class="sr-only">Open</span>
+                            <p class="text-center w-full lg:text-xl leading-5 lg:leading-6 rounded-lg font-semibold text-white bg-gray-900/50 py-4 mb-4 mx-2">
+                                TEPCAN Inauguration: Celebrating the Launch of The Education Project Associate Network
+                            </p>
+                        </a>
                     </div>
                 </li>
                 <li class="col-span-12 lg:col-span-6 relative">
@@ -57,25 +69,21 @@ include_once("./components/header.php"); ?>
                         <img class="rounded-lg" src="./assets/images/_MG_1808-min.png" alt="" />
                     </div>
                     <div class="absolute top-0 bottom-0 left-0 right-0 flex items-center justify-center">
-                        <button data-modal-target="default-modal3" data-modal-toggle="default-modal3" class="absolute top-0 bottom-0 left-0 right-0 flex items-end">
+                        <!-- <button data-modal-target="default-modal3" data-modal-toggle="default-modal3" class="absolute top-0 bottom-0 left-0 right-0 flex items-end">
                             <span class="sr-only">Open</span>
                             <p class="w-full text-lg lg:text-xl font-semibold text-white bg-gray-900/50 py-4 mb-4 mx-2">
                                 STUDIOSMAINLAND FILMMAKING TRAINING PROGRAMME
                             </p>
-                        </button>
+                        </button> -->
+                        <a href="https://drive.google.com/file/d/1y27OJ6d94il1hLkdn7FJDjzFB37rrgbK/view?usp=sharing" target="_blank" class="absolute top-0 bottom-0 left-0 right-0 flex items-end">
+                            <span class="sr-only">Open</span>
+                            <p class="text-center w-full lg:text-xl leading-5 lg:leading-6 rounded-lg font-semibold text-white bg-gray-900/50 py-4 mb-4 mx-2">
+                                Studiomainland Filmaking Training Programme
+                            </p>
+                        </a>
                     </div>
                 </li>
             </ul>
-
-            <div class="h-4"></div>
-            <div class="h-4"></div>
-            <div class="text-center fade-in" data-delay="600">
-                <?php
-                $label = "View all";
-                $target_blank = "";
-                $url = "portfolio.php";
-                include("./shared/widgets/call-to-action.php"); ?>
-            </div>
 
 
         </div>
@@ -158,7 +166,7 @@ include_once("./components/header.php"); ?>
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
 
-                    <iframe src="https://drive.google.com/file/d/1y27OJ6d94il1hLkdn7FJDjzFB37rrgbK/preview" width="640" height="480" allow="autoplay"></iframe>
+                    <iframe src="https://drive.google.com/file/d/1y27OJ6d94il1hLkdn7FJDjzFB37rrgbK/preview" width="100%" height="480" allow="autoplay"></iframe>
                     <!-- https://drive.google.com/file/d/1y27OJ6d94il1hLkdn7FJDjzFB37rrgbK/view?usp=sharing -->
                 </div>
             </div>

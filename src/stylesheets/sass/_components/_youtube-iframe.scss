@@ -33,3 +33,14 @@
 //   // aspect-ratio: 1.88;
 //   aspect-ratio: 1.28;
 // }
+
+.ytp-button:not([aria-disabled="true"]):not([disabled]):not(
+    [aria-hidden="true"]
+  ) {
+  cursor: pointer;
+  display: none !important;
+}
+
+.ytp-large-play-button {
+  display: none !important;
+}

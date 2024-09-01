@@ -17,7 +17,7 @@
                     <img class="rounded-lg" src="./assets/images/hero-slider-2-image.png" alt="" />
                 </div>
                 <div class="absolute top-0 bottom-0 left-0 right-0 flex items-center justify-center">
-                    <button data-modal-target="default-modal" data-modal-toggle="default-modal" class="absolute top-0 bottom-0 left-0 right-0 flex items-end">
+                    <button onclick="videoController.tartVideo('player1')" data-modal-target="default-modal" data-modal-toggle="default-modal" class="absolute top-0 bottom-0 left-0 right-0 flex items-end">
                         <span class="sr-only">Open</span>
                         <p class="w-full text-lg lg:text-xl font-semibold text-white bg-gray-900/50 py-4 mb-4 mx-2">Mainland Solar and VEICHI Partnership</p>
                     </button>
@@ -55,16 +55,13 @@
 </section>
 
 
-
-
-
 <!-- Main modal -->
 <div id="default-modal" data-modal-backdrop="static" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
     <div class="relative p-4 w-full max-w-4xl max-h-full">
         <!-- Modal content -->
-        <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+        <div class="relative overflow-hidden bg-white rounded-lg shadow dark:bg-gray-700">
             <!-- Modal header -->
-            <button type="button" onclick="videoController.stopVideo('player1')" class="absolute right-4 top-4 text-gray-300 bg-transparent hover:text-white rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="default-modal">
+            <button type="button" onclick="videoController.stopVideo('player1')" class="absolute z-40 right-4 top-4 text-gray-300 bg-transparent hover:text-white rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="default-modal">
                 <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
                 </svg>
@@ -77,21 +74,22 @@
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <button onclick="videoController.toggleVideo('player1')" class="custom-play-btn absolute z-20 top-0 bottom-0 left-0 right-0" aria-label="play">
+                    <span class="sr-only">Play</span>
+                </button>
             </div>
         </div>
     </div>
 </div>
 
 
-
-
-<!-- Main modal -->
+<!-- Main modal 2 -->
 <div id="default-modal2" data-modal-backdrop="static" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
     <div class="relative p-4 w-full max-w-4xl max-h-full">
         <!-- Modal content -->
-        <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+        <div class="relative overflow-hidden bg-white rounded-lg shadow dark:bg-gray-700">
             <!-- Modal header -->
-            <button type="button" onclick="videoController.stopVideo('player2')" class="absolute right-4 top-4 text-gray-300 bg-transparent hover:text-white rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="default-modal2">
+            <button type="button" onclick="videoController.stopVideo('player2')" class="absolute z-40 right-4 top-4 text-gray-300 bg-transparent hover:text-white rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="default-modal2">
                 <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
                 </svg>
@@ -103,19 +101,19 @@
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <button onclick="videoController.toggleVideo('player2')" class="custom-play-btn absolute z-20 top-0 bottom-0 left-0 right-0" aria-label="play">
+                    <span class="sr-only">Play</span>
+                </button>
             </div>
         </div>
     </div>
 </div>
 
-
-
-
-
 <!-- Your JavaScript class and code -->
 <script>
     // Step 2: Create the JavaScript Class for YouTube control
     class YouTubeVideoController {
+        isPlaying = false;
         constructor() {
             this.players = {};
         }
@@ -142,32 +140,38 @@
             console.log(`Player state changed for ${event.target.getIframe().id}: ${event.data}`);
         }
 
-        playVideo(playerId) {
-            console.log("to stop: ", playerId)
-            console.log("to stop: ", this.players[playerId])
+        async playVideo(playerId) {
             if (this.players[playerId]) {
-                this.players[playerId].playVideo();
+                await this.players[playerId].playVideo();
             }
         }
 
-        pauseVideo(playerId) {
+        async toggleVideo(playerId) {
+            // custom-play-btn
             if (this.players[playerId]) {
-                this.players[playerId].pauseVideo();
+                // await this.players[playerId].pauseVideo();
+                !this.isPlaying ?
+                    (await this.players[playerId].playVideo(), this.isPlaying = true) :
+                    (await this.players[playerId].pauseVideo(), this.isPlaying = false);
             }
         }
 
-        stopVideo(playerId) {
-            console.log("to stop: ", playerId)
-            console.log("to stop: ", this.players[playerId])
+
+        async pauseVideo(playerId) {
             if (this.players[playerId]) {
-                this.players[playerId].stopVideo();
-                console.log("stopped")
+                await this.players[playerId].pauseVideo();
             }
         }
 
-        seekTo(playerId, seconds) {
+        async stopVideo(playerId) {
             if (this.players[playerId]) {
-                this.players[playerId].seekTo(seconds, true);
+                await this.players[playerId].stopVideo();
+            }
+        }
+
+        async seekTo(playerId, seconds) {
+            if (this.players[playerId]) {
+                await this.players[playerId].seekTo(seconds, true);
             }
         }
     }
