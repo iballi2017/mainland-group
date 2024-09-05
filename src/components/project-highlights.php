@@ -14,24 +14,24 @@
             <li class="col-span-12 lg:col-span-6 relative">
                 <div
                     class="bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                    <img class="rounded-lg" src="./assets/images/hero-slider-2-image.png" alt="" />
+                    <img class="rounded-lg" src="./assets/images/hero-slider-2-image.png" alt="Mainland Solar and VEICHI Partnership" />
                 </div>
                 <div class="absolute top-0 bottom-0 left-0 right-0 flex items-center justify-center">
-                    <button onclick="videoController.tartVideo('player1')" data-modal-target="default-modal" data-modal-toggle="default-modal" class="absolute top-0 bottom-0 left-0 right-0 flex items-end">
+                    <button data-modal-target="default-modal" data-modal-toggle="default-modal" class="absolute top-0 bottom-0 left-0 right-0 flex items-end">
                         <span class="sr-only">Open</span>
-                        <p class="w-full text-lg lg:text-xl font-semibold text-white bg-gray-900/50 py-4 mb-4 mx-2">Mainland Solar and VEICHI Partnership</p>
+                        <p class="text-center w-full lg:text-xl leading-5 lg:leading-6 rounded-lg font-semibold text-white bg-gray-900/50 py-4 mb-4 mx-2">Mainland Solar and VEICHI Partnership</p>
                     </button>
                 </div>
             </li>
             <li class="col-span-12 lg:col-span-6 relative">
                 <div
                     class="bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                    <img class="rounded-lg" src="./assets/images/1723837431491.png" alt="" />
+                    <img class="rounded-lg" src="./assets/images/1723837431491.png" alt="TEPCAN Inauguration: Celebrating the Launch of The Education Project Associate Network" />
                 </div>
                 <div class="absolute top-0 bottom-0 left-0 right-0 flex items-center justify-center">
                     <button data-modal-target="default-modal2" data-modal-toggle="default-modal2" class="absolute top-0 bottom-0 left-0 right-0 flex items-end">
                         <span class="sr-only">Open</span>
-                        <p class="w-full text-lg lg:text-xl font-semibold text-white bg-gray-900/50 py-4 mb-4 mx-2">
+                        <p class="text-center w-full lg:text-xl leading-5 lg:leading-6 rounded-lg font-semibold text-white bg-gray-900/50 py-4 mb-4 mx-2">
                             TEPCAN Inauguration: Celebrating the Launch of The Education Project Associate Network
                         </p>
                     </button>
@@ -70,11 +70,12 @@
             <!-- Modal body -->
             <div class="video-container | p-2 md:p-4 space-y-4">
                 <iframe id="player1" width="100%" height="480"
-                    src="https://www.youtube.com/embed/mUc14A_ccLE?enablejsapi=1" title="YouTube video player"
+                    src="https://www.youtube.com/embed/mUc14A_ccLE?enablejsapi=1" 
+                    title="Mainland Solar and VEICHI Partnership"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <button onclick="videoController.toggleVideo('player1')" class="custom-play-btn absolute z-20 top-0 bottom-0 left-0 right-0" aria-label="play">
+                <button onclick="videoController.toggleVideo('player1')" class="absolute z-20 top-0 bottom-0 left-0 right-0" aria-label="play">
                     <span class="sr-only">Play</span>
                 </button>
             </div>
@@ -97,11 +98,12 @@
             </button>
             <!-- Modal body -->
             <div class="video-container | p-2 md:p-4 space-y-4">
-                <iframe id="player2" width="100%" height="480" src="https://www.youtube.com/embed/NMx06VSgCCo?enablejsapi=1" title="YouTube video player"
+                <iframe id="player2" width="100%" height="480" src="https://www.youtube.com/embed/NMx06VSgCCo?enablejsapi=1" 
+                    title="TEPCAN Inauguration: Celebrating the Launch of The Education Project Associate Network"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <button onclick="videoController.toggleVideo('player2')" class="custom-play-btn absolute z-20 top-0 bottom-0 left-0 right-0" aria-label="play">
+                <button onclick="videoController.toggleVideo('player2')" class="absolute z-20 top-0 bottom-0 left-0 right-0" aria-label="play">
                     <span class="sr-only">Play</span>
                 </button>
             </div>
@@ -147,12 +149,12 @@
         }
 
         async toggleVideo(playerId) {
-            // custom-play-btn
+            let iframe = document.getElementById(`${playerId}`);
+            console.log("iframe****: ", iframe)
             if (this.players[playerId]) {
-                // await this.players[playerId].pauseVideo();
                 !this.isPlaying ?
-                    (await this.players[playerId].playVideo(), this.isPlaying = true) :
-                    (await this.players[playerId].pauseVideo(), this.isPlaying = false);
+                    (await this.players[playerId].playVideo(), this.isPlaying = true, iframe.nextElementSibling.classList.add('hidden')) :
+                    (await this.players[playerId].pauseVideo(), this.isPlaying = false, iframe.nextElementSibling.classList.remove('hidden'));
             }
         }
 
@@ -164,8 +166,10 @@
         }
 
         async stopVideo(playerId) {
+            let iframe = document.getElementById(`${playerId}`);
             if (this.players[playerId]) {
                 await this.players[playerId].stopVideo();
+                iframe.nextElementSibling.classList.remove('hidden')
             }
         }
 
